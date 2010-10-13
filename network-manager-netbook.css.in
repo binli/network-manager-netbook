@@ -3,121 +3,121 @@ MnbToolbarButton {
 }
 
 MnbToolbarButton:checked {
-  border-image: url("file://@pkgdatadir@/icons/toolbar-button-active.png") 0 stretch;
+  border-image: url("@pkgdatadir@/icons/toolbar-button-active.png") 0 stretch;
 }
 
 MnbToolbarButton:hover, MnbToolbarButton:active {
-  border-image: url("file://@pkgdatadir@/icons/toolbar-button-hover.png") 0 stretch;
+  border-image: url("@pkgdatadir@/icons/toolbar-button-hover.png") 0 stretch;
 }
 
 MnbToolbarButton#no-network {
-    background-image: url("file://@pkgdatadir@/icons/nm-no-connection-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-no-connection-normal.png");
 }
 
 MnbToolbarButton#no-network:hover, MnbToolbarButton#no-network:active, MnbToolbarButton#no-network:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-no-connection-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-no-connection-active.png");
 }
 
 MnbToolbarButton#device-wired {
-    background-image: url("file://@pkgdatadir@/icons/nm-device-wired-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-device-wired-normal.png");
 }
 
 MnbToolbarButton#device-wired:hover, MnbToolbarButton#device-wired:active, MnbToolbarButton#device-wired:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-device-wired-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-device-wired-active.png");
 }
 
 MnbToolbarButton#signal-100 {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-100-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-100-normal.png");
 }
 
 MnbToolbarButton#signal-100:hover, MnbToolbarButton#signal-100:active, MnbToolbarButton#signal-100:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-100-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-100-active.png");
 }
 
 MnbToolbarButton#signal-75 {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-75-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-75-normal.png");
 }
 
 MnbToolbarButton#signal-75:hover, MnbToolbarButton#signal-75:active, MnbToolbarButton#signal-75:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-75-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-75-active.png");
 }
 
 MnbToolbarButton#signal-50 {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-50-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-50-normal.png");
 }
 
 MnbToolbarButton#signal-50:hover, MnbToolbarButton#signal-50:active, MnbToolbarButton#signal-50:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-50-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-50-active.png");
 }
 
 MnbToolbarButton#signal-25 {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-25-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-25-normal.png");
 }
 
 MnbToolbarButton#signal-25:hover, MnbToolbarButton#signal-25:active, MnbToolbarButton#signal-25:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-25-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-25-active.png");
 }
 
 MnbToolbarButton#signal-00 {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-00-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-00-normal.png");
 }
 
 MnbToolbarButton#signal-00:hover, MnbToolbarButton#signal-00:active, MnbToolbarButton#signal-00:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-signal-00-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-signal-00-active.png");
 }
 
 MnbToolbarButton#device-wwan {
-    background-image: url("file://@pkgdatadir@/icons/nm-device-wwan-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-device-wwan-normal.png");
 }
 
 MnbToolbarButton#device-wwan:hover, MnbToolbarButton#device-wwan:active, MnbToolbarButton#device-wwan:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-device-wwan-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-device-wwan-active.png");
 }
 
 MnbToolbarButton#progress-01 {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-01-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-01-normal.png");
 }
 
 MnbToolbarButton#progress-01:hover, MnbToolbarButton#progress-01:active, MnbToolbarButton#progress-01:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-01-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-01-active.png");
 }
 
 MnbToolbarButton#progress-02 {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-02-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-02-normal.png");
 }
 
 MnbToolbarButton#progress-02:hover, MnbToolbarButton#progress-02:active, MnbToolbarButton#progress-02:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-02-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-02-active.png");
 }
 
 MnbToolbarButton#progress-03 {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-03-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-03-normal.png");
 }
 
 MnbToolbarButton#progress-03:hover, MnbToolbarButton#progress-03:active, MnbToolbarButton#progress-03:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-03-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-03-active.png");
 }
 
 MnbToolbarButton#progress-04 {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-04-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-04-normal.png");
 }
 
 MnbToolbarButton#progress-04:hover, MnbToolbarButton#progress-04:active, MnbToolbarButton#progress-04:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-04-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-04-active.png");
 }
 
 MnbToolbarButton#progress-05 {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-05-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-05-normal.png");
 }
 
 MnbToolbarButton#progress-05:hover, MnbToolbarButton#progress-05:active, MnbToolbarButton#progress-05:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-05-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-05-active.png");
 }
 
 MnbToolbarButton#progress-06 {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-06-normal.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-06-normal.png");
 }
 
 MnbToolbarButton#progress-06:hover, MnbToolbarButton#progress-06:active, MnbToolbarButton#progress-06:checked {
-    background-image: url("file://@pkgdatadir@/icons/nm-progress-working-06-active.png");
+    background-image: url("@pkgdatadir@/icons/nm-progress-working-06-active.png");
 }
