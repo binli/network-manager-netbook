@@ -1,0 +1,664 @@
+# translation of eu.po to Basque
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-20 18:52+0100\n"
+"PO-Revision-Date: 2010-03-20 19:20+0100\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../network-manager-netbook.desktop.in.h:1
+msgid "Control your network connections"
+msgstr "Kontrolatu zure sareko konexioak"
+
+#: ../network-manager-netbook.desktop.in.h:2
+msgid "network-manager-netbook"
+msgstr "network-manager-netbook"
+
+#: ../gnome-bluetooth/network-manager-applet.c:292
+msgid "Access the Internet using your mobile phone"
+msgstr "Sarbidetu internetera telefono mugikorra erabiliz"
+
+#: ../libnm-gtk/nm-mobile-providers.c:504
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: ../libnm-gtk/nm-bt-item.c:35
+msgid "bluetooth"
+msgstr "bluetooth"
+
+#: ../libnm-gtk/nm-connection-item.c:402
+#, c-format
+msgid "Could not delete connection: %s"
+msgstr "Ezin izan da konexioa ezabatu: %s"
+
+#: ../libnm-gtk/nm-device-item.c:65
+#, c-format
+msgid "Could not activate device: %s"
+msgstr "Ezin izan da gailua aktibatu: %s"
+
+#: ../libnm-gtk/nm-device-item.c:110
+#, c-format
+msgid "Could not deactivate device: %s"
+msgstr "Ezin izan da gailua desaktibatu: %s"
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+msgid "wired"
+msgstr "hariduna"
+
+#: ../libnm-gtk/nm-ethernet-item.c:99
+msgid "802.1x"
+msgstr "802.1x"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:50 ../libnm-gtk/nm-gsm-item.c:36
+#: ../libnm-gtk/nm-cdma-item.c:36 ../src/nmn-list.c:117
+#: ../src/nmn-applet.c:498 ../src/nmn-new-connection.c:710
+msgid "3G"
+msgstr "3G"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:70
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:89
+#, c-format
+msgid "PIN unlocking failed: %s"
+msgstr "Huts egin du PIN desblokeatzean: %s"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:140
+msgid "Locked GSM device"
+msgstr "GSM gailua blokeatuta"
+
+#: ../libnm-gtk/nm-wifi-item.c:61 ../src/nmn-list.c:107
+#: ../src/nmn-applet.c:476 ../src/nmn-new-connection.c:685
+msgid "WiFi"
+msgstr "WiFia"
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "Bat ere ez"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "WEP 40/128 bit-eko gakoa"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128 bit-eko pasaesaldia"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "WEP dinamikoa (802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "WPA eta WPA2 pertsonala"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA eta WPA2 enpresa"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "_Sortu"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr ""
+"Pasahitzak edo enkriptatze-gakoak behar dira haririk gabeko '%s' sarera "
+"sarbidetzeko."
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "Haririk gabeko sarearen autentifikazioa behar da"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "Haririk gabeko sareak autentifikazioa eskatzen du"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "Sortu haririk gabeko sare berria"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "Haririk gabeko sare berria"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "Sartu izen bat sortzea nahi duzun haririk gabeko sarearentzako."
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "Konektatu ezkutuko haririk gabeko sarera"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "Ezkutuko haririk gabeko sarea"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr "Sartu konektatzea nahi duzun ezkutuko haririk gabeko sarearen izena eta segurtasuneko xehetasunak."
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "_Konektatu"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+msgid "Connection:"
+msgstr "Konexioa:"
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "Beste haririk gabeko sarea..."
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "Haririk gabeko _moldagailua:"
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+msgid "_Network Name:"
+msgstr "_Sarearen izena:"
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+msgid "_Wireless Security:"
+msgstr "_Haririk gabearen segurtasuna:"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Ez da  ziurtagiri-emailearen "
+"ziurtagirik aukeratu</span>\n"
+"\n"
+"Autoritate ziurtagiri-emailearen (ZE) ziurtagiririk ez erabiltzeak haririk "
+"gabeko sare maltzur eta ez-seguru baten konexioa izatea eragin dezake. "
+"Nahi duzu autoritate ziurtagiri-emaile bat aukeratzea?"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "Aukeratu ZE ziurtagiria"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+msgid "Don't warn me again"
+msgstr "Ez abisatu berriro"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "Ezikusi egin"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+msgid "Authentication:"
+msgstr "Autentifikazioa:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "Pasahitza:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+msgid "Show password"
+msgstr "Erakutsi pasahitza"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+msgid "User Name:"
+msgstr "Erabiltzaile-izena:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+msgid "Anonymous Identity:"
+msgstr "Nortasun anonimoa:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+msgid "CA Certificate:"
+msgstr "ZE ziurtagiria:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+msgid "Inner Authentication:"
+msgstr "Barneko autentifikazioa:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+msgid "PEAP Version:"
+msgstr "PEAP bertsioa:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+msgid "Identity:"
+msgstr "Identitatea:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+msgid "Private Key Password:"
+msgstr "Gako pribatuaren pasahitza:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+msgid "Private Key:"
+msgstr "Gako pribatua:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+msgid "User Certificate:"
+msgstr "Erabiltzailearen ziurtagiria:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+msgid "Key:"
+msgstr "Gakoa:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+msgid "Show key"
+msgstr "Erakutsi gakoa"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+msgid "WEP Index:"
+msgstr "WEP indizea:"
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+msgid "Type:"
+msgstr "Mota:"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "Aukeratu autoritate ziurtagiri-emailearen ziurtagiria..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "Aukeratu ziurtagiri pertsonala..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "Aukeratu gako pribatua..."
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "DER, PEM, edo PKCS#12 gako pribatuak (*.der, *.pem, *.p12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER edo PEM ziurtagiriak (*.der, *.pem, *.crt, *.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "Tuneldun TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "Babestutako EAP (PEAP)"
+
+#: ../src/gtkinfobar.c:250
+msgid "gtk-info-bar-response-data"
+msgstr "gtk-info-bar-response-data"
+
+#: ../src/gtkinfobar.c:372
+msgid "Message Type"
+msgstr "Mezu mota"
+
+#: ../src/gtkinfobar.c:373
+msgid "The type of message"
+msgstr "Mezuaren mota"
+
+#: ../src/gtkinfobar.c:427
+msgid "Content area border"
+msgstr "Edukiaren arearen ertza"
+
+#: ../src/gtkinfobar.c:428
+msgid "Width of border around the content area"
+msgstr "Edukiaren arearen inguruko ertzaren zabalera"
+
+#: ../src/gtkinfobar.c:444
+msgid "Content area spacing"
+msgstr "Edukiaren arearen tartea"
+
+#: ../src/gtkinfobar.c:445
+msgid "Spacing between elements of the area"
+msgstr "Areako elementuen arteko tartea"
+
+#: ../src/gtkinfobar.c:460
+msgid "Button spacing"
+msgstr "Botoien tartea"
+
+#: ../src/gtkinfobar.c:461
+msgid "Spacing between buttons"
+msgstr "Botoien arteko tartea"
+
+#: ../src/gtkinfobar.c:476
+msgid "Action area border"
+msgstr "Ekintza-arearen ertza"
+
+#: ../src/gtkinfobar.c:477
+msgid "Width of border around the action area"
+msgstr "Ekintza-arearen inguruko ertzaren zabalera"
+
+#: ../src/nmn-list.c:70
+msgid " and "
+msgstr " eta "
+
+#: ../src/nmn-list.c:81
+msgid "Sorry, we can't find any networks."
+msgstr "Ezin da inolako sarerik aurkitu."
+
+#: ../src/nmn-list.c:84
+msgid " You could try disabling Offline mode."
+msgstr " Lineaz kanpo modua desgaitzen saia zintezke"
+
+#: ../src/nmn-list.c:104
+msgid " You could try turning on "
+msgstr " Saia zaitez aktibatzen "
+
+#: ../src/nmn-list.c:112 ../src/nmn-applet.c:487
+msgid "Wired"
+msgstr "Hariduna"
+
+#: ../src/nmn-applet.c:436
+msgid "Add new connection"
+msgstr "Gehitu konexio berria"
+
+#: ../src/nmn-applet.c:442
+msgid "Networks"
+msgstr "Sareak"
+
+#: ../src/nmn-applet.c:510
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: ../src/nmn-applet.c:521
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: ../src/nmn-applet.c:538
+msgid "Offline mode"
+msgstr "Lineaz kanpoko modua"
+
+#: ../src/nmn-applet.c:546
+msgid "This will disable all your connections"
+msgstr "Konexio guztiak desgaituko ditu"
+
+#: ../src/main.c:69
+msgid "Run in standalone mode"
+msgstr "Exekutatu bakarkako moduan"
+
+#: ../src/main.c:70
+msgid "Run in desktop mode"
+msgstr "Exekutatu mahaigainaren moduan"
+
+#: ../src/main.c:78
+msgid "NetworkManager Netbook"
+msgstr "NetworkManager Netbook"
+
+#: ../src/main.c:79
+msgid "- NetworkManager Netbook"
+msgstr "- NetworkManager Netbook"
+
+#: ../src/nmn-network-renderer.c:106
+msgid "Connected"
+msgstr "Konektatuta"
+
+#: ../src/nmn-network-renderer.c:107
+msgid "Disconnect"
+msgstr "Deskonektatu"
+
+#: ../src/nmn-network-renderer.c:110
+msgid "Connecting"
+msgstr "Konektatzen"
+
+#: ../src/nmn-network-renderer.c:111
+msgid "Cancel"
+msgstr "Utzi"
+
+#: ../src/nmn-network-renderer.c:114
+msgid "Disconnected"
+msgstr "Deskonektatuta"
+
+#: ../src/nmn-network-renderer.c:115 ../src/nmn-network-renderer.c:381
+msgid "Connect"
+msgstr "Konektatu"
+
+#: ../src/nmn-network-renderer.c:122
+msgid "Available"
+msgstr "Erabilgarri"
+
+#: ../src/nmn-network-renderer.c:157
+#, c-format
+msgid "Could not update connection: %s"
+msgstr "Ezin izan da konexioa eguneratu: %s"
+
+#: ../src/nmn-network-renderer.c:299
+msgid "Really remove?"
+msgstr "Benetan kendu?"
+
+#: ../src/nmn-network-renderer.c:303
+msgid "No, save"
+msgstr "Ez, gorde"
+
+#: ../src/nmn-network-renderer.c:305
+msgid "Yes, delete"
+msgstr "Bai ezabatu"
+
+#: ../src/nmn-network-renderer.c:315
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+"'%s' %s sarea kentzea nahi duzu?\n"
+"Honek pasahitza ahaztuko du eta ezin izango\n"
+"duzu automatikoki berriro konektatu '%s'(e)ra."
+
+#. FIXME: this should be visibile only for NMDeviceItems
+#: ../src/nmn-network-renderer.c:376
+msgid "Advanced"
+msgstr "Aurreratua"
+
+#: ../src/nmn-network-renderer.c:397
+msgid "Remove connection"
+msgstr "Kendu konexioa"
+
+#: ../src/nmn-panel-client.c:68
+msgid "network"
+msgstr "sarea"
+
+#: ../src/nmn-panel-client.c:189
+msgid "Network connected"
+msgstr "Sarea konektatuta"
+
+#: ../src/nmn-panel-client.c:193
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr "%s(e)ra konektatuta zaude, %s sarea"
+
+#: ../src/nmn-panel-client.c:196
+#, c-format
+msgid "You're now connected to %s network"
+msgstr "%s sarera konektatuta zaude"
+
+#: ../src/nmn-panel-client.c:198
+msgid "You're now connected to network"
+msgstr "Sarera konektatuta zaude"
+
+#: ../src/nmn-panel-client.c:200
+msgid "Network lost"
+msgstr "Sarea galdu da"
+
+#: ../src/nmn-panel-client.c:204
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr "%s konexioa galdu da %s(e)rekin"
+
+#: ../src/nmn-panel-client.c:207
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr "%s konexioa galdu da"
+
+#: ../src/nmn-panel-client.c:209
+msgid "Sorry, we've lost your connection"
+msgstr "Konexioa galdu da"
+
+#: ../src/nmn-panel-client.c:244
+#, c-format
+msgid "networks - not connected"
+msgstr "sareak - ez dago konektatuta"
+
+#: ../src/nmn-panel-client.c:247
+#, c-format
+msgid "networks - connecting"
+msgstr "sareak - konektatzen"
+
+#: ../src/nmn-panel-client.c:260
+#, c-format
+msgid "networks - %s - %s"
+msgstr "sareak - %s - %s"
+
+#: ../src/nmn-panel-client.c:262
+#, c-format
+msgid "networks - %s"
+msgstr "sareak - %s"
+
+#: ../src/nmn-panel-client.c:264
+msgid "networks - connected"
+msgstr "sareak - konektatuta"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:146
+msgid "Unlock"
+msgstr "Desblokeatu"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:151
+msgid "Disable PIN"
+msgstr "Desgaitu PINa"
+
+#: ../src/nmn-connection-details.c:108
+msgid "(none)"
+msgstr "(bat ere ez)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:484
+msgid "Connect by:"
+msgstr "Honek konektatuta:"
+
+#: ../src/nmn-connection-details.c:488
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../src/nmn-connection-details.c:489
+msgid "Manual"
+msgstr "Eskuz"
+
+#: ../src/nmn-connection-details.c:490
+msgid "Link Local"
+msgstr "Esteka lokala"
+
+#. Address
+#: ../src/nmn-connection-details.c:497
+msgid "IP Address:"
+msgstr "IP helbidea:"
+
+#. Netmask
+#: ../src/nmn-connection-details.c:506
+msgid "Subnet mask:"
+msgstr "Azpisarearen maskara:"
+
+#. Gateway
+#: ../src/nmn-connection-details.c:515
+msgid "Router:"
+msgstr "Bideratzailea:"
+
+#. DNS
+#: ../src/nmn-connection-details.c:524
+msgid "DNS:"
+msgstr "DNSa:"
+
+#. Hardware address
+#: ../src/nmn-connection-details.c:534
+msgid "Your MAC address:"
+msgstr "MAC helbidea:"
+
+#: ../src/nmn-new-connection.c:282
+msgid "3G disabled"
+msgstr "3G desgaituta"
+
+#: ../src/nmn-new-connection.c:288
+msgid "3G modem is locked"
+msgstr "3G modema blokeatuta dago"
+
+#: ../src/nmn-new-connection.c:291
+msgid "Internal 3G modem and SIM card detected"
+msgstr "Barnekoa 3G modema eta SIM txartela detektatuta"
+
+#: ../src/nmn-new-connection.c:293
+msgid "No modems detected"
+msgstr "Ez da modemik detektatu"
+
+#: ../src/nmn-new-connection.c:660
+msgid "Add a new connection"
+msgstr "Gehitu konexio berria"
+
+#: ../src/nmn-new-connection.c:680
+msgid "Hidden network"
+msgstr "Ezkutatu sarea"
+
+#: ../src/nmn-new-connection.c:706
+msgid "Save connection"
+msgstr "Gorde konexioa"
+
+#: ../src/nmn-new-connection.c:715
+msgid "Return to Networking"
+msgstr "Itzuli sarera"
+

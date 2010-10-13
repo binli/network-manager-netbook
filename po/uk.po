@@ -1,0 +1,663 @@
+# Ukrainian translation of NetworkManager
+# Copyright (C) Free Software Foundation, 2005
+# This file is distributed under the same license as the NetworkManager package.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: upstream-translations.network-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-02 14:08+0300\n"
+"PO-Revision-Date: 2010-04-02 03:32+0200\n"
+"Last-Translator: Maxim Dziumanenko <dziumanenko@gmail.com>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../network-manager-netbook.desktop.in.h:1
+msgid "Control your network connections"
+msgstr "Керування мережними з'єднаннями"
+
+#: ../network-manager-netbook.desktop.in.h:2
+msgid "network-manager-netbook"
+msgstr "network-manager-netbook"
+
+#: ../gnome-bluetooth/network-manager-applet.c:292
+msgid "Access the Internet using your mobile phone"
+msgstr "Доступ до інтернет через мобільний телефон"
+
+#: ../libnm-gtk/nm-mobile-providers.c:504
+msgid "Default"
+msgstr "Типово"
+
+#: ../libnm-gtk/nm-bt-item.c:35
+msgid "bluetooth"
+msgstr "bluetooth"
+
+#: ../libnm-gtk/nm-connection-item.c:402
+#, c-format
+msgid "Could not delete connection: %s"
+msgstr "Не вдається встановити з'єднання: %s"
+
+#: ../libnm-gtk/nm-device-item.c:65
+#, c-format
+msgid "Could not activate device: %s"
+msgstr "Не вдається активувати пристрій: %s"
+
+#: ../libnm-gtk/nm-device-item.c:110
+#, c-format
+msgid "Could not deactivate device: %s"
+msgstr "Не вдалось деактивувати пристрій: %s"
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+msgid "wired"
+msgstr "дротове"
+
+#: ../libnm-gtk/nm-ethernet-item.c:99
+msgid "802.1x"
+msgstr "802.1x"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:50 ../libnm-gtk/nm-gsm-item.c:36
+#: ../libnm-gtk/nm-cdma-item.c:36 ../src/nmn-list.c:117
+#: ../src/nmn-applet.c:498 ../src/nmn-new-connection.c:710
+msgid "3G"
+msgstr "3G"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:70
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:89
+#, c-format
+msgid "PIN unlocking failed: %s"
+msgstr "Не вдалось розблокувати за допомогою PIN: %s"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:140
+msgid "Locked GSM device"
+msgstr "Заблокований пристрій GSM"
+
+#: ../libnm-gtk/nm-wifi-item.c:61 ../src/nmn-list.c:107
+#: ../src/nmn-applet.c:476 ../src/nmn-new-connection.c:685
+msgid "WiFi"
+msgstr "WiFi"
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "Немає"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "WEP із 40/128-розрядним ключем"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP із 128-розрядною кодовою фразою"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "Динамічний WEP (802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "WPA і WPA2 Personal"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA і WPA2 Enterprise"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "С_творити"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr ""
+"Для доступу до безпроводової мережі '%s' потрібні паролі або ключі "
+"шифрування."
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "Потрібна автентифікація безпроводової мережі"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "Безпроводова мережа вимагає автентифікації"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "Створити нову безпроводову мережу"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "Нова безпроводова мережа"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "Введіть ім'я для безпроводової мережі, яку потрібно створити."
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "Підключитися до прихованої безпроводової мережі"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "Прихована безпроводова мережа"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr ""
+"Введіть ім'я та відомості про безпеку прихованої безпроводової мережі, до "
+"якої потрібно підключитися."
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "_Підключитися"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+msgid "Connection:"
+msgstr "Підключення:"
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "Інша безпроводова мережа..."
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "Безпроводовий _адаптер:"
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+msgid "_Network Name:"
+msgstr "_Ім'я мережі:"
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+msgid "_Wireless Security:"
+msgstr "_Безпроводова безпека:"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Не вибрано сертифікат центру "
+"сертифікації</span>\n"
+"\n"
+"Невикористання сертифіката, виданого центром сертифікації (ЦС), може "
+"призвести до підключення до незахищених небезпечних безпроводових мереж. "
+"Вибрати сертифікат центру сертифікації?"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "Вибрати сертифікат ЦС"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+msgid "Don't warn me again"
+msgstr "Більше не попереджати"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "Ігнорувати"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+msgid "Authentication:"
+msgstr "Автентифікація:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+msgid "Show password"
+msgstr "Показати пароль"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+msgid "User Name:"
+msgstr "Ім'я користувача:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+msgid "Anonymous Identity:"
+msgstr "Анонімна ідентифікація:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+msgid "CA Certificate:"
+msgstr "Сертифікат ЦС:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+msgid "Inner Authentication:"
+msgstr "Внутрішня автентифікація:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+msgid "PEAP Version:"
+msgstr "Версія PEAP:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+msgid "Identity:"
+msgstr "Ідентифікація:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+msgid "Private Key Password:"
+msgstr "Пароль закритого ключа:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+msgid "Private Key:"
+msgstr "Закритий ключ:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+msgid "User Certificate:"
+msgstr "Сертифікат користувача:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+msgid "Key:"
+msgstr "Ключ:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+msgid "Show key"
+msgstr "Показати ключ"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+msgid "WEP Index:"
+msgstr "Індекс WEP:"
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+msgid "Type:"
+msgstr "Тип:"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "Вибрати сертифікат центру сертифікації..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "Виберіть ваш особистий сертифікат..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "Виберіть ваш закритий ключ..."
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "Закриті ключі DER, PEM або PKCS#12 (*.der, *.pem, *.p12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "Сертифікати DER або PEM (*.der, *.pem, *.crt, *.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "Тунельований TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "Захищений EAP (PEAP)"
+
+#: ../src/gtkinfobar.c:250
+msgid "gtk-info-bar-response-data"
+msgstr "gtk-info-bar-response-data"
+
+#: ../src/gtkinfobar.c:372
+msgid "Message Type"
+msgstr "Тип повідомлення"
+
+#: ../src/gtkinfobar.c:373
+msgid "The type of message"
+msgstr "Тип повідомлення"
+
+#: ../src/gtkinfobar.c:427
+msgid "Content area border"
+msgstr "Межа області змісту"
+
+#: ../src/gtkinfobar.c:428
+msgid "Width of border around the content area"
+msgstr "Ширина межі навколо області вмісту"
+
+#: ../src/gtkinfobar.c:444
+msgid "Content area spacing"
+msgstr "Простір області вмісту"
+
+#: ../src/gtkinfobar.c:445
+msgid "Spacing between elements of the area"
+msgstr "Простір між елементами області"
+
+#: ../src/gtkinfobar.c:460
+msgid "Button spacing"
+msgstr "Простір між кнопками"
+
+#: ../src/gtkinfobar.c:461
+msgid "Spacing between buttons"
+msgstr "Простір між кнопками"
+
+#: ../src/gtkinfobar.c:476
+msgid "Action area border"
+msgstr "Межа області дій"
+
+#: ../src/gtkinfobar.c:477
+msgid "Width of border around the action area"
+msgstr "Ширина межі навколо області дій"
+
+#: ../src/nmn-list.c:70
+msgid " and "
+msgstr " та "
+
+#: ../src/nmn-list.c:81
+msgid "Sorry, we can't find any networks."
+msgstr "Не вдається знайти жодної мережі."
+
+#: ../src/nmn-list.c:84
+msgid " You could try disabling Offline mode."
+msgstr " Можна спробувати вимкнути автономний режим."
+
+#: ../src/nmn-list.c:104
+msgid " You could try turning on "
+msgstr " Можна спробувати включить "
+
+#: ../src/nmn-list.c:112 ../src/nmn-applet.c:487
+msgid "Wired"
+msgstr "Дротова"
+
+#: ../src/nmn-applet.c:436
+msgid "Add new connection"
+msgstr "Додати нове з'єднання"
+
+#: ../src/nmn-applet.c:442
+msgid "Networks"
+msgstr "Мережі"
+
+#: ../src/nmn-applet.c:510
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: ../src/nmn-applet.c:521
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: ../src/nmn-applet.c:538
+msgid "Offline mode"
+msgstr "Автономний режим"
+
+#: ../src/nmn-applet.c:546
+msgid "This will disable all your connections"
+msgstr "Це призведе до вимикання усіх з'єднань"
+
+#: ../src/main.c:69
+msgid "Run in standalone mode"
+msgstr "Працювати у автономному режимі"
+
+#: ../src/main.c:70
+msgid "Run in desktop mode"
+msgstr "Запустити у настільному режимі"
+
+#: ../src/main.c:78
+msgid "NetworkManager Netbook"
+msgstr "NetworkManager Netbook"
+
+#: ../src/main.c:79
+msgid "- NetworkManager Netbook"
+msgstr "- NetworkManager Netbook"
+
+#: ../src/nmn-network-renderer.c:106
+msgid "Connected"
+msgstr "Підключено"
+
+#: ../src/nmn-network-renderer.c:107
+msgid "Disconnect"
+msgstr "Відключитися"
+
+#: ../src/nmn-network-renderer.c:110
+msgid "Connecting"
+msgstr "Підключення"
+
+#: ../src/nmn-network-renderer.c:111
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: ../src/nmn-network-renderer.c:114
+msgid "Disconnected"
+msgstr "Відключено"
+
+#: ../src/nmn-network-renderer.c:115 ../src/nmn-network-renderer.c:381
+msgid "Connect"
+msgstr "Підключитися"
+
+#: ../src/nmn-network-renderer.c:122
+msgid "Available"
+msgstr "Доступно"
+
+#: ../src/nmn-network-renderer.c:157
+#, c-format
+msgid "Could not update connection: %s"
+msgstr "Не вдалось оновити з'єднання: %s"
+
+#: ../src/nmn-network-renderer.c:299
+msgid "Really remove?"
+msgstr "Підтверджуєте видалення?"
+
+#: ../src/nmn-network-renderer.c:303
+msgid "No, save"
+msgstr "Ні, зберегти"
+
+#: ../src/nmn-network-renderer.c:305
+msgid "Yes, delete"
+msgstr "Так, видалити"
+
+#: ../src/nmn-network-renderer.c:315
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+"Хочете видалити мережу '%s' %s? При цьому буде\n"
+"видалений пароль і ви більше не зможете автоматично\n"
+"підключатися до «%s»."
+
+#. FIXME: this should be visibile only for NMDeviceItems
+#: ../src/nmn-network-renderer.c:376
+msgid "Advanced"
+msgstr "Додатково"
+
+#: ../src/nmn-network-renderer.c:397
+msgid "Remove connection"
+msgstr "Видалити з'єднання"
+
+#: ../src/nmn-panel-client.c:68
+msgid "network"
+msgstr "мережа"
+
+#: ../src/nmn-panel-client.c:189
+msgid "Network connected"
+msgstr "Підключено до мережі"
+
+#: ../src/nmn-panel-client.c:193
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr "Тепер ви приєднані до %s, мережа %s"
+
+#: ../src/nmn-panel-client.c:196
+#, c-format
+msgid "You're now connected to %s network"
+msgstr "Тепер ви приєднані до мережі %s"
+
+#: ../src/nmn-panel-client.c:198
+msgid "You're now connected to network"
+msgstr "Тепер ви приєднані до мережі"
+
+#: ../src/nmn-panel-client.c:200
+msgid "Network lost"
+msgstr "Мережу втрачено"
+
+#: ../src/nmn-panel-client.c:204
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr "Було розірвано підключення %s до %s"
+
+#: ../src/nmn-panel-client.c:207
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr "Було розірвано з'єднання %s"
+
+#: ../src/nmn-panel-client.c:209
+msgid "Sorry, we've lost your connection"
+msgstr "Було розірвано з'єднання"
+
+#: ../src/nmn-panel-client.c:244
+#, c-format
+msgid "networks - not connected"
+msgstr "мережі - не приєднані"
+
+#: ../src/nmn-panel-client.c:247
+#, c-format
+msgid "networks - connecting"
+msgstr "мережі - з'єднання"
+
+#: ../src/nmn-panel-client.c:260
+#, c-format
+msgid "networks - %s - %s"
+msgstr "мережі - %s - %s"
+
+#: ../src/nmn-panel-client.c:262
+#, c-format
+msgid "networks - %s"
+msgstr "мережі - %s"
+
+#: ../src/nmn-panel-client.c:264
+msgid "networks - connected"
+msgstr "мережі - приєднані"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:146
+msgid "Unlock"
+msgstr "Розблокувати"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:151
+msgid "Disable PIN"
+msgstr "Вимкнути PIN"
+
+#: ../src/nmn-connection-details.c:108
+msgid "(none)"
+msgstr "(немає)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:484
+msgid "Connect by:"
+msgstr "Приєднатися через:"
+
+#: ../src/nmn-connection-details.c:488
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../src/nmn-connection-details.c:489
+msgid "Manual"
+msgstr "Вручну"
+
+#: ../src/nmn-connection-details.c:490
+msgid "Link Local"
+msgstr "Локальне з'єднання"
+
+#. Address
+#: ../src/nmn-connection-details.c:497
+msgid "IP Address:"
+msgstr "IP-адреса:"
+
+#. Netmask
+#: ../src/nmn-connection-details.c:506
+msgid "Subnet mask:"
+msgstr "Маска підмережі:"
+
+#. Gateway
+#: ../src/nmn-connection-details.c:515
+msgid "Router:"
+msgstr "Маршрутизатор:"
+
+#. DNS
+#: ../src/nmn-connection-details.c:524
+msgid "DNS:"
+msgstr "DNS:"
+
+#. Hardware address
+#: ../src/nmn-connection-details.c:534
+msgid "Your MAC address:"
+msgstr "MAC-адреса:"
+
+#: ../src/nmn-new-connection.c:282
+msgid "3G disabled"
+msgstr "3G відключено"
+
+#: ../src/nmn-new-connection.c:288
+msgid "3G modem is locked"
+msgstr "3G модем заблокований"
+
+#: ../src/nmn-new-connection.c:291
+msgid "Internal 3G modem and SIM card detected"
+msgstr "Виявлено внутрішні 3G-модем та SIM-картку"
+
+#: ../src/nmn-new-connection.c:293
+msgid "No modems detected"
+msgstr "Модемів не виявлено"
+
+#: ../src/nmn-new-connection.c:660
+msgid "Add a new connection"
+msgstr "Додати нове з'єднання"
+
+#: ../src/nmn-new-connection.c:680
+msgid "Hidden network"
+msgstr "Прихована мережа"
+
+#: ../src/nmn-new-connection.c:706
+msgid "Save connection"
+msgstr "Зберегти з'єднання"
+
+#: ../src/nmn-new-connection.c:715
+msgid "Return to Networking"
+msgstr "Повернутися до розділу мереж"

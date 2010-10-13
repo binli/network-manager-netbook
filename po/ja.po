@@ -1,0 +1,558 @@
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: upstream-translations.network-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-27 16:37+0200\n"
+"PO-Revision-Date: 2009-09-16 15:18\n"
+"Last-Translator: Novell Language <language@novell.com>\n"
+"Language-Team: Novell Language <language@novell.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+msgid "wired"
+msgstr ""
+
+#: ../libnm-gtk/nm-ethernet-item.c:88
+msgid "802.1x"
+msgstr ""
+
+#: ../libnm-gtk/nm-wifi-item.c:60 ../src/nmn-list.c:105
+#: ../src/nmn-applet.c:337 ../src/nmn-new-connection.c:636
+msgid "WiFi"
+msgstr ""
+
+#: ../libnm-gtk/nm-gsm-item.c:36 ../libnm-gtk/nm-cdma-item.c:36
+#: ../src/nmn-list.c:115 ../src/nmn-applet.c:349
+#: ../src/nmn-new-connection.c:661
+msgid "3G"
+msgstr ""
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "なし"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "WEP 40/128ビットキー"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128ビットパスフレーズ"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "ダイナミックWEP (802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2パーソナル"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2エンタープライズ"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "作成(_R)"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr ""
+"ワイヤレスネットワーク '%s' にアクセスするにはパスワードまたは暗号化キーが必"
+"要です。"
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "ワイヤレスネットアーク認証が必要です"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "ワイヤレスネットワークによる認証が必要です"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "新規ワイヤレスネットワークの作成"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "新規ワイヤレスネットワーク"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "作成するワイヤレスネットワークの名前を入力してください。"
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "非表示ワイヤレスネットワークに接続"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "非表示のワイヤレスネットワーク"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr ""
+"接続する非表示のワイヤレスネットワークの名前とセキュリティ詳細を入力してくだ"
+"さい。"
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "接続(_O)"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+msgid "Connection:"
+msgstr "接続:"
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "その他のワイヤレスネットワーク..."
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "ワイヤレスアダプタ(_A):"
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+msgid "_Network Name:"
+msgstr "ネットワーク名(_N):"
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+msgid "_Wireless Security:"
+msgstr "ワイヤレスセキュリティ(_W):"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">認証局の証明書が選択されていません</"
+"span>\n"
+"\n"
+"認証局(CA)の証明書を使用していない場合、安全でない不正のワイヤレスネットワー"
+"クに接続される可能性があります。認証局の証明書を選択しますか?"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "CA証明書の選択"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+msgid "Don't warn me again"
+msgstr "今後このメッセージを表示しない"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "無視"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+msgid "Authentication:"
+msgstr "認証:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "パスワード:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+msgid "Show password"
+msgstr "パスワードの表示"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+msgid "User Name:"
+msgstr "ユーザ名:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+msgid "Anonymous Identity:"
+msgstr "匿名の識別情報:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+msgid "CA Certificate:"
+msgstr "CA証明書:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+msgid "Inner Authentication:"
+msgstr "内部認証:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+msgid "PEAP Version:"
+msgstr "PEAPバージョン:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+msgid "Identity:"
+msgstr "識別情報:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+msgid "Private Key Password:"
+msgstr "秘密鍵のパスワード:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+msgid "Private Key:"
+msgstr "秘密鍵:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+msgid "User Certificate:"
+msgstr "ユーザ証明書:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+msgid "Key:"
+msgstr "鍵:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+msgid "Show key"
+msgstr "鍵の表示"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+msgid "WEP Index:"
+msgstr "WEPインデックス:"
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+msgid "Type:"
+msgstr "タイプ:"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "認証局証明書の選択..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "個人証明書の選択..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "秘密鍵の選択..."
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "DER、PEM、またはPKCS#12の秘密鍵(*.der、*.pem、*.p12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DERまたはPEM証明書(*.der、*.pem、*.crt、*.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "トンネル化TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "保護済みEAP (PEAP)"
+
+#: ../src/nmn-list.c:68
+msgid " and "
+msgstr ""
+
+#: ../src/nmn-list.c:79
+msgid "Sorry, we can't find any networks."
+msgstr ""
+
+#: ../src/nmn-list.c:82
+msgid " You could try disabling Offline mode."
+msgstr ""
+
+#: ../src/nmn-list.c:102
+msgid " You could try turning on "
+msgstr ""
+
+#: ../src/nmn-list.c:110 ../src/nmn-applet.c:343
+msgid "Wired"
+msgstr ""
+
+#: ../src/nmn-applet.c:304
+#, fuzzy
+msgid "Add new connection"
+msgstr "新しい接続を追加します"
+
+#: ../src/nmn-applet.c:310
+#, fuzzy
+msgid "Networks"
+msgstr "ネットワーク名(_N):"
+
+#: ../src/nmn-applet.c:355
+msgid "WiMAX"
+msgstr ""
+
+#: ../src/nmn-applet.c:362
+msgid "Bluetooth"
+msgstr ""
+
+#: ../src/nmn-applet.c:376
+msgid "Offline mode"
+msgstr ""
+
+#: ../src/nmn-applet.c:382
+#, fuzzy
+msgid "This will disable all your connections"
+msgstr "ワイヤレス接続がすべて無効になります"
+
+#: ../src/main.c:54
+msgid "Run in standalone mode"
+msgstr ""
+
+#: ../src/main.c:61
+msgid "NetworkManager Netbook"
+msgstr ""
+
+#: ../src/main.c:62
+msgid "- NetworkManager Netbook"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:67
+#, fuzzy
+msgid "network"
+msgstr "非表示のネットワーク"
+
+#: ../src/nmn-panel-client.c:181
+#, fuzzy
+msgid "Network connected"
+msgstr "未接続"
+
+#: ../src/nmn-panel-client.c:185
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:188
+#, c-format
+msgid "You're now connected to %s network"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:190
+msgid "You're now connected to network"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:192
+#, fuzzy
+msgid "Network lost"
+msgstr "ネットワーク名(_N):"
+
+#: ../src/nmn-panel-client.c:196
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:199
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:201
+msgid "Sorry, we've lost your connection"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:236
+#, c-format
+msgid "networks - not connected"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:239
+#, fuzzy, c-format
+msgid "networks - connecting"
+msgstr "新しい接続を追加します"
+
+#: ../src/nmn-panel-client.c:247
+#, c-format
+msgid "networks - %s - %s"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:249
+#, c-format
+msgid "networks - %s"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:251
+#, fuzzy
+msgid "networks - connected"
+msgstr "未接続"
+
+#: ../src/nmn-item-renderer.c:140
+msgid "Connected"
+msgstr "接続済み"
+
+#: ../src/nmn-item-renderer.c:141 ../src/nmn-item-renderer.c:145
+msgid "Disconnect"
+msgstr "切断"
+
+#: ../src/nmn-item-renderer.c:144
+msgid "Connecting..."
+msgstr "接続しています..."
+
+#: ../src/nmn-item-renderer.c:148
+msgid "Disconnected"
+msgstr "未接続"
+
+#: ../src/nmn-item-renderer.c:149
+msgid "Connect"
+msgstr "接続"
+
+#: ../src/nmn-item-renderer.c:263
+msgid "Really remove?"
+msgstr ""
+
+#: ../src/nmn-item-renderer.c:279
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+
+#: ../src/nmn-connection-details.c:104
+msgid "(none)"
+msgstr "(なし)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:475
+msgid "Connect by:"
+msgstr "接続方法:"
+
+#: ../src/nmn-connection-details.c:478
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../src/nmn-connection-details.c:483
+msgid "Manual"
+msgstr "手動"
+
+#: ../src/nmn-connection-details.c:488
+msgid "Link Local"
+msgstr "ローカルのリンク"
+
+#. Address
+#: ../src/nmn-connection-details.c:496
+msgid "IP Address:"
+msgstr "IPアドレス:"
+
+#. Netmask
+#: ../src/nmn-connection-details.c:505
+msgid "Subnet mask:"
+msgstr "サブネットマスク:"
+
+#. Gateway
+#: ../src/nmn-connection-details.c:514
+msgid "Router:"
+msgstr "ルータ:"
+
+#. DNS
+#: ../src/nmn-connection-details.c:523
+msgid "DNS:"
+msgstr "DNS:"
+
+#: ../src/nmn-new-connection.c:247
+msgid "3G disabled"
+msgstr "3G無効"
+
+#: ../src/nmn-new-connection.c:252
+msgid "Internal 3G modem and SIM card detected"
+msgstr "内部3GおよびSIMIカードが検出されました"
+
+#: ../src/nmn-new-connection.c:254
+msgid "No modems detected"
+msgstr "モデムが検出されません"
+
+#: ../src/nmn-new-connection.c:611
+msgid "Add a new connection"
+msgstr "新しい接続を追加します"
+
+#: ../src/nmn-new-connection.c:631
+msgid "Hidden network"
+msgstr "非表示のネットワーク"
+
+#: ../src/nmn-new-connection.c:657
+msgid "Save connection"
+msgstr "接続の保存"
+
+#: ../src/nmn-new-connection.c:666
+msgid "Return to Networking"
+msgstr "ネットワーキングに戻る"
+
+#: ../src/nmn-mobile-providers.c:504
+msgid "Default"
+msgstr "デフォルト"
+
+#~ msgid "Unavailable"
+#~ msgstr "使用できません"
+
+#~ msgid "On"
+#~ msgstr "オン"
+
+#~ msgid "Off"
+#~ msgstr "オフ"
+
+#~ msgid "Advanced"
+#~ msgstr "詳細"
+
+#~ msgid "<b>3G</b>"
+#~ msgstr "<b>3G</b>"
+
+#~ msgid "<b>Flight mode</b>"
+#~ msgstr "<b>フライトモード</b>"
+
+#~ msgid "<b>WiFi</b>"
+#~ msgstr "<b>WiFi</b>"
+
+#~ msgid "<b>Wired</b>"
+#~ msgstr "<b>有線</b>"
+
+#~ msgid "<big><b>Add a new connection</b></big>"
+#~ msgstr "<big><b>新しい接続の追加</b></big>"
+
+#~ msgid "<big><b>Networks</b></big>"
+#~ msgstr "<big><b>ネットワーク</b></big>"

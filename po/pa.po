@@ -1,0 +1,687 @@
+# Punjabi translation for network-manager-netbook.
+# Copyright (C) 2009 network-manager-netbook's COPYRIGHT HOLDER
+# This file is distributed under the same license as the network-manager-netbook package.
+#
+# A S Alam <aalam@users.sf.net>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-netbook master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=NetworkManager&component=network-manager-netbook\n"
+"POT-Creation-Date: 2010-03-04 23:58+0000\n"
+"PO-Revision-Date: 2010-03-21 18:57+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../network-manager-netbook.desktop.in.h:1
+msgid "Control your network connections"
+msgstr "ਆਪਣੇ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ ਕੰਟਰੋਲ ਕਰੋ"
+
+#: ../network-manager-netbook.desktop.in.h:2
+msgid "network-manager-netbook"
+msgstr "network-manager-netbook"
+
+#: ../gnome-bluetooth/network-manager-applet.c:292
+msgid "Access the Internet using your mobile phone"
+msgstr "ਆਪਣਾ ਮੋਬਾਇਲ ਫੋਨ ਇਸਤੇਮਾਲ ਕਰਕੇ ਇੰਟਰਨੈੱਟ ਵਰਤੋਂ"
+
+#: ../libnm-gtk/nm-mobile-providers.c:504
+msgid "Default"
+msgstr "ਡਿਫਾਲਟ"
+
+#: ../libnm-gtk/nm-bt-item.c:35
+msgid "bluetooth"
+msgstr "ਬਲਿਉਟੁੱਥ"
+
+#: ../libnm-gtk/nm-connection-item.c:402
+#, c-format
+#| msgid "Control your network connections"
+msgid "Could not delete connection: %s"
+msgstr "%s: ਕੁਨੈਕਟ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
+
+#: ../libnm-gtk/nm-device-item.c:65
+#, c-format
+msgid "Could not activate device: %s"
+msgstr "%s: ਜੰਤਰ ਐਕਟੀਵੇਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
+
+#: ../libnm-gtk/nm-device-item.c:110
+#, c-format
+msgid "Could not deactivate device: %s"
+msgstr "%s: ਜੰਤਰ ਡੀਐਕਟੀਵੇਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+msgid "wired"
+msgstr "ਤਾਰ ਨਾਲ"
+
+#: ../libnm-gtk/nm-ethernet-item.c:99
+msgid "802.1x"
+msgstr "802.1x"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:50 ../libnm-gtk/nm-gsm-item.c:36
+#: ../libnm-gtk/nm-cdma-item.c:36 ../src/nmn-list.c:117
+#: ../src/nmn-applet.c:498 ../src/nmn-new-connection.c:710
+msgid "3G"
+msgstr "3G"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:70
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:89
+#, c-format
+msgid "PIN unlocking failed: %s"
+msgstr "PIN ਅਣ-ਲਾਕ ਕਰਨ ਲਈ ਫੇਲ੍ਹ: %s"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:140
+msgid "Locked GSM device"
+msgstr "ਲਾਕ ਹੋਇਆ GSM ਜੰਤਰ"
+
+#: ../libnm-gtk/nm-wifi-item.c:61 ../src/nmn-list.c:107
+#: ../src/nmn-applet.c:476 ../src/nmn-new-connection.c:685
+msgid "WiFi"
+msgstr "ਵਾਈਫਾਈ"
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "ਕੋਈ ਨਹੀਂ"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "WEP 40/128-ਬਿੱਟ ਕੁੰਜੀ"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128-ਬਿੱਟ ਸ਼ਬਦ"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "ਡਾਇਨੈਮਿਕ WEP (802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 ਨਿੱਜੀ"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2 ਇੰਟਰਪਰਾਈਜ਼"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "ਬਣਾਓ(_r)"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ '%s' ਵਰਤਣ ਲਈ ਪਾਸਵਰਡ ਜਾਂ ਇੰਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀ ਦੀ ਲੋੜ ਹੈ।"
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਪਰਮਾਣਕਿਤਾ ਲੋੜੀਦੀ ਹੈ"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਵਲੋਂ ਪਰਮਾਣਕਿਤਾ ਲਈ ਲੋੜ ਹੈ"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "ਨਵਾਂ ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਬਣਾਓ"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "ਨਵਾਂ ਬੇਤਾਰ ਨੈੱਟਵਰਕ"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਲਈ ਨਾਂ ਦਿਓ, ਜੋ ਤੁਸੀਂ ਬਣਾਓ ਚਾਹੁੰਦੇ ਹੋ।"
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "ਲੁਕਵਾਂ ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਬਣਾਓ"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "ਲੁਕਵਾਂ ਬੇਤਾਰ ਨੈੱਟਵਰਕ"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr "ਲੁਕਵੇਂ ਬੇਤਾਰ ਨੈੱਟਵਰਕ ਲਈ ਨਾਂ ਅਤੇ ਸੁਰੱਖਿਆ ਵੇਰਵਾ ਦਿਉ, ਜਿਸ ਨਾਲ ਤੁਸੀਂ ਕੁਨੈਕਟ ਕਰਨਾ ਚਾਹੁਦੇ ਹੋ।"
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "ਕੁਨੈਕਟ ਕਰੋ(_o)"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+msgid "Connection:"
+msgstr "ਕੁਨੈਕਸ਼ਨ:"
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "ਹੋਰ ਬੇਤਾਰ ਨੈੱਟਵਰਕ..."
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "ਬੇਤਾਰ ਅਡੱਪਟਰ(_a):"
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+msgid "_Network Name:"
+msgstr "ਨੈੱਟਵਰਕ ਨਾਂ(_N):"
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+msgid "_Wireless Security:"
+msgstr "ਬੇਤਾਰ ਸੁਰੱਖਿਆ(_W):"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">ਕੋਈ ਸਰਟੀਫਿਕੇਟ ਅਥਾਰਟੀ ਸਰਟੀਫਿਕੇਟ ਨਹੀਂ ਚੁਣਿਆ</"
+"span>\n"
+"\n"
+"ਸਰਟੀਫਿਕੇਟ ਅਥਾਰਟੀ (CA) ਸਰਟੀਫਿਕੇਟ ਨਾ ਵਰਤਣ ਦੇ ਨਤੀਜੇ ਵਜੋਂ ਅਸੁਰੱਖਿਅਤ, ਠੱਗ ਬੇਤਾਰ ਨੈੱਟਵਰਕਾਂ ਨਾਲ "
+"ਕੁਨੈਕਸ਼ਨ ਹੋ ਸਕਦਾ ਹੈ। ਕੀ ਤੁਸੀਂ ਸਰਟੀਫਿਕੇਟ ਅਥਾਰਟੀ ਸਰਟੀਫਿਕੇਟ ਚੁਣਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "CA ਸਰਟੀਫਿਕੇਟ ਚੁਣੋ"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+msgid "Don't warn me again"
+msgstr "ਮੈਨੂੰ ਚੇਤਾਵਨੀ ਨਾ ਦਿਓ"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "ਅਣਡਿੱਠਾ"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+msgid "Authentication:"
+msgstr "ਪਰਮਾਣਕਿਤਾ:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "ਪਾਸਵਰਡ:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+msgid "Show password"
+msgstr "ਪਾਸਵਰਡ ਵੇਖੋ"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+msgid "User Name:"
+msgstr "ਯੂਜ਼ਰ ਨਾਂ:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+msgid "Anonymous Identity:"
+msgstr "ਅਗਿਆਤ ਪਛਾਣ:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+msgid "CA Certificate:"
+msgstr "CA ਸਰਟੀਫਿਕੇਟ:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+msgid "Inner Authentication:"
+msgstr "ਅੰਦਰੂਨੀ ਪਰਮਾਣਕਿਤਾ:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+msgid "PEAP Version:"
+msgstr "PEAP ਵਰਜਨ:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+msgid "Identity:"
+msgstr "ਪਛਾਣ:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+msgid "Private Key Password:"
+msgstr "ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਪਾਸਵਰਡ:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+msgid "Private Key:"
+msgstr "ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+msgid "User Certificate:"
+msgstr "ਯੂਜ਼ਰ ਸਰਟੀਫਿਕੇਟ:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+msgid "Key:"
+msgstr "ਕੁੰਜੀ:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+msgid "Show key"
+msgstr "ਕੁੰਜੀ ਵੇਖੋ"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+msgid "WEP Index:"
+msgstr "WEP ਇੰਡੈਕਸ:"
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+msgid "Type:"
+msgstr "ਟਾਈਪ:"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "ਸਰਟੀਫਿਕੇਟ ਅਥਾਰਟੀ ਸਰਟੀਫਿਕੇਟ ਚੁਣੋ..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "ਆਪਣਾ ਪ੍ਰਾਈਵੇਟ ਸਰਟੀਫਿਕੇਟ ਚੁਣੋ..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "ਆਪਣੀ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਚੁਣੋ..."
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "DER, PEM, ਜਾਂ PKCS#12 ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀਆਂ (*.der, *.pem, *.p12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER ਜਾਂ PEM ਸਰਟੀਫਿਕੇਟ (*.der, *.pem, *.crt, *.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "ਟਨਲ TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "ਸੁਰੱਖਿਅਤ EAP (PEAP)"
+
+#: ../src/gtkinfobar.c:250
+msgid "gtk-info-bar-response-data"
+msgstr "gtk-info-bar-response-data"
+
+#: ../src/gtkinfobar.c:372
+msgid "Message Type"
+msgstr "ਸੁਨੇਹਾ ਕਿਸਮ"
+
+#: ../src/gtkinfobar.c:373
+msgid "The type of message"
+msgstr "ਸੁਨੇਹਾ ਦੀ ਕਿਸਮ"
+
+#: ../src/gtkinfobar.c:427
+msgid "Content area border"
+msgstr "ਸਮੱਗਰੀ ਏਰੀਆ ਬਾਰਡਰ"
+
+#: ../src/gtkinfobar.c:428
+msgid "Width of border around the content area"
+msgstr "ਸਮੱਗਰੀ ਏਰੀਏ ਦੁਆਲੇ ਬਾਰਡਰ ਦੀ ਚੌੜਾਈ"
+
+#: ../src/gtkinfobar.c:444
+#| msgid "Connecting"
+msgid "Content area spacing"
+msgstr "ਸਮੱਗਰੀ ਏਰੀਆ ਥਾਂ"
+
+#: ../src/gtkinfobar.c:445
+msgid "Spacing between elements of the area"
+msgstr "ਏਰੀਏ ਦੀ ਸਮੱਗਰੀ ਵਿਚਲੇ ਖਾਲੀ ਥਾਂ"
+
+#: ../src/gtkinfobar.c:460
+msgid "Button spacing"
+msgstr "ਬਟਨ ਥਾਂ"
+
+#: ../src/gtkinfobar.c:461
+msgid "Spacing between buttons"
+msgstr "ਬਟਨਾਂ ਵਿਚਲੇ ਖਾਲੀ ਥਾਂ"
+
+#: ../src/gtkinfobar.c:476
+msgid "Action area border"
+msgstr "ਐਕਸ਼ਨ ਏਰੀਆ ਬਾਰਡਰ"
+
+#: ../src/gtkinfobar.c:477
+msgid "Width of border around the action area"
+msgstr "ਐਕਸ਼ਨ ਏਰੀਏ ਦੁਆਲੇ ਬਾਰਡਰ ਦੀ ਚੌੜਾਈ"
+
+#: ../src/nmn-list.c:70
+msgid " and "
+msgstr " ਅਤੇ "
+
+#: ../src/nmn-list.c:81
+msgid "Sorry, we can't find any networks."
+msgstr "ਅਫਸੋਸ, ਸਾਨੂੰ ਕੋਈ ਵੀ ਨੈੱਟਵਰਕ ਨਹੀਂ ਲੱਭਿਆ।"
+
+#: ../src/nmn-list.c:84
+msgid " You could try disabling Offline mode."
+msgstr " ਤੁਸੀਂ ਆਫਲਾਈਨ ਮੋਡ ਨੂੰ ਬੰਦ ਕਰਕੇ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#: ../src/nmn-list.c:104
+msgid " You could try turning on "
+msgstr " ਤੁਸੀਂ ਚਾਲ ਕਰਕੇ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ "
+
+#: ../src/nmn-list.c:112 ../src/nmn-applet.c:487
+msgid "Wired"
+msgstr "ਤਾਰ"
+
+#: ../src/nmn-applet.c:436
+msgid "Add new connection"
+msgstr "ਨਵਾਂ ਕੁਨੈਕਸ਼ਨ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: ../src/nmn-applet.c:442
+msgid "Networks"
+msgstr "ਨੈੱਟਵਰਕ"
+
+#: ../src/nmn-applet.c:510
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: ../src/nmn-applet.c:521
+msgid "Bluetooth"
+msgstr "ਬਲਿਉਟੁੱਥ"
+
+#: ../src/nmn-applet.c:538
+msgid "Offline mode"
+msgstr "ਆਫਲਾਈਨ ਮੋਡ"
+
+#: ../src/nmn-applet.c:546
+msgid "This will disable all your connections"
+msgstr "ਇਸ ਨਾਲ ਸਾਰੇ ਨੈੱਟਵਰਕ ਕੁਨੈਕਸ਼ਨ ਆਯੋਗ ਹੋ ਜਾਣਗੇ"
+
+#: ../src/main.c:69
+msgid "Run in standalone mode"
+msgstr "ਇੱਕਲੇ ਮੋਡ ਵਿੱਚ ਚਲਾਓ"
+
+#: ../src/main.c:70
+msgid "Run in desktop mode"
+msgstr "ਡੈਸਕਟਾਪ ਮੋਡ ਵਿੱਚ ਚਲਾਓ"
+
+#: ../src/main.c:78
+msgid "NetworkManager Netbook"
+msgstr "ਨੈੱਟਵਰਕਮੈਨੇਜਰ ਨੈਟਬੁੱਕ"
+
+#: ../src/main.c:79
+msgid "- NetworkManager Netbook"
+msgstr "- ਨੈੱਟਵਰਕਮੈਨੇਜਰ ਨੈੱਟਬੁੱਕ"
+
+#: ../src/nmn-network-renderer.c:106
+msgid "Connected"
+msgstr "ਕੁਨੈਕਟ ਹੈ"
+
+#: ../src/nmn-network-renderer.c:107
+msgid "Disconnect"
+msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਕਰੋ"
+
+#: ../src/nmn-network-renderer.c:110
+msgid "Connecting"
+msgstr "ਕੁਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: ../src/nmn-network-renderer.c:111
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: ../src/nmn-network-renderer.c:114
+msgid "Disconnected"
+msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਹੈ"
+
+#: ../src/nmn-network-renderer.c:115 ../src/nmn-network-renderer.c:381
+msgid "Connect"
+msgstr "ਕੁਨੈਕਟ ਕਰੋ"
+
+#: ../src/nmn-network-renderer.c:122
+msgid "Available"
+msgstr "ਉਪਲੱਬਧ"
+
+#: ../src/nmn-network-renderer.c:157
+#, c-format
+#| msgid "Add new connection"
+msgid "Could not update connection: %s"
+msgstr "%s: ਕੁਨੈਕਸ਼ਨ ਅੱਪਡੇਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ"
+
+#: ../src/nmn-network-renderer.c:299
+msgid "Really remove?"
+msgstr "ਹਟਾਉਣਾ ਹੈ?"
+
+#: ../src/nmn-network-renderer.c:303
+msgid "No, save"
+msgstr "ਨਹੀਂ, ਸੰਭਾਲੋ"
+
+#: ../src/nmn-network-renderer.c:305
+msgid "Yes, delete"
+msgstr "ਹਾਂ, ਹਟਾਓ"
+
+#: ../src/nmn-network-renderer.c:315
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+"ਕੀ ਤੁਸੀਂ '%s' %s ਨੈੱਟਵਰਕ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਪਾਸਵਰਡ ਭੁੱਲਾ\n"
+"ਦੇਵੇਗਾ ਅਤੇ ਤੁਸੀਂ ਬਾਅਦ ਵਿੱਚ ਫੇਰ '%s' ਨਾਲ ਆਟੋਮੈਟਿਕ\n"
+"ਕੁਨਕੈਟ ਨਹੀਂ ਹੋਵੇਗੇ।"
+
+#. FIXME: this should be visibile only for NMDeviceItems
+#: ../src/nmn-network-renderer.c:376
+msgid "Advanced"
+msgstr "ਮਾਹਰ"
+
+#: ../src/nmn-network-renderer.c:397
+#| msgid "Save connection"
+msgid "Remove connection"
+msgstr "ਕੁਨੈਕਸ਼ਨ ਹਟਾਓ"
+
+#: ../src/nmn-panel-client.c:68
+msgid "network"
+msgstr "ਨੈੱਟਵਰਕ"
+
+#: ../src/nmn-panel-client.c:189
+msgid "Network connected"
+msgstr "ਨੈੱਟਵਰਕ ਕੁਨੈਕਟ ਹੈ"
+
+#: ../src/nmn-panel-client.c:193
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr "ਹੁਣ ਤੁਸੀਂ %s ਨਾਲ ਕੁਨੈਕਟ ਹੋ, %s ਨੈੱਟਵਰਕ"
+
+#: ../src/nmn-panel-client.c:196
+#, c-format
+msgid "You're now connected to %s network"
+msgstr "ਹੁਣ ਤੁਸੀਂ %s ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ"
+
+#: ../src/nmn-panel-client.c:198
+msgid "You're now connected to network"
+msgstr "ਹੁਣ ਤੁਸੀਂ ਨੈੱਟਵਰਕ ਨਾਲ ਕੁਨੈਕਟ ਹੋ"
+
+#: ../src/nmn-panel-client.c:200
+msgid "Network lost"
+msgstr "ਨੈੱਟਵਰਕ ਖਤਮ ਹੋਇਆ"
+
+#: ../src/nmn-panel-client.c:204
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr "ਅਫਸੋਸ, ਅਸੀਂ ਤੁਹਾਡਾ %s ਕੁਨੈਕਸ਼ਨ %s ਨਾਲ ਗੁਆ ਦਿੱਤਾ ਹੈ"
+
+#: ../src/nmn-panel-client.c:207
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr "ਅਫਸੋਸ, ਅਸੀਂ ਤੁਹਾਡਾ %s ਕੁਨੈਕਸ਼ਨ ਗੁਆਚ ਗਿਆ ਹੈ"
+
+#: ../src/nmn-panel-client.c:209
+msgid "Sorry, we've lost your connection"
+msgstr "ਅਫਸੋਸ, ਅਸੀਂ ਤੁਹਾਡਾ ਕੁਨੈਕਸ਼ਨ ਗੁਆ ਦਿੱਤਾ ਹੈ"
+
+#: ../src/nmn-panel-client.c:244
+#, c-format
+msgid "networks - not connected"
+msgstr "ਨੈੱਟਵਰਕ - ਕੁਨੈਕਟ ਨਹੀਂ ਹੈ"
+
+#: ../src/nmn-panel-client.c:247
+#, c-format
+msgid "networks - connecting"
+msgstr "ਨੈੱਟਵਰਕ - ਕੁਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: ../src/nmn-panel-client.c:260
+#, c-format
+msgid "networks - %s - %s"
+msgstr "ਨੈੱਟਵਰਕ - %s - %s"
+
+#: ../src/nmn-panel-client.c:262
+#, c-format
+msgid "networks - %s"
+msgstr "ਨੈੱਟਵਰਕ - %s"
+
+#: ../src/nmn-panel-client.c:264
+msgid "networks - connected"
+msgstr "ਨੈਟਵਰਕ - ਕੁਨੈਕਟ ਹੈ"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:146
+msgid "Unlock"
+msgstr "ਅਣ-ਲਾਕ"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:151
+msgid "Disable PIN"
+msgstr "PIN ਆਯੋਗ"
+
+#: ../src/nmn-connection-details.c:108
+msgid "(none)"
+msgstr "(ਕੋਈ ਨਹੀਂ)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:484
+msgid "Connect by:"
+msgstr "ਕੁਨੈਕਟ ਕੀਤਾ:"
+
+#: ../src/nmn-connection-details.c:488
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../src/nmn-connection-details.c:489
+msgid "Manual"
+msgstr "ਮੇਨੂਅਲ"
+
+#: ../src/nmn-connection-details.c:490
+msgid "Link Local"
+msgstr "ਲੋਕਲ ਲਿੰਕ"
+
+#. Address
+#: ../src/nmn-connection-details.c:497
+msgid "IP Address:"
+msgstr "IP ਐਡਰੈੱਸ:"
+
+#. Netmask
+#: ../src/nmn-connection-details.c:506
+msgid "Subnet mask:"
+msgstr "ਸਬਨੈੱਟ ਮਾਸਕ:"
+
+#. Gateway
+#: ../src/nmn-connection-details.c:515
+msgid "Router:"
+msgstr "ਰਾਊਟਰ:"
+
+#. DNS
+#: ../src/nmn-connection-details.c:524
+msgid "DNS:"
+msgstr "DNS:"
+
+#. Hardware address
+#: ../src/nmn-connection-details.c:534
+msgid "Your MAC address:"
+msgstr "ਤੁਹਾਡਾ ਮੈਕ ਐਡਰੈੱਸ:"
+
+#: ../src/nmn-new-connection.c:282
+msgid "3G disabled"
+msgstr "3G ਆਯੋਗ"
+
+#: ../src/nmn-new-connection.c:288
+#| msgid "3G disabled"
+msgid "3G modem is locked"
+msgstr "3G ਮਾਡਮ ਲਾਕ ਹੈ"
+
+#: ../src/nmn-new-connection.c:291
+msgid "Internal 3G modem and SIM card detected"
+msgstr "ਅੰਦਰੂਨੀ 3G ਮਾਡਮ ਅਤੇ SIM ਕਾਰਡ ਮਿਲਿਆ"
+
+#: ../src/nmn-new-connection.c:293
+msgid "No modems detected"
+msgstr "ਮਾਡਮ ਨਹੀਂ ਮਿਲਿਆ"
+
+#: ../src/nmn-new-connection.c:660
+msgid "Add a new connection"
+msgstr "ਨਵਾਂ ਕੁਨੈਕਸ਼ਨ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: ../src/nmn-new-connection.c:680
+msgid "Hidden network"
+msgstr "ਲੁਕਵਾਂ ਨੈੱਟਵਰਕ"
+
+#: ../src/nmn-new-connection.c:706
+msgid "Save connection"
+msgstr "ਕੁਨੈਕਸ਼ਨ ਸੰਭਾਲੋ"
+
+#: ../src/nmn-new-connection.c:715
+msgid "Return to Networking"
+msgstr "ਨੈੱਟਵਰਕਿੰਗ ਉੱਤੇ ਵਾਪਸ ਜਾਓ"
+
+#~ msgid "On"
+#~ msgstr "ਚਾਲੂ"
+
+#~ msgid "Off"
+#~ msgstr "ਬੰਦ"
+
+#~ msgid "<b>3G</b>"
+#~ msgstr "<b>3G</b>"
+
+#~ msgid "<b>WiFi</b>"
+#~ msgstr "<b>ਵਾਈਫਾਈ</b>"
+
+#~ msgid "<b>Wired</b>"
+#~ msgstr "<b>ਤਾਰ ਵਾਲਾ</b>"
+
+#~ msgid "<big><b>Add a new connection</b></big>"
+#~ msgstr "<big><b>ਨਵਾਂ ਕੁਨੈਕਸ਼ਨ ਸ਼ਾਮਲ ਕਰੋ</b></big>"
+
+#~ msgid "<big><b>Networks</b></big>"
+#~ msgstr "<big><b>ਨੈੱਟਵਰਕ</b></big>"

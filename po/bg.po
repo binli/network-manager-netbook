@@ -1,0 +1,662 @@
+# Bulgarian translation of network-manager-netbook po-file.
+# Copyright (C) 2010 Krasimir Chonov <mk2616@abv.bg>.
+# This file is distributed under the same license as the network-manager-netbook package.
+# Krasimir Chonov <mk2616@abv.bg>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-netbook master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-11 22:19+0200\n"
+"PO-Revision-Date: 2010-03-11 10:53+0200\n"
+"Last-Translator: Krasimir Chonov <mk2616@abv.bg>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../network-manager-netbook.desktop.in.h:1
+msgid "Control your network connections"
+msgstr "Управление на мрежовите връзки"
+
+#: ../network-manager-netbook.desktop.in.h:2
+msgid "network-manager-netbook"
+msgstr "network-manager-netbook"
+
+#: ../gnome-bluetooth/network-manager-applet.c:292
+msgid "Access the Internet using your mobile phone"
+msgstr "Използвайте Интернет чрез вашия мобилен телефон"
+
+#: ../libnm-gtk/nm-mobile-providers.c:504
+msgid "Default"
+msgstr "Начални настройки"
+
+#: ../libnm-gtk/nm-bt-item.c:35
+msgid "bluetooth"
+msgstr "bluetooth"
+
+#: ../libnm-gtk/nm-connection-item.c:402
+#, c-format
+msgid "Could not delete connection: %s"
+msgstr "Не може да се изтрие връзката: %s"
+
+#: ../libnm-gtk/nm-device-item.c:65
+#, c-format
+msgid "Could not activate device: %s"
+msgstr "Не може да се активира: %s"
+
+#: ../libnm-gtk/nm-device-item.c:110
+#, c-format
+msgid "Could not deactivate device: %s"
+msgstr "Не може да се деактивира: %s"
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+msgid "wired"
+msgstr "жична"
+
+#: ../libnm-gtk/nm-ethernet-item.c:99
+msgid "802.1x"
+msgstr "802.1x"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:50 ../libnm-gtk/nm-gsm-item.c:36
+#: ../libnm-gtk/nm-cdma-item.c:36 ../src/nmn-list.c:117
+#: ../src/nmn-applet.c:498 ../src/nmn-new-connection.c:710
+msgid "3G"
+msgstr "3G"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:70
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:89
+#, c-format
+msgid "PIN unlocking failed: %s"
+msgstr "Отключването с PIN е неуспешно: %s"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:140
+msgid "Locked GSM device"
+msgstr "Заключен GSM апарат"
+
+#: ../libnm-gtk/nm-wifi-item.c:61 ../src/nmn-list.c:107
+#: ../src/nmn-applet.c:476 ../src/nmn-new-connection.c:685
+msgid "WiFi"
+msgstr "WiFi"
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "Без"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "40/128 битов ключ за WEP"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "128 битова парола за WEP"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "Динамичен WEP (802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "Частна WPA & WPA2"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "Корпоративна WPA & WPA2"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "С_ъздаване"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr ""
+"Необходими са пароли или шифрирани ключове за достъп до безжичната мрежа „%"
+"s“."
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "Необходимо е идентифициране"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "Необходимо е идентифициране за безжична мрежа"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "Създаване на нова безжична мрежа"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "Нова безжична мрежа"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "Въведете име на безжичната мрежа, която искате да създадете."
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "Свързване към скрита безжична мрежа"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "Скрита безжична мрежа"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr ""
+"Въведете данните на скритата безжична мрежа, към която искате да се свържете."
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "С_вързване"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+msgid "Connection:"
+msgstr "Връзка:"
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "Друга безжична мрежа…"
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "Безжичен _адаптер:"
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+msgid "_Network Name:"
+msgstr "_Име на мрежа:"
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+msgid "_Wireless Security:"
+msgstr "_Защита:"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Не е избран сертификат на "
+"удостоверителя</span>\n"
+"Не се използва сертификат на удостоверителя и поради тази причина можете да "
+"попаднете на несигурни или злонамерени безжични мрежи. Желаете ли да "
+"изберете сертификат на удостоверителя?"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "Избор на сертификат на удостоверител"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+msgid "Don't warn me again"
+msgstr "Без следващо предупреждение"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "Игнориране"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+msgid "Authentication:"
+msgstr "Идентифициране:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "Парола:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+msgid "Show password"
+msgstr "Показване на паролата"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+msgid "User Name:"
+msgstr "Потребител:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+msgid "Anonymous Identity:"
+msgstr "Анонимен:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+msgid "CA Certificate:"
+msgstr "Сертификат на удостоверител:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+msgid "Inner Authentication:"
+msgstr "Вътрешно идентифициране:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+msgid "PEAP Version:"
+msgstr "Версия на PEAP:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+msgid "Identity:"
+msgstr "Самоличност:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+msgid "Private Key Password:"
+msgstr "Парола на частния ключ:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+msgid "Private Key:"
+msgstr "Частен ключ:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+msgid "User Certificate:"
+msgstr "Потребителски сертификат:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+msgid "Key:"
+msgstr "Ключ:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+msgid "Show key"
+msgstr "Показване на ключа"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+msgid "WEP Index:"
+msgstr "Индекс в WEP:"
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+msgid "Type:"
+msgstr "Вид:"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "Избор на сертификат на удостоверителя…"
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "Избор на личен сертификат…"
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "Избор на частен ключ…"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "Частни ключове — DER, PEM или PKCS#12 (*.der, *.pem, *.p12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "Сертификати — DER или PEM (*.der, *.pem, *.crt, *.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "Тунел чрез TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "Защитен EAP (PEAP)"
+
+#: ../src/gtkinfobar.c:250
+msgid "gtk-info-bar-response-data"
+msgstr "gtk-info-bar-response-data"
+
+#: ../src/gtkinfobar.c:372
+msgid "Message Type"
+msgstr "Вид съобщение"
+
+#: ../src/gtkinfobar.c:373
+msgid "The type of message"
+msgstr "Видът на съобщението"
+
+#: ../src/gtkinfobar.c:427
+msgid "Content area border"
+msgstr "Рамка на областта със съдържание"
+
+#: ../src/gtkinfobar.c:428
+msgid "Width of border around the content area"
+msgstr "Широчина на рамката"
+
+#: ../src/gtkinfobar.c:444
+msgid "Content area spacing"
+msgstr "Разстояние в областта за действие"
+
+#: ../src/gtkinfobar.c:445
+msgid "Spacing between elements of the area"
+msgstr "Разстояние между елементите"
+
+#: ../src/gtkinfobar.c:460
+msgid "Button spacing"
+msgstr "Разстояние между бутоните"
+
+#: ../src/gtkinfobar.c:461
+msgid "Spacing between buttons"
+msgstr "Разстояние между бутоните"
+
+#: ../src/gtkinfobar.c:476
+msgid "Action area border"
+msgstr "Рамка на област за действие"
+
+#: ../src/gtkinfobar.c:477
+msgid "Width of border around the action area"
+msgstr "Широчина на рамката около областта за действие"
+
+#: ../src/nmn-list.c:70
+msgid " and "
+msgstr " и "
+
+#: ../src/nmn-list.c:81
+msgid "Sorry, we can't find any networks."
+msgstr "Не могат да се намерят никакви мрежи."
+
+#: ../src/nmn-list.c:84
+msgid " You could try disabling Offline mode."
+msgstr " Можете да пробвате да изключите режима „Изключен“."
+
+#: ../src/nmn-list.c:104
+msgid " You could try turning on "
+msgstr " Можете да пробвате да включите "
+
+#: ../src/nmn-list.c:112 ../src/nmn-applet.c:487
+msgid "Wired"
+msgstr "Жична"
+
+#: ../src/nmn-applet.c:436
+msgid "Add new connection"
+msgstr "Добавяне на нова връзка"
+
+#: ../src/nmn-applet.c:442
+msgid "Networks"
+msgstr "Мрежи"
+
+#: ../src/nmn-applet.c:510
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: ../src/nmn-applet.c:521
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: ../src/nmn-applet.c:538
+msgid "Offline mode"
+msgstr "Режим „Изключен“"
+
+#: ../src/nmn-applet.c:546
+msgid "This will disable all your connections"
+msgstr "Това ще изключи всички връзки"
+
+#: ../src/main.c:69
+msgid "Run in standalone mode"
+msgstr "Изпълняване в самостоятелен режим"
+
+#: ../src/main.c:70
+msgid "Run in desktop mode"
+msgstr "Изпълняване в режим работна станция"
+
+#: ../src/main.c:78
+msgid "NetworkManager Netbook"
+msgstr "NetworkManager Netbook"
+
+#: ../src/main.c:79
+msgid "- NetworkManager Netbook"
+msgstr "— NetworkManager Netbook"
+
+#: ../src/nmn-network-renderer.c:106
+msgid "Connected"
+msgstr "свързана"
+
+#: ../src/nmn-network-renderer.c:107
+msgid "Disconnect"
+msgstr "Прекъсване"
+
+#: ../src/nmn-network-renderer.c:110
+msgid "Connecting"
+msgstr "Свързване"
+
+#: ../src/nmn-network-renderer.c:111
+msgid "Cancel"
+msgstr "Отказване"
+
+#: ../src/nmn-network-renderer.c:114
+msgid "Disconnected"
+msgstr "Прекъсната връзка"
+
+#: ../src/nmn-network-renderer.c:115 ../src/nmn-network-renderer.c:381
+msgid "Connect"
+msgstr "Свързване"
+
+#: ../src/nmn-network-renderer.c:122
+msgid "Available"
+msgstr "Налична"
+
+#: ../src/nmn-network-renderer.c:157
+#, c-format
+msgid "Could not update connection: %s"
+msgstr "Не може да се обнови връзката: %s"
+
+#: ../src/nmn-network-renderer.c:299
+msgid "Really remove?"
+msgstr "Наистина ли да се премахне?"
+
+#: ../src/nmn-network-renderer.c:303
+msgid "No, save"
+msgstr "Не, запазване"
+
+#: ../src/nmn-network-renderer.c:305
+msgid "Yes, delete"
+msgstr "Да, изтриване"
+
+#: ../src/nmn-network-renderer.c:315
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+"Искате ли връзката по %2$s към мрежата „%1$s“ да бъде\n"
+"премахната? Това ще премахне паролата и вече няма да\n"
+"можете да се свързвате автоматично към „%3$s“."
+
+#. FIXME: this should be visibile only for NMDeviceItems
+#: ../src/nmn-network-renderer.c:376
+msgid "Advanced"
+msgstr "Разширени"
+
+#: ../src/nmn-network-renderer.c:397
+msgid "Remove connection"
+msgstr "Премахване"
+
+#: ../src/nmn-panel-client.c:68
+msgid "network"
+msgstr "мрежа"
+
+#: ../src/nmn-panel-client.c:189
+msgid "Network connected"
+msgstr "Свързана мрежа"
+
+#: ../src/nmn-panel-client.c:193
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr "Сега сте свързани към мрежата „%s“ по %s"
+
+#: ../src/nmn-panel-client.c:196
+#, c-format
+msgid "You're now connected to %s network"
+msgstr "Сега сте свързани към мрежата „%s“"
+
+#: ../src/nmn-panel-client.c:198
+msgid "You're now connected to network"
+msgstr "Сега сте свързани към мрежа"
+
+#: ../src/nmn-panel-client.c:200
+msgid "Network lost"
+msgstr "Мрежата е изгубена"
+
+#: ../src/nmn-panel-client.c:204
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr "Връзката към „%2$s“ по %1$s беше изгубена"
+
+#: ../src/nmn-panel-client.c:207
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr "Връзката към „%s“ беше изгубена"
+
+#: ../src/nmn-panel-client.c:209
+msgid "Sorry, we've lost your connection"
+msgstr "Връзката беше изгубена"
+
+#: ../src/nmn-panel-client.c:244
+#, c-format
+msgid "networks - not connected"
+msgstr "мрежи — без връзка"
+
+#: ../src/nmn-panel-client.c:247
+#, c-format
+msgid "networks - connecting"
+msgstr "мрежи — свързване"
+
+#: ../src/nmn-panel-client.c:260
+#, c-format
+msgid "networks - %s - %s"
+msgstr "мрежи — „%s“, по %s"
+
+#: ../src/nmn-panel-client.c:262
+#, c-format
+msgid "networks - %s"
+msgstr "мрежи — „%s“"
+
+#: ../src/nmn-panel-client.c:264
+msgid "networks - connected"
+msgstr "мрежи — свързана"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:146
+msgid "Unlock"
+msgstr "Отключване"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:151
+msgid "Disable PIN"
+msgstr "Без PIN"
+
+#: ../src/nmn-connection-details.c:108
+msgid "(none)"
+msgstr "(без)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:484
+msgid "Connect by:"
+msgstr "Свързване чрез:"
+
+#: ../src/nmn-connection-details.c:488
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../src/nmn-connection-details.c:489
+msgid "Manual"
+msgstr "Ръчно"
+
+#: ../src/nmn-connection-details.c:490
+msgid "Link Local"
+msgstr "Локална връзка"
+
+#. Address
+#: ../src/nmn-connection-details.c:497
+msgid "IP Address:"
+msgstr "IP адрес:"
+
+#. Netmask
+#: ../src/nmn-connection-details.c:506
+msgid "Subnet mask:"
+msgstr "Шлюз:"
+
+#. Gateway
+#: ../src/nmn-connection-details.c:515
+msgid "Router:"
+msgstr "Маршрутизатор:"
+
+#. DNS
+#: ../src/nmn-connection-details.c:524
+msgid "DNS:"
+msgstr "DNS:"
+
+#. Hardware address
+#: ../src/nmn-connection-details.c:534
+msgid "Your MAC address:"
+msgstr "Вашият MAC адрес:"
+
+#: ../src/nmn-new-connection.c:282
+msgid "3G disabled"
+msgstr "3G е изключен"
+
+#: ../src/nmn-new-connection.c:288
+msgid "3G modem is locked"
+msgstr "Модемът за 3G е заключен"
+
+#: ../src/nmn-new-connection.c:291
+msgid "Internal 3G modem and SIM card detected"
+msgstr "Открити са вграден модем за 3G и SIM карта"
+
+#: ../src/nmn-new-connection.c:293
+msgid "No modems detected"
+msgstr "Не са намерени модеми"
+
+#: ../src/nmn-new-connection.c:660
+msgid "Add a new connection"
+msgstr "Добавяне на нова връзка"
+
+#: ../src/nmn-new-connection.c:680
+msgid "Hidden network"
+msgstr "Скрита мрежа"
+
+#: ../src/nmn-new-connection.c:706
+msgid "Save connection"
+msgstr "Запазване"
+
+#: ../src/nmn-new-connection.c:715
+msgid "Return to Networking"
+msgstr "Обратно към настройките"

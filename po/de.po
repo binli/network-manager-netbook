@@ -1,0 +1,698 @@
+# German translation of the NetworkManager netbook.
+# Copyright (C) 2005 Dan Williams <dcbw@redhat.com>
+# This file is distributed under the same license as the NetworkManager package.
+# Hendrik Brandt <heb@gnome-de.org>, 2004, 2005.
+# Frank Arnold <frank@scirocco-5v-turbo.de>, 2005.
+# Hendrik Richter <hendrikr@gnome.org>, 2006.
+# Jochen Skulj <jochen@jochenskulj.de>, 2008.
+# Tobias Wolf <towolf@gmx.net>, 2008.
+# Hauke Mehrtens <hauke@hauke-m.de>, 2008.
+# Mario Blättermann <mariobl@gnome.org>, 2008-2010.
+# Stefan Horning <stefan@hornings.de>, 2009.
+# Tambet Ingo <tambet@novell.com>, 2009.
+# Novell Language <language@novell.com>
+# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-netbook 0.2\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=NetworkManager&component=network-manager-netbook\n"
+"POT-Creation-Date: 2010-03-06 09:48+0000\n"
+"PO-Revision-Date: 2010-03-06 14:29+0100\n"
+"Last-Translator: Christian Kirbach <Christian.Kirbach@googlemail.com>\n"
+"Language-Team: Deutsch <gnome-de@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../network-manager-netbook.desktop.in.h:1
+msgid "Control your network connections"
+msgstr "Verwaltung Ihrer Netzwerkverbindungen"
+
+#: ../network-manager-netbook.desktop.in.h:2
+msgid "network-manager-netbook"
+msgstr "network-manager-netbook"
+
+#: ../gnome-bluetooth/network-manager-applet.c:292
+msgid "Access the Internet using your mobile phone"
+msgstr "Zugriff auf das Internet über Ihr Mobiltelefon"
+
+#: ../libnm-gtk/nm-mobile-providers.c:504
+msgid "Default"
+msgstr "Standard"
+
+#: ../libnm-gtk/nm-bt-item.c:35
+msgid "bluetooth"
+msgstr "Bluetooth"
+
+#: ../libnm-gtk/nm-connection-item.c:402
+#, c-format
+msgid "Could not delete connection: %s"
+msgstr "Die Verbindung konnte nicht gelöscht werden: %s"
+
+#: ../libnm-gtk/nm-device-item.c:65
+#, c-format
+msgid "Could not activate device: %s"
+msgstr "Das Gerät konnte nicht aktiviert werden: %s"
+
+#: ../libnm-gtk/nm-device-item.c:110
+#, c-format
+msgid "Could not deactivate device: %s"
+msgstr "Das Gerät konnte nicht deaktiviert werden: %s"
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+msgid "wired"
+msgstr "Kabelgebunden"
+
+#: ../libnm-gtk/nm-ethernet-item.c:99
+msgid "802.1x"
+msgstr "802.1x"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:50 ../libnm-gtk/nm-gsm-item.c:36
+#: ../libnm-gtk/nm-cdma-item.c:36 ../src/nmn-list.c:117
+#: ../src/nmn-applet.c:498 ../src/nmn-new-connection.c:710
+msgid "3G"
+msgstr "3G"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:70
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:89
+#, c-format
+msgid "PIN unlocking failed: %s"
+msgstr "Entsperren der PIN schlug fehl: %s"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:140
+msgid "Locked GSM device"
+msgstr "Gesperrtes GSM-Gerät"
+
+#: ../libnm-gtk/nm-wifi-item.c:61 ../src/nmn-list.c:107
+#: ../src/nmn-applet.c:476 ../src/nmn-new-connection.c:685
+msgid "WiFi"
+msgstr "WiFi"
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "Keine"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "WEP 40/128-bit Schlüssel"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128-bit Passphrase"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "Dynamic WEP (802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 Personal"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2 Enterprise"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "E_rstellen"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr ""
+"Es werden Passwörter oder Schlüssel für die Verschlüsselung benötigt, um "
+"sich mit dem Funknetzwerk »%s« zu verbinden."
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "Das drahtlose Netzwerk benötigt eine Authentifizierung"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "Eine Authentifizierung wird vom drahtlosen Netzwerk benötigt"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "Neues drahtloses Netzwerk erstellen"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "Neues drahtloses Netzwerk"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr ""
+"Bitte einen Namen für das drahtlose Netzwerk, das erstellt werden soll, "
+"eingeben."
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "Zu einem versteckten drahtlosen Netzwerk verbinden"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "Verstecktes drahtloses Netzwerk"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr ""
+"Bitte Namen und Sicherheitsdetails für das versteckte drahtlose Netzwerk "
+"eingeben, mit dem Sie sich verbinden wollen. "
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "_Verbinden"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+msgid "Connection:"
+msgstr "Verbindung:"
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "Anderes kabelgebundenes Netzwerk …"
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "Drahtloser _Adapter:"
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+msgid "_Network Name:"
+msgstr "_Netzwerkname:"
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+msgid "_Wireless Security:"
+msgstr "_Drahtloses Netzwerk:"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Es wurde kein CA-Zertifikat "
+"ausgewählt</span>\n"
+"\n"
+"Wenn Sie kein CA-Zertifikat verwenden, kann dies zu unsicheren Verbindungen "
+"oder schadhaften Funknetzwerken führen. Möchten Sie ein CA-Zertifikat "
+"auswählen?"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "CA-Zertifikat auswählen …"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+msgid "Don't warn me again"
+msgstr "Warnhinweis nicht mehr anzeigen"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "Ignorieren"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+msgid "Authentication:"
+msgstr "Authentifizierung:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "Passwort:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+msgid "Show password"
+msgstr "Passwort anzeigen"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+msgid "User Name:"
+msgstr "Benutzername:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+msgid "Anonymous Identity:"
+msgstr "Anonyme Identität:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+msgid "CA Certificate:"
+msgstr "CA-Zertifikat:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+msgid "Inner Authentication:"
+msgstr "Interne Authentifizierung:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+msgid "PEAP Version:"
+msgstr "PEAP-Version:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+msgid "Identity:"
+msgstr "Identität:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+msgid "Private Key Password:"
+msgstr "Passwort des privaten Schlüssels:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+msgid "Private Key:"
+msgstr "Privater Schlüssel:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+msgid "User Certificate:"
+msgstr "Benutzerzertifikat:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+msgid "Key:"
+msgstr "Schlüssel:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+msgid "Show key"
+msgstr "Schlüssel anzeigen"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+msgid "WEP Index:"
+msgstr "WEP-Index:"
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+msgid "Type:"
+msgstr "Typ:"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "Zertifikat der Zertifizierungsstelle auswählen..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "Persönliches Zertifikat auswählen..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "Privaten Schlüssel auswählen..."
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "DER, PEM, oder PKCS#12 private Schlüssel (*.der, *.pem, *.p12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER oder PEM Zertifikate (*.der, *.pem, *.crt, *.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "Getunneltes TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "Protected EAP (PEAP)"
+
+#: ../src/gtkinfobar.c:250
+msgid "gtk-info-bar-response-data"
+msgstr "gtk-info-bar-response-data"
+
+#: ../src/gtkinfobar.c:372
+msgid "Message Type"
+msgstr "Nachrichtentyp"
+
+#: ../src/gtkinfobar.c:373
+msgid "The type of message"
+msgstr "Der Typ der Nachricht"
+
+#: ../src/gtkinfobar.c:427
+msgid "Content area border"
+msgstr "Rand um den Inhaltsbereich"
+
+#: ../src/gtkinfobar.c:428
+msgid "Width of border around the content area"
+msgstr "Breite des Randes um den Inhaltsbereich"
+
+#: ../src/gtkinfobar.c:444
+msgid "Content area spacing"
+msgstr "Abstände im Inhaltsbereich"
+
+#: ../src/gtkinfobar.c:445
+msgid "Spacing between elements of the area"
+msgstr "Abstände zwischen Elementen im Inhaltsbereich"
+
+#: ../src/gtkinfobar.c:460
+msgid "Button spacing"
+msgstr "Knopfabstand"
+
+#: ../src/gtkinfobar.c:461
+msgid "Spacing between buttons"
+msgstr "Abstände zwischen Knöpfen"
+
+#: ../src/gtkinfobar.c:476
+msgid "Action area border"
+msgstr "Rand des Aktionsbereichs"
+
+#: ../src/gtkinfobar.c:477
+msgid "Width of border around the action area"
+msgstr "Breite des Rands des Aktionsbereichs"
+
+#: ../src/nmn-list.c:70
+msgid " and "
+msgstr " einzuschalten und"
+
+#: ../src/nmn-list.c:81
+msgid "Sorry, we can't find any networks."
+msgstr "Es können leider keine Netzwerke gefunden werden."
+
+#: ../src/nmn-list.c:84
+msgid " You could try disabling Offline mode."
+msgstr " Sie könnten versuchen, den Offline-Modus zu deaktivieren."
+
+#: ../src/nmn-list.c:104
+msgid " You could try turning on "
+msgstr " Sie könnten versuchen,"
+
+#: ../src/nmn-list.c:112 ../src/nmn-applet.c:487
+msgid "Wired"
+msgstr "Kabelgebunden"
+
+#: ../src/nmn-applet.c:436
+msgid "Add new connection"
+msgstr "Neue Verbindung hinzufügen"
+
+#: ../src/nmn-applet.c:442
+msgid "Networks"
+msgstr "Netzwerke"
+
+#: ../src/nmn-applet.c:510
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: ../src/nmn-applet.c:521
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: ../src/nmn-applet.c:538
+msgid "Offline mode"
+msgstr "Offline-Modus"
+
+#: ../src/nmn-applet.c:546
+msgid "This will disable all your connections"
+msgstr "Dadurch werden alle Netzwerkverbindungen deaktiviert"
+
+#: ../src/main.c:69
+msgid "Run in standalone mode"
+msgstr "Im unabhängigen Modus ausführen"
+
+#: ../src/main.c:70
+msgid "Run in desktop mode"
+msgstr "Im Desktop-Modus ausführen"
+
+#: ../src/main.c:78
+msgid "NetworkManager Netbook"
+msgstr "NetzwerkManager-Netbook"
+
+#: ../src/main.c:79
+msgid "- NetworkManager Netbook"
+msgstr "- NetzwerkManager-Netbook"
+
+#: ../src/nmn-network-renderer.c:106
+msgid "Connected"
+msgstr "Verbunden"
+
+#: ../src/nmn-network-renderer.c:107
+msgid "Disconnect"
+msgstr "Trennen"
+
+#: ../src/nmn-network-renderer.c:110
+msgid "Connecting"
+msgstr "Verbindung wird aufgebaut"
+
+#: ../src/nmn-network-renderer.c:111
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: ../src/nmn-network-renderer.c:114
+msgid "Disconnected"
+msgstr "Nicht verbunden"
+
+#: ../src/nmn-network-renderer.c:115 ../src/nmn-network-renderer.c:381
+msgid "Connect"
+msgstr "Verbinde"
+
+#: ../src/nmn-network-renderer.c:122
+msgid "Available"
+msgstr "Verfügbar"
+
+#: ../src/nmn-network-renderer.c:157
+#, c-format
+msgid "Could not update connection: %s"
+msgstr "Verbindung konnte nicht aktualisiert werden: %s"
+
+#: ../src/nmn-network-renderer.c:299
+msgid "Really remove?"
+msgstr "Wirklich löschen?"
+
+#: ../src/nmn-network-renderer.c:303
+msgid "No, save"
+msgstr "Nein, speichern"
+
+#: ../src/nmn-network-renderer.c:305
+msgid "Yes, delete"
+msgstr "Ja, löschen"
+
+#: ../src/nmn-network-renderer.c:315
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+"Wollen Sie das %s-Netzwerk »%s« löschen? Dadurch\n"
+"wird das Passwort vergessen und Sie werden nicht\n"
+"mehr automatisch mit »%s« verbunden."
+
+#. FIXME: this should be visibile only for NMDeviceItems
+#: ../src/nmn-network-renderer.c:376
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: ../src/nmn-network-renderer.c:397
+msgid "Remove connection"
+msgstr "Verbindung entfernen"
+
+#: ../src/nmn-panel-client.c:68
+msgid "network"
+msgstr "Netzwerk"
+
+#: ../src/nmn-panel-client.c:189
+msgid "Network connected"
+msgstr "Verbindung wurde hergestellt"
+
+#: ../src/nmn-panel-client.c:193
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr "Sie sind nun mit dem Netzwerk %s verbunden, einem %s-Netzwerk"
+
+#: ../src/nmn-panel-client.c:196
+#, c-format
+msgid "You're now connected to %s network"
+msgstr "Sie sind nun mit dem Netzwerk %s verbunden"
+
+#: ../src/nmn-panel-client.c:198
+msgid "You're now connected to network"
+msgstr "Sie sind nun mit dem Netzwerk verbunden"
+
+#: ../src/nmn-panel-client.c:200
+msgid "Network lost"
+msgstr "Verbindung wurde unterbrochen"
+
+#: ../src/nmn-panel-client.c:204
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr "Die %s-Verbindung zu %s wurde unterbrochen"
+
+#: ../src/nmn-panel-client.c:207
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr "Die %s-Verbindung wurde unterbrochen"
+
+#: ../src/nmn-panel-client.c:209
+msgid "Sorry, we've lost your connection"
+msgstr "Die Verbindung wurde unterbrochen"
+
+#: ../src/nmn-panel-client.c:244
+#, c-format
+msgid "networks - not connected"
+msgstr "Netzwerke - Nicht verbunden"
+
+#: ../src/nmn-panel-client.c:247
+#, c-format
+msgid "networks - connecting"
+msgstr "Netzwerke - Verbindung wird hergestellt"
+
+#: ../src/nmn-panel-client.c:260
+#, c-format
+msgid "networks - %s - %s"
+msgstr "Netzwerke - %s - %s"
+
+#: ../src/nmn-panel-client.c:262
+#, c-format
+msgid "networks - %s"
+msgstr "Netzwerke - %s"
+
+#: ../src/nmn-panel-client.c:264
+msgid "networks - connected"
+msgstr "Netzwerke - Verbunden"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:146
+msgid "Unlock"
+msgstr "Entsperren"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:151
+msgid "Disable PIN"
+msgstr "PIN deaktivieren"
+
+#: ../src/nmn-connection-details.c:108
+msgid "(none)"
+msgstr "(ohne)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:484
+msgid "Connect by:"
+msgstr "Verbinden durch:"
+
+#: ../src/nmn-connection-details.c:488
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../src/nmn-connection-details.c:489
+msgid "Manual"
+msgstr "Manuell"
+
+#: ../src/nmn-connection-details.c:490
+msgid "Link Local"
+msgstr "Link Local"
+
+#. Address
+#: ../src/nmn-connection-details.c:497
+msgid "IP Address:"
+msgstr "IP-Adresse:"
+
+#. Netmask
+#: ../src/nmn-connection-details.c:506
+msgid "Subnet mask:"
+msgstr "Teilnetzmaske:"
+
+#. Gateway
+#: ../src/nmn-connection-details.c:515
+msgid "Router:"
+msgstr "Router:"
+
+#. DNS
+#: ../src/nmn-connection-details.c:524
+msgid "DNS:"
+msgstr "DNS:"
+
+#. Hardware address
+#: ../src/nmn-connection-details.c:534
+msgid "Your MAC address:"
+msgstr "Ihre MAC-Adresse:"
+
+#: ../src/nmn-new-connection.c:282
+msgid "3G disabled"
+msgstr "3G ist deaktiviert"
+
+#: ../src/nmn-new-connection.c:288
+msgid "3G modem is locked"
+msgstr "3G-Modem ist gesperrt"
+
+#: ../src/nmn-new-connection.c:291
+msgid "Internal 3G modem and SIM card detected"
+msgstr "Internes 3G-Modem und SIM-Karte wurden erkannt"
+
+#: ../src/nmn-new-connection.c:293
+msgid "No modems detected"
+msgstr "Keine Modems erkannt"
+
+#: ../src/nmn-new-connection.c:660
+msgid "Add a new connection"
+msgstr "Eine neue Verbindung hinzufügen"
+
+#: ../src/nmn-new-connection.c:680
+msgid "Hidden network"
+msgstr "Verborgenes Netzwerk"
+
+#: ../src/nmn-new-connection.c:706
+msgid "Save connection"
+msgstr "Verbindung speichern"
+
+#: ../src/nmn-new-connection.c:715
+msgid "Return to Networking"
+msgstr "Zurück zum Netzwerk"
+
+#~ msgid "On"
+#~ msgstr "An"
+
+#~ msgid "Off"
+#~ msgstr "Aus"
+
+#~ msgid "<b>3G</b>"
+#~ msgstr "<b>3G</b>"
+
+#~ msgid "<b>WiFi</b>"
+#~ msgstr "<b>WiFi</b>"
+
+#~ msgid "<b>Wired</b>"
+#~ msgstr "<b>Verkabelt</b>"
+
+#~ msgid "<big><b>Add a new connection</b></big>"
+#~ msgstr "<big><b>Eine neue Verbindung hinzufügen</b></big>"
+
+#~ msgid "<big><b>Networks</b></big>"
+#~ msgstr "<big><b>Netzwerke</b></big>"

@@ -1,0 +1,554 @@
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: upstream-translations.network-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-27 16:37+0200\n"
+"PO-Revision-Date: 2009-09-16 15:19\n"
+"Last-Translator: Novell Language <language@novell.com>\n"
+"Language-Team: Novell Language <language@novell.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+msgid "wired"
+msgstr ""
+
+#: ../libnm-gtk/nm-ethernet-item.c:88
+msgid "802.1x"
+msgstr ""
+
+#: ../libnm-gtk/nm-wifi-item.c:60 ../src/nmn-list.c:105
+#: ../src/nmn-applet.c:337 ../src/nmn-new-connection.c:636
+msgid "WiFi"
+msgstr ""
+
+#: ../libnm-gtk/nm-gsm-item.c:36 ../libnm-gtk/nm-cdma-item.c:36
+#: ../src/nmn-list.c:115 ../src/nmn-applet.c:349
+#: ../src/nmn-new-connection.c:661
+msgid "3G"
+msgstr ""
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "없음"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "WEP 40/128비트 키"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128비트 암호 구문"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "동적 WEP(802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 개인"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2 기업"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "작성(_R)"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr ""
+"무선 네트워크 '%s'에 액세스하려면 비밀번호 또는 암호화 키가 필요합니다."
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "무선 네트워크 인증이 필요함"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "무선 네트워크에서 인증을 요구함"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "새 무선 네트워크 작성"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "새 무선 네트워크"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "작성할 무선 네트워크의 이름을 입력합니다."
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "숨겨진 무선 네트워크에 연결"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "숨겨진 무선 네트워크"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr "연결할 숨겨진 무선 네트워크의 이름 및 보안 세부 사항을 입력합니다."
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "연결(_O)"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+msgid "Connection:"
+msgstr "연결:"
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "기타 무선 네트워크..."
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "무선 어댑터(_A):"
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+msgid "_Network Name:"
+msgstr "네트워크 이름(_N):"
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+msgid "_Wireless Security:"
+msgstr "무선 보안(_W):"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">선택한 CA 인증서가 없습니다</span>\n"
+"\n"
+"CA(Certificate Authority) 인증서를 사용하지 않을 경우 안전하지 않은 무선 네트"
+"워크에 연결될 수 있습니다. CA 인증서를 선택하시겠습니까?"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "CA 인증서 선택"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+msgid "Don't warn me again"
+msgstr "이 메시지를 다시 표시 안 함"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "무시"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+msgid "Authentication:"
+msgstr "인증:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "비밀번호:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+msgid "Show password"
+msgstr "비밀번호 표시"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+msgid "User Name:"
+msgstr "사용자 이름:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+msgid "Anonymous Identity:"
+msgstr "익명 ID:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+msgid "CA Certificate:"
+msgstr "CA 인증서:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+msgid "Inner Authentication:"
+msgstr "내부 인증:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+msgid "PEAP Version:"
+msgstr "PEAP 버전:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+msgid "Identity:"
+msgstr "ID:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+msgid "Private Key Password:"
+msgstr "개인 키 비밀번호:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+msgid "Private Key:"
+msgstr "개인 키:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+msgid "User Certificate:"
+msgstr "사용자 인증서:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+msgid "Key:"
+msgstr "키:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+msgid "Show key"
+msgstr "키 표시"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+msgid "WEP Index:"
+msgstr "WEP 인덱스:"
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+msgid "Type:"
+msgstr "유형:"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "인증 기관 인증서 선택..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "개인 인증서 선택..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "개인 키 선택..."
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "DER, PEM 또는 PKCS#12 개인 키(*.der, *.pem, *.p12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER 또는 PEM 인증서(*.pem, *.crt, *.key, *.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "터널 TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "보호된 EAP(PEAP)"
+
+#: ../src/nmn-list.c:68
+msgid " and "
+msgstr ""
+
+#: ../src/nmn-list.c:79
+msgid "Sorry, we can't find any networks."
+msgstr ""
+
+#: ../src/nmn-list.c:82
+msgid " You could try disabling Offline mode."
+msgstr ""
+
+#: ../src/nmn-list.c:102
+msgid " You could try turning on "
+msgstr ""
+
+#: ../src/nmn-list.c:110 ../src/nmn-applet.c:343
+msgid "Wired"
+msgstr ""
+
+#: ../src/nmn-applet.c:304
+#, fuzzy
+msgid "Add new connection"
+msgstr "새 연결 추가"
+
+#: ../src/nmn-applet.c:310
+#, fuzzy
+msgid "Networks"
+msgstr "네트워크 이름(_N):"
+
+#: ../src/nmn-applet.c:355
+msgid "WiMAX"
+msgstr ""
+
+#: ../src/nmn-applet.c:362
+msgid "Bluetooth"
+msgstr ""
+
+#: ../src/nmn-applet.c:376
+msgid "Offline mode"
+msgstr ""
+
+#: ../src/nmn-applet.c:382
+#, fuzzy
+msgid "This will disable all your connections"
+msgstr "모든 무선 연결이 비활성화됩니다."
+
+#: ../src/main.c:54
+msgid "Run in standalone mode"
+msgstr ""
+
+#: ../src/main.c:61
+msgid "NetworkManager Netbook"
+msgstr ""
+
+#: ../src/main.c:62
+msgid "- NetworkManager Netbook"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:67
+#, fuzzy
+msgid "network"
+msgstr "숨겨진 네트워크"
+
+#: ../src/nmn-panel-client.c:181
+#, fuzzy
+msgid "Network connected"
+msgstr "연결 해제됨"
+
+#: ../src/nmn-panel-client.c:185
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:188
+#, c-format
+msgid "You're now connected to %s network"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:190
+msgid "You're now connected to network"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:192
+#, fuzzy
+msgid "Network lost"
+msgstr "네트워크 이름(_N):"
+
+#: ../src/nmn-panel-client.c:196
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:199
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:201
+msgid "Sorry, we've lost your connection"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:236
+#, c-format
+msgid "networks - not connected"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:239
+#, fuzzy, c-format
+msgid "networks - connecting"
+msgstr "새 연결 추가"
+
+#: ../src/nmn-panel-client.c:247
+#, c-format
+msgid "networks - %s - %s"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:249
+#, c-format
+msgid "networks - %s"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:251
+#, fuzzy
+msgid "networks - connected"
+msgstr "연결 해제됨"
+
+#: ../src/nmn-item-renderer.c:140
+msgid "Connected"
+msgstr "연결됨"
+
+#: ../src/nmn-item-renderer.c:141 ../src/nmn-item-renderer.c:145
+msgid "Disconnect"
+msgstr "연결 해제"
+
+#: ../src/nmn-item-renderer.c:144
+msgid "Connecting..."
+msgstr "연결 중..."
+
+#: ../src/nmn-item-renderer.c:148
+msgid "Disconnected"
+msgstr "연결 해제됨"
+
+#: ../src/nmn-item-renderer.c:149
+msgid "Connect"
+msgstr "연결"
+
+#: ../src/nmn-item-renderer.c:263
+msgid "Really remove?"
+msgstr ""
+
+#: ../src/nmn-item-renderer.c:279
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+
+#: ../src/nmn-connection-details.c:104
+msgid "(none)"
+msgstr "(없음)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:475
+msgid "Connect by:"
+msgstr "연결 방법:"
+
+#: ../src/nmn-connection-details.c:478
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../src/nmn-connection-details.c:483
+msgid "Manual"
+msgstr "수동"
+
+#: ../src/nmn-connection-details.c:488
+msgid "Link Local"
+msgstr "링크 로컬"
+
+#. Address
+#: ../src/nmn-connection-details.c:496
+msgid "IP Address:"
+msgstr "IP 주소:"
+
+#. Netmask
+#: ../src/nmn-connection-details.c:505
+msgid "Subnet mask:"
+msgstr "서브넷 마스크:"
+
+#. Gateway
+#: ../src/nmn-connection-details.c:514
+msgid "Router:"
+msgstr "라우터:"
+
+#. DNS
+#: ../src/nmn-connection-details.c:523
+msgid "DNS:"
+msgstr "DNS:"
+
+#: ../src/nmn-new-connection.c:247
+msgid "3G disabled"
+msgstr "3G 사용 안 함"
+
+#: ../src/nmn-new-connection.c:252
+msgid "Internal 3G modem and SIM card detected"
+msgstr "탐지된 내부 3G 모뎀 및 SIM 카드"
+
+#: ../src/nmn-new-connection.c:254
+msgid "No modems detected"
+msgstr "탐지된 모뎀 없음"
+
+#: ../src/nmn-new-connection.c:611
+msgid "Add a new connection"
+msgstr "새 연결 추가"
+
+#: ../src/nmn-new-connection.c:631
+msgid "Hidden network"
+msgstr "숨겨진 네트워크"
+
+#: ../src/nmn-new-connection.c:657
+msgid "Save connection"
+msgstr "연결 저장"
+
+#: ../src/nmn-new-connection.c:666
+msgid "Return to Networking"
+msgstr "네트워킹으로 돌아가기"
+
+#: ../src/nmn-mobile-providers.c:504
+msgid "Default"
+msgstr "기본값"
+
+#~ msgid "Unavailable"
+#~ msgstr "사용 불가능"
+
+#~ msgid "On"
+#~ msgstr "설정"
+
+#~ msgid "Off"
+#~ msgstr "해제"
+
+#~ msgid "Advanced"
+#~ msgstr "고급"
+
+#~ msgid "<b>3G</b>"
+#~ msgstr "<b>3G</b>"
+
+#~ msgid "<b>Flight mode</b>"
+#~ msgstr "<b>비행 모드</b>"
+
+#~ msgid "<b>WiFi</b>"
+#~ msgstr "<b>WiFi</b>"
+
+#~ msgid "<b>Wired</b>"
+#~ msgstr "<b>유선</b>"
+
+#~ msgid "<big><b>Add a new connection</b></big>"
+#~ msgstr "<big><b>새 연결 추가</b></big>"
+
+#~ msgid "<big><b>Networks</b></big>"
+#~ msgstr "<big><b>네트워크</b></big>"

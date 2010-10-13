@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=network-manager-netbook
+_Comment=Control your network connections
+Icon=nm-device-wireless
+Exec=@libexecdir@/network-manager-netbook
+Terminal=false
+Type=Application
+OnlyShowIn=MOBLIN;

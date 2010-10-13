@@ -1,0 +1,672 @@
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: upstream-translations.network-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-14 12:10+0200\n"
+"PO-Revision-Date: 2010-03-14 12:33+0200\n"
+"Last-Translator: Kostas Papadimas <pkst@gnome.org>\n"
+"Language-Team: Novell Language <language@novell.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../network-manager-netbook.desktop.in.h:1
+msgid "Control your network connections"
+msgstr "Διαχειριστείτε τις συνδέσεις δικτύου"
+
+#: ../network-manager-netbook.desktop.in.h:2
+msgid "network-manager-netbook"
+msgstr "network-manager-netbook"
+
+#: ../gnome-bluetooth/network-manager-applet.c:292
+msgid "Access the Internet using your mobile phone"
+msgstr "Πρόσβαση στο διαδίκτυο μέσω του κινητού σας τλεφώνου"
+
+#: ../libnm-gtk/nm-mobile-providers.c:504
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: ../libnm-gtk/nm-bt-item.c:35
+msgid "bluetooth"
+msgstr "bluetooth"
+
+#: ../libnm-gtk/nm-connection-item.c:402
+#, c-format
+msgid "Could not delete connection: %s"
+msgstr "Αδυναμία διαγραφής σύνδεσης: %s"
+
+#: ../libnm-gtk/nm-device-item.c:65
+#, c-format
+msgid "Could not activate device: %s"
+msgstr "Αδυναμία ενεργοποίησης συσκευής: %s"
+
+#: ../libnm-gtk/nm-device-item.c:110
+#, c-format
+msgid "Could not deactivate device: %s"
+msgstr "Αδυναμία απενεργοποίησης συσκευής: %s"
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+msgid "wired"
+msgstr "ενσύρματη"
+
+#: ../libnm-gtk/nm-ethernet-item.c:99
+msgid "802.1x"
+msgstr "802.1x"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:50
+#: ../libnm-gtk/nm-gsm-item.c:36
+#: ../libnm-gtk/nm-cdma-item.c:36
+#: ../src/nmn-list.c:117
+#: ../src/nmn-applet.c:498
+#: ../src/nmn-new-connection.c:710
+msgid "3G"
+msgstr "3G"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:70
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:89
+#, c-format
+msgid "PIN unlocking failed: %s"
+msgstr "Αποτυχία ξεκλειδώματος PIN: %s"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:140
+msgid "Locked GSM device"
+msgstr "Κλειδωμένη συσκευή GSM"
+
+#: ../libnm-gtk/nm-wifi-item.c:61
+#: ../src/nmn-list.c:107
+#: ../src/nmn-applet.c:476
+#: ../src/nmn-new-connection.c:685
+msgid "WiFi"
+msgstr "WiFi"
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "Καμία"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "Κλειδί WEP 40/128 bit"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "Συνθηματική φράση WEP 128 bit"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "Dynamic WEP (802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 Personal"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2 Enterprise"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "_Δημιουργία"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid "Passwords or encryption keys are required to access the wireless network '%s'."
+msgstr "Απαιτούνται κωδικοί πρόσβασης ή κλειδιά κρυπτογράφησης για πρόσβαση στο ασύρματο δίκτυο '%s'."
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "Απαιτείται έλεγχος ταυτότητας στο ασύρματο δίκτυο"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "Απαιτείται έλεγχος ταυτότητας από το ασύρματο δίκτυο"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "Δημιουργία νέου ασύρματου δικτύου"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "Νέο ασύρματο δίκτυο"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "Καταχωρήστε ένα όνομα για το ασύρματο δίκτυο που θέλετε να δημιουργήσετε."
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "Σύνδεση σε κρυφό ασύρματο δίκτυο"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "Κρυφό ασύρματο δίκτυο"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid "Enter the name and security details of the hidden wireless network you wish to connect to."
+msgstr "Εισάγετε το όνομα και τα στοιχεία ασφαλείας του κρυφού ασύρματου δικτύου, στο οποίο θέλετε να συνδεθείτε."
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "_Σύνδεση"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+msgid "Connection:"
+msgstr "Σύνδεση:"
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "Άλλο ασύρματο δίκτυο..."
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "Ασύρματος _προσαρμογέας:"
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+msgid "_Network Name:"
+msgstr "Όνομα _δικτύου:"
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+msgid "_Wireless Security:"
+msgstr "_Ασφάλεια ασύρματου δικτύου:"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections to insecure, rogue wireless networks.  Would you like to choose a Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Δεν επιλέχθηκε πιστοποιητικό κάποιας αρχής έκδοσης πιστοποιητικών</span>\n"
+"\n"
+"Αν δεν χρησιμοποιηθεί κάποια αρχή έκδοσης πιστοποιητικών (CA), μπορεί να προκύψουν συνδέσεις σε μη ασφαλή, επικίνδυνα ασύρματα δίκτυα.  Θέλετε να επιλέξετε ένα πιστοποιητικό μιας αρχής έκδοσης πιστοποιητικών;"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "Επιλογή πιστοποιητικού CA"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+msgid "Don't warn me again"
+msgstr "Να μην προειδοποιηθώ ξανά"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "Παράβλεψη"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+msgid "Authentication:"
+msgstr "Έλεγχος ταυτότητας:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "Κωδικός πρόσβασης:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+msgid "Show password"
+msgstr "Εμφάνιση κωδικού πρόσβασης"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+msgid "User Name:"
+msgstr "Όνομα χρήστη:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+msgid "Anonymous Identity:"
+msgstr "Ανώνυμη ταυτότητα:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+msgid "CA Certificate:"
+msgstr "Πιστοποιητικό CA:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+msgid "Inner Authentication:"
+msgstr "Ενδότερος έλεγχος ταυτότητας:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+msgid "PEAP Version:"
+msgstr "Έκδοση PEAP:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+msgid "Identity:"
+msgstr "Ταυτότητα:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+msgid "Private Key Password:"
+msgstr "Κωδικός πρόσβασης ιδιωτικού κλειδιού:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+msgid "Private Key:"
+msgstr "Ιδιωτικό κλειδί:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+msgid "User Certificate:"
+msgstr "Πιστοποιητικό χρήστη:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+msgid "Key:"
+msgstr "Κλειδί:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+msgid "Show key"
+msgstr "Εμφάνιση κλειδιού"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+msgid "WEP Index:"
+msgstr "Δείκτης WEP:"
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+msgid "Type:"
+msgstr "Τύπος:"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "Επιλέξτε ένα πιστοποιητικό από κάποια αρχή έκδοσης πιστοποιητικών..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "Επιλέξτε το προσωπικό σας πιστοποιητικό..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "Επιλέξτε το ιδιωτικό σας κλειδί..."
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "Ιδιωτικά κλειδιά DER, PEM ή PKCS#12 (*.der, *.pem, *.p12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "Πιστοποιητικά DER ή PEM (*.der, *.pem, *.crt, *.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "Tunneled TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "Protected EAP (PEAP)"
+
+#: ../src/gtkinfobar.c:250
+msgid "gtk-info-bar-response-data"
+msgstr "gtk-info-bar-response-data"
+
+#: ../src/gtkinfobar.c:372
+msgid "Message Type"
+msgstr "Τύπος μηνύματος"
+
+#: ../src/gtkinfobar.c:373
+msgid "The type of message"
+msgstr "Ο τύπος του μηνύματος"
+
+#: ../src/gtkinfobar.c:427
+msgid "Content area border"
+msgstr "Περίγραμμα περιοχής περιεχομένου"
+
+#: ../src/gtkinfobar.c:428
+msgid "Width of border around the content area"
+msgstr "Το πλάτος του περιγράμματος της περιοχής περιεχομένου"
+
+#: ../src/gtkinfobar.c:444
+msgid "Content area spacing"
+msgstr "Απόσταση περιοχής περιεχομένου"
+
+#: ../src/gtkinfobar.c:445
+msgid "Spacing between elements of the area"
+msgstr "Η απόσταση ανάμεσα στα στοιχεία της περιοχής"
+
+#: ../src/gtkinfobar.c:460
+msgid "Button spacing"
+msgstr "Απόσταση κουμπιού"
+
+#: ../src/gtkinfobar.c:461
+msgid "Spacing between buttons"
+msgstr "Η απόσταση ανάμεσα στα κουμπιά"
+
+#: ../src/gtkinfobar.c:476
+msgid "Action area border"
+msgstr "Περίγραμμα περιοχής ενεργειών"
+
+#: ../src/gtkinfobar.c:477
+msgid "Width of border around the action area"
+msgstr "Το πλάτος του περιγράμματος γύρω από την περιοχή των ενεργειών"
+
+#: ../src/nmn-list.c:70
+msgid " and "
+msgstr " και"
+
+#: ../src/nmn-list.c:81
+msgid "Sorry, we can't find any networks."
+msgstr "Συγγνώμη, δεν ήταν δυνατή η εύρεση δικτύων."
+
+#: ../src/nmn-list.c:84
+msgid " You could try disabling Offline mode."
+msgstr " Θα πρέπει να απενεργοποιήσετε την εργασία χωρίς σύνδεση"
+
+#: ../src/nmn-list.c:104
+msgid " You could try turning on "
+msgstr " Προσπαθήστε να ενεργοποιήσετε "
+
+#: ../src/nmn-list.c:112
+#: ../src/nmn-applet.c:487
+msgid "Wired"
+msgstr "Ενσύρματη"
+
+#: ../src/nmn-applet.c:436
+msgid "Add new connection"
+msgstr "Προσθήκη νέας σύνδεσης"
+
+#: ../src/nmn-applet.c:442
+msgid "Networks"
+msgstr "Δίκτυα"
+
+#: ../src/nmn-applet.c:510
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: ../src/nmn-applet.c:521
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: ../src/nmn-applet.c:538
+msgid "Offline mode"
+msgstr "Εργασία χωρίς σύνδεση"
+
+#: ../src/nmn-applet.c:546
+msgid "This will disable all your connections"
+msgstr "Έτσι θα απενεργοποιηθούν όλες οι συνδέσεις"
+
+#: ../src/main.c:69
+msgid "Run in standalone mode"
+msgstr "Εκτέλεση σε λειτουργία standalone"
+
+#: ../src/main.c:70
+msgid "Run in desktop mode"
+msgstr "Εκτέλεση σε λειτουργία desktop"
+
+#: ../src/main.c:78
+msgid "NetworkManager Netbook"
+msgstr "NetworkManager Netbook"
+
+#: ../src/main.c:79
+msgid "- NetworkManager Netbook"
+msgstr "- NetworkManager Netbook"
+
+#: ../src/nmn-network-renderer.c:106
+msgid "Connected"
+msgstr "Με σύνδεση"
+
+#: ../src/nmn-network-renderer.c:107
+msgid "Disconnect"
+msgstr "Αποσύνδεση"
+
+#: ../src/nmn-network-renderer.c:110
+msgid "Connecting"
+msgstr "Γίνεται σύνδεση"
+
+#: ../src/nmn-network-renderer.c:111
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: ../src/nmn-network-renderer.c:114
+msgid "Disconnected"
+msgstr "Χωρίς σύνδεση"
+
+#: ../src/nmn-network-renderer.c:115
+#: ../src/nmn-network-renderer.c:381
+msgid "Connect"
+msgstr "Σύνδεση"
+
+#: ../src/nmn-network-renderer.c:122
+msgid "Available"
+msgstr "Διαθέσιμη"
+
+#: ../src/nmn-network-renderer.c:157
+#, c-format
+msgid "Could not update connection: %s"
+msgstr "Αδυναμία ενημέρωσης σύνδεσης: %s"
+
+#: ../src/nmn-network-renderer.c:299
+msgid "Really remove?"
+msgstr "Αλήθεια να γίνει απομάκρυνση;"
+
+#: ../src/nmn-network-renderer.c:303
+msgid "No, save"
+msgstr "Όχι, αποθήκευση"
+
+#: ../src/nmn-network-renderer.c:305
+msgid "Yes, delete"
+msgstr "Ναι, διαγραφή"
+
+#: ../src/nmn-network-renderer.c:315
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+"Θέλετε να απομακρύνετε το δίκτυο '%s' %s; Αυτό\n"
+"θα έχει σαν αποτέλεσμα την διαγραφή του κωδικού και δεν θα μπορείτε πια\n"
+"να συνδέεστε αυτόματα στο '%s'."
+
+#. FIXME: this should be visibile only for NMDeviceItems
+#: ../src/nmn-network-renderer.c:376
+msgid "Advanced"
+msgstr "Για προχωρημένους"
+
+#: ../src/nmn-network-renderer.c:397
+msgid "Remove connection"
+msgstr "Απομάκρυνση σύνδεσης"
+
+#: ../src/nmn-panel-client.c:68
+msgid "network"
+msgstr "δίκτυο"
+
+#: ../src/nmn-panel-client.c:189
+msgid "Network connected"
+msgstr "Έγινε σύνδεση σε δίκτυο"
+
+#: ../src/nmn-panel-client.c:193
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr "'Έχετε συνδεθεί στο %s, ένα δίκτυο %s"
+
+#: ../src/nmn-panel-client.c:196
+#, c-format
+msgid "You're now connected to %s network"
+msgstr "'Έχετε συνδεθεί στο δίκτυο %s"
+
+#: ../src/nmn-panel-client.c:198
+msgid "You're now connected to network"
+msgstr "'Έχετε συνδεθεί σε δίκτυο"
+
+#: ../src/nmn-panel-client.c:200
+msgid "Network lost"
+msgstr "Απώλεια δικτύου"
+
+#: ../src/nmn-panel-client.c:204
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr "Συγγνώμη, χάθηκε η %s σύνδεση σας στο %s "
+
+#: ../src/nmn-panel-client.c:207
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr "Συγγνώμη, χάθηκε η %s σύνδεση σας"
+
+#: ../src/nmn-panel-client.c:209
+msgid "Sorry, we've lost your connection"
+msgstr "Συγγνώμη, χάθηκε η σύνδεση σας"
+
+#: ../src/nmn-panel-client.c:244
+#, c-format
+msgid "networks - not connected"
+msgstr "δίκτυα - χωρίς σύνδεση"
+
+#: ../src/nmn-panel-client.c:247
+#, c-format
+msgid "networks - connecting"
+msgstr "δίκτυα - γίνεται σύνδεση"
+
+#: ../src/nmn-panel-client.c:260
+#, c-format
+msgid "networks - %s - %s"
+msgstr "δίκτυα - %s - %s"
+
+#: ../src/nmn-panel-client.c:262
+#, c-format
+msgid "networks - %s"
+msgstr "δίκτυα - %s"
+
+#: ../src/nmn-panel-client.c:264
+msgid "networks - connected"
+msgstr "δίκτυα - με σύνδεση"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:146
+msgid "Unlock"
+msgstr "Ξεκλείδωμα"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:151
+msgid "Disable PIN"
+msgstr "Απενεργοποίηση PIN"
+
+#: ../src/nmn-connection-details.c:108
+msgid "(none)"
+msgstr "(κανένα)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:484
+msgid "Connect by:"
+msgstr "Τρόπος σύνδεσης:"
+
+#: ../src/nmn-connection-details.c:488
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../src/nmn-connection-details.c:489
+msgid "Manual"
+msgstr "Μη αυτόματη"
+
+#: ../src/nmn-connection-details.c:490
+msgid "Link Local"
+msgstr "Τοπική σύνδεση"
+
+#. Address
+#: ../src/nmn-connection-details.c:497
+msgid "IP Address:"
+msgstr "Διεύθυνση IP:"
+
+#. Netmask
+#: ../src/nmn-connection-details.c:506
+msgid "Subnet mask:"
+msgstr "Μάσκα subnet:"
+
+#. Gateway
+#: ../src/nmn-connection-details.c:515
+msgid "Router:"
+msgstr "Δρομολογητής:"
+
+#. DNS
+#: ../src/nmn-connection-details.c:524
+msgid "DNS:"
+msgstr "DNS:"
+
+#. Hardware address
+#: ../src/nmn-connection-details.c:534
+msgid "Your MAC address:"
+msgstr "Διεύθυνση MAC σας:"
+
+#: ../src/nmn-new-connection.c:282
+msgid "3G disabled"
+msgstr "Το 3G απενεργοποιήθηκε"
+
+#: ../src/nmn-new-connection.c:288
+msgid "3G modem is locked"
+msgstr "Το 3G μόντεμ  είναι κλειδωμένο"
+
+#: ../src/nmn-new-connection.c:291
+msgid "Internal 3G modem and SIM card detected"
+msgstr "Εντοπίστηκαν εσωτερικό 3G modem και κάρτα SIM"
+
+#: ../src/nmn-new-connection.c:293
+msgid "No modems detected"
+msgstr "Δεν εντοπίστηκαν modem"
+
+#: ../src/nmn-new-connection.c:660
+msgid "Add a new connection"
+msgstr "Προσθήκη νέας σύνδεσης"
+
+#: ../src/nmn-new-connection.c:680
+msgid "Hidden network"
+msgstr "Κρυφό δίκτυο"
+
+#: ../src/nmn-new-connection.c:706
+msgid "Save connection"
+msgstr "Αποθήκευση σύνδεσης"
+
+#: ../src/nmn-new-connection.c:715
+msgid "Return to Networking"
+msgstr "Επιστροφή στο Δίκτυο"
+
+#~ msgid "On"
+#~ msgstr "Ενεργό"
+#~ msgid "Off"
+#~ msgstr "Ανενεργό"
+#~ msgid "<b>3G</b>"
+#~ msgstr "<b>3G</b>"
+#~ msgid "<b>Flight mode</b>"
+#~ msgstr "<b>Λειτουργία πτήσης</b>"
+#~ msgid "<b>WiFi</b>"
+#~ msgstr "<b>WiFi</b>"
+#~ msgid "<b>Wired</b>"
+#~ msgstr "<b>Ενσύρματη</b>"
+#~ msgid "<big><b>Add a new connection</b></big>"
+#~ msgstr "<big><b>Προσθήκη νέας σύνδεσης</b></big>"
+#~ msgid "<big><b>Networks</b></big>"
+#~ msgstr "<big><b>Δίκτυα</b></big>"
+

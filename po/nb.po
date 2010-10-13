@@ -1,0 +1,2041 @@
+# translation of NetworkManager to Norwegian Bokmal
+# This file is distributed under the same license as the NetworkManager package.
+# Copyright (C) 2004, 2005 Red Hat, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 2004-2010.
+# Terance Edward Sola <terance@lyse.net>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager 0.9.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-14 12:43+0100\n"
+"PO-Revision-Date: 2010-03-09 17:51+0100\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norwegian Bokmal <i18n-nb@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../network-manager-netbook.desktop.in.h:1
+msgid "Control your network connections"
+msgstr "Kontroller dine nettverksforbindelser"
+
+#: ../network-manager-netbook.desktop.in.h:2
+#, fuzzy
+msgid "network-manager-netbook"
+msgstr "NetworkManager panelprogram"
+
+#: ../gnome-bluetooth/network-manager-applet.c:292
+#, fuzzy
+msgid "Access the Internet using your mobile phone"
+msgstr "Koble til internett med din mobiltelefon"
+
+#: ../libnm-gtk/nm-mobile-providers.c:504
+msgid "Default"
+msgstr "Forvalg"
+
+#: ../libnm-gtk/nm-bt-item.c:35
+msgid "bluetooth"
+msgstr ""
+
+#: ../libnm-gtk/nm-connection-item.c:402
+#, fuzzy, c-format
+msgid "Could not delete connection: %s"
+msgstr "Kunne ikke redigere tilkobling"
+
+#: ../libnm-gtk/nm-device-item.c:65
+#, fuzzy, c-format
+msgid "Could not activate device: %s"
+msgstr "Kunne ikke lage en ny tilkobling"
+
+#: ../libnm-gtk/nm-device-item.c:110
+#, c-format
+msgid "Could not deactivate device: %s"
+msgstr ""
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+#, fuzzy
+msgid "wired"
+msgstr "Kablet"
+
+#: ../libnm-gtk/nm-ethernet-item.c:99
+msgid "802.1x"
+msgstr ""
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:50 ../libnm-gtk/nm-gsm-item.c:36
+#: ../libnm-gtk/nm-cdma-item.c:36 ../src/nmn-list.c:117
+#: ../src/nmn-applet.c:498 ../src/nmn-new-connection.c:710
+msgid "3G"
+msgstr ""
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:70
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:89
+#, c-format
+msgid "PIN unlocking failed: %s"
+msgstr ""
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:140
+#, fuzzy
+msgid "Locked GSM device"
+msgstr "Installert GSM-enhet"
+
+#: ../libnm-gtk/nm-wifi-item.c:61 ../src/nmn-list.c:107
+#: ../src/nmn-applet.c:476 ../src/nmn-new-connection.c:685
+msgid "WiFi"
+msgstr ""
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "Ingen"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "WEP 40/128-bit nøkkel"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128-bit passord"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "Dynamisk WEP (802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 personlig"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA og WPA2 enterprise"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "_Lag:"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr ""
+"Passord eller krypteringsnøkler er nødvendig for å koble til trådløst "
+"nettverk «%s»."
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "Autentisering for trådløst nettverk kreves"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "Autentisering kreves av trådløst nettverk"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "Opprett nytt trådløst nettverk"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "Nytt trådløst nettverk"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "Oppgi et navn på det trådløse nettverket du ønsker å opprette."
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "Koble til skjult trådløst nettverk"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "Skjult trådløst nettverk"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr ""
+"Oppgi navnet til det skjulte trådløse nettverket du ønsker å koble deg til."
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "K_oble til"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+#, fuzzy
+msgid "Connection:"
+msgstr "Tilkobli_ng:"
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "Annet trådløst nettverk ..."
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "Trådløst _kort:"
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+#, fuzzy
+msgid "_Network Name:"
+msgstr "_Nettverksnavn:"
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+#, fuzzy
+msgid "_Wireless Security:"
+msgstr "Tr_ådløs sikkerhet:"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+#, fuzzy
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"Å ikke bruke et Certificate Authority-sertifikat (CA) kan resultere i "
+"tilkoblinger til usikre og villedende trådløse nettverk. Vil du velge et "
+"Certificate Authority-sertifikat?"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "Velg CA-sertifikat"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+#, fuzzy
+msgid "Don't warn me again"
+msgstr "Ikke ad_var meg igjen"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+#, fuzzy
+msgid "Authentication:"
+msgstr "_Autentisering:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "Passord:"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+#, fuzzy
+msgid "Show password"
+msgstr "_Vis passord"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+#, fuzzy
+msgid "User Name:"
+msgstr "Br_ukernavn:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+#, fuzzy
+msgid "Anonymous Identity:"
+msgstr "Anony_m identitet:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+#, fuzzy
+msgid "CA Certificate:"
+msgstr "C_A-sertifikat:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+#, fuzzy
+msgid "Inner Authentication:"
+msgstr "I_ntern autentisering:"
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+#, fuzzy
+msgid "PEAP Version:"
+msgstr "_PEAP-versjon:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+#, fuzzy
+msgid "Identity:"
+msgstr "I_dentitet:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+#, fuzzy
+msgid "Private Key Password:"
+msgstr "Passord for _privat nøkkel:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+#, fuzzy
+msgid "Private Key:"
+msgstr "Privat nø_kkel:"
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+#, fuzzy
+msgid "User Certificate:"
+msgstr "Br_ukersertifikat:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+#, fuzzy
+msgid "Key:"
+msgstr "Nø_kkel:"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+#, fuzzy
+msgid "Show key"
+msgstr "_Vis nøkkel"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+#, fuzzy
+msgid "WEP Index:"
+msgstr "WEP-inde_ks:"
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+#, fuzzy
+msgid "Type:"
+msgstr "_Type:"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "Velg et Certificate Authority-sertifikat ..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "Velg ditt personlige sertifikat ..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "Velg din private nøkkel ..."
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "DER, PEM eller PKCS#12 private nøkler (*.der, *.pem, *.12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER eller PEM-sertifikater (*.der, *.pem, *.crt, *.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "Tunnelert TLS (TTLS)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "Beskyttet EAP (PEAP)"
+
+#: ../src/gtkinfobar.c:250
+msgid "gtk-info-bar-response-data"
+msgstr ""
+
+#: ../src/gtkinfobar.c:372
+msgid "Message Type"
+msgstr ""
+
+#: ../src/gtkinfobar.c:373
+msgid "The type of message"
+msgstr ""
+
+#: ../src/gtkinfobar.c:427
+msgid "Content area border"
+msgstr ""
+
+#: ../src/gtkinfobar.c:428
+msgid "Width of border around the content area"
+msgstr ""
+
+#: ../src/gtkinfobar.c:444
+msgid "Content area spacing"
+msgstr ""
+
+#: ../src/gtkinfobar.c:445
+msgid "Spacing between elements of the area"
+msgstr ""
+
+#: ../src/gtkinfobar.c:460
+msgid "Button spacing"
+msgstr ""
+
+#: ../src/gtkinfobar.c:461
+msgid "Spacing between buttons"
+msgstr ""
+
+#: ../src/gtkinfobar.c:476
+msgid "Action area border"
+msgstr ""
+
+#: ../src/gtkinfobar.c:477
+msgid "Width of border around the action area"
+msgstr ""
+
+#: ../src/nmn-list.c:70
+msgid " and "
+msgstr ""
+
+#: ../src/nmn-list.c:81
+msgid "Sorry, we can't find any networks."
+msgstr ""
+
+#: ../src/nmn-list.c:84
+msgid " You could try disabling Offline mode."
+msgstr ""
+
+#: ../src/nmn-list.c:104
+msgid " You could try turning on "
+msgstr ""
+
+#: ../src/nmn-list.c:112 ../src/nmn-applet.c:487
+msgid "Wired"
+msgstr "Kablet"
+
+#: ../src/nmn-applet.c:436
+#, fuzzy
+msgid "Add new connection"
+msgstr "Ingen nettverksforbindelse"
+
+#: ../src/nmn-applet.c:442
+#, fuzzy
+msgid "Networks"
+msgstr "N_ettverk:"
+
+#: ../src/nmn-applet.c:510
+msgid "WiMAX"
+msgstr ""
+
+#: ../src/nmn-applet.c:521
+msgid "Bluetooth"
+msgstr ""
+
+#: ../src/nmn-applet.c:538
+msgid "Offline mode"
+msgstr ""
+
+#: ../src/nmn-applet.c:546
+msgid "This will disable all your connections"
+msgstr ""
+
+#: ../src/main.c:69
+msgid "Run in standalone mode"
+msgstr ""
+
+#: ../src/main.c:70
+msgid "Run in desktop mode"
+msgstr ""
+
+#: ../src/main.c:78
+#, fuzzy
+msgid "NetworkManager Netbook"
+msgstr "NetworkManager panelprogram"
+
+#: ../src/main.c:79
+#, fuzzy
+msgid "- NetworkManager Netbook"
+msgstr "NetworkManager panelprogram"
+
+#: ../src/nmn-network-renderer.c:106
+#, fuzzy
+msgid "Connected"
+msgstr "K_oble til"
+
+#: ../src/nmn-network-renderer.c:107
+msgid "Disconnect"
+msgstr "Koble fra"
+
+#: ../src/nmn-network-renderer.c:110
+#, fuzzy
+msgid "Connecting"
+msgstr "Tilkobli_ng:"
+
+#: ../src/nmn-network-renderer.c:111
+#, fuzzy
+msgid "Cancel"
+msgstr "Ka_nal"
+
+#: ../src/nmn-network-renderer.c:114
+msgid "Disconnected"
+msgstr "Frakoblet"
+
+#: ../src/nmn-network-renderer.c:115 ../src/nmn-network-renderer.c:381
+#, fuzzy
+msgid "Connect"
+msgstr "K_oble til"
+
+#: ../src/nmn-network-renderer.c:122
+msgid "Available"
+msgstr "Tilgjengelige"
+
+#: ../src/nmn-network-renderer.c:157
+#, fuzzy, c-format
+msgid "Could not update connection: %s"
+msgstr "Kunne ikke redigere tilkobling"
+
+#: ../src/nmn-network-renderer.c:299
+msgid "Really remove?"
+msgstr ""
+
+#: ../src/nmn-network-renderer.c:303
+msgid "No, save"
+msgstr ""
+
+#: ../src/nmn-network-renderer.c:305
+msgid "Yes, delete"
+msgstr ""
+
+#: ../src/nmn-network-renderer.c:315
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+
+#. FIXME: this should be visibile only for NMDeviceItems
+#: ../src/nmn-network-renderer.c:376
+#, fuzzy
+msgid "Advanced"
+msgstr "<b>Avansert</b>"
+
+#: ../src/nmn-network-renderer.c:397
+#, fuzzy
+msgid "Remove connection"
+msgstr "Ingen nettverksforbindelse"
+
+#: ../src/nmn-panel-client.c:68
+#, fuzzy
+msgid "network"
+msgstr "N_ettverk:"
+
+#: ../src/nmn-panel-client.c:189
+#, fuzzy
+msgid "Network connected"
+msgstr "Ingen nettverksforbindelse"
+
+#: ../src/nmn-panel-client.c:193
+#, fuzzy, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr "Du er nå tilkoblet GSM-nettverk."
+
+#: ../src/nmn-panel-client.c:196
+#, fuzzy, c-format
+msgid "You're now connected to %s network"
+msgstr "Du er nå tilkoblet GSM-nettverk."
+
+#: ../src/nmn-panel-client.c:198
+#, fuzzy
+msgid "You're now connected to network"
+msgstr "Du er nå tilkoblet GSM-nettverk."
+
+#: ../src/nmn-panel-client.c:200
+#, fuzzy
+msgid "Network lost"
+msgstr "N_ettverk:"
+
+#: ../src/nmn-panel-client.c:204
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:207
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:209
+#, fuzzy
+msgid "Sorry, we've lost your connection"
+msgstr "Ingen nettverksforbindelse"
+
+#: ../src/nmn-panel-client.c:244
+#, fuzzy, c-format
+msgid "networks - not connected"
+msgstr "Ingen nettverksforbindelse"
+
+#: ../src/nmn-panel-client.c:247
+#, fuzzy, c-format
+msgid "networks - connecting"
+msgstr "Ingen nettverksforbindelse"
+
+#: ../src/nmn-panel-client.c:260
+#, c-format
+msgid "networks - %s - %s"
+msgstr ""
+
+#: ../src/nmn-panel-client.c:262
+#, fuzzy, c-format
+msgid "networks - %s"
+msgstr "Hjemmenettverk (%s)"
+
+#: ../src/nmn-panel-client.c:264
+#, fuzzy
+msgid "networks - connected"
+msgstr "Ingen nettverksforbindelse"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:146
+#, fuzzy
+msgid "Unlock"
+msgstr "Lås _opp"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:151
+msgid "Disable PIN"
+msgstr ""
+
+#: ../src/nmn-connection-details.c:108
+msgid "(none)"
+msgstr "(ingen)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:484
+#, fuzzy
+msgid "Connect by:"
+msgstr "K_oble til"
+
+#: ../src/nmn-connection-details.c:488
+msgid "DHCP"
+msgstr ""
+
+#: ../src/nmn-connection-details.c:489
+msgid "Manual"
+msgstr "Manuelt"
+
+#: ../src/nmn-connection-details.c:490
+#, fuzzy
+msgid "Link Local"
+msgstr "Kun lokal link"
+
+#. Address
+#: ../src/nmn-connection-details.c:497
+msgid "IP Address:"
+msgstr "IP-adresse:"
+
+#. Netmask
+#: ../src/nmn-connection-details.c:506
+#, fuzzy
+msgid "Subnet mask:"
+msgstr "Subnettmaske:"
+
+#. Gateway
+#: ../src/nmn-connection-details.c:515
+#, fuzzy
+msgid "Router:"
+msgstr "_Rate:"
+
+#. DNS
+#: ../src/nmn-connection-details.c:524
+msgid "DNS:"
+msgstr ""
+
+#. Hardware address
+#: ../src/nmn-connection-details.c:534
+#, fuzzy
+msgid "Your MAC address:"
+msgstr "_MAC-adresse:"
+
+#: ../src/nmn-new-connection.c:282
+#, fuzzy
+msgid "3G disabled"
+msgstr "Nettverk slått av"
+
+#: ../src/nmn-new-connection.c:288
+msgid "3G modem is locked"
+msgstr ""
+
+#: ../src/nmn-new-connection.c:291
+msgid "Internal 3G modem and SIM card detected"
+msgstr ""
+
+#: ../src/nmn-new-connection.c:293
+msgid "No modems detected"
+msgstr ""
+
+#: ../src/nmn-new-connection.c:660
+#, fuzzy
+msgid "Add a new connection"
+msgstr "Ingen nettverksforbindelse"
+
+#: ../src/nmn-new-connection.c:680
+#, fuzzy
+msgid "Hidden network"
+msgstr "Skjult trådløst nettverk"
+
+#: ../src/nmn-new-connection.c:706
+#, fuzzy
+msgid "Save connection"
+msgstr "DSL-tilkobling %d"
+
+#: ../src/nmn-new-connection.c:715
+#, fuzzy
+msgid "Return to Networking"
+msgstr "Slå på _nettverk"
+
+#~ msgid "Network Manager"
+#~ msgstr "NetworkManager"
+
+#~ msgid "Disable WiFi Create"
+#~ msgstr "Slå av oppretting av WiFi"
+
+#~ msgid "Disable connected notifications"
+#~ msgstr "Slå av varsling om tilkobling"
+
+#~ msgid "Disable disconnected notifications"
+#~ msgstr "Slå av varsling om frakobling"
+
+#~ msgid "Stamp"
+#~ msgstr "Stempel"
+
+#~ msgid "Suppress networks available notifications"
+#~ msgstr "Slå av varsling om tilgjengelige nettverk"
+
+#~ msgid "Manage and change your network connection settings"
+#~ msgstr "Håndter og endre innstillinger for nettverksforbindelser"
+
+#~ msgid "Network Connections"
+#~ msgstr "Nettverkstilkoblinger"
+
+#~ msgid "An instance of nm-applet is already running.\n"
+#~ msgstr "En instans av nm-applet kjører allerede.\n"
+
+#~ msgid "You are now connected to '%s'."
+#~ msgstr "Du er nå koblet til «%s»."
+
+#~ msgid "Connection Established"
+#~ msgstr "Tilkoblingen er satt opp"
+
+#~ msgid "You are now connected to the mobile broadband network."
+#~ msgstr "Du er nå koblet til mobilt bredbåndsnettverk."
+
+#~ msgid "Preparing mobile broadband connection '%s'..."
+#~ msgstr "Forbereder mobil bredbåndsforbindelse «%s»..."
+
+#~ msgid "Configuring mobile broadband connection '%s'..."
+#~ msgstr "Konfigurerer mobil bredbåndsforbindelse «%s»..."
+
+#~ msgid "User authentication required for mobile broadband connection '%s'..."
+#~ msgstr "Brukerautentisering kreves for mobil bredbåndsforbindelse «%s»..."
+
+#~ msgid "Requesting a network address for '%s'..."
+#~ msgstr "Ber om en nettverksadresse for «%s»..."
+
+#~ msgid "Mobile broadband connection '%s' active"
+#~ msgstr "Mobil bredbåndsforbindelse «%s» er aktiv"
+
+#~ msgid "CDMA"
+#~ msgstr "CDMA"
+
+#~ msgid "Mobile Broadband (%s)"
+#~ msgstr "Mobilt bredbånd (%s)"
+
+#~ msgid "Mobile Broadband"
+#~ msgstr "Mobilt bredbånd"
+
+#~ msgid "New Mobile Broadband (CDMA) connection..."
+#~ msgstr "Ny mobil bredbåndstilkobling (CDMA)..."
+
+#~ msgid "You are now connected to the CDMA network."
+#~ msgstr "Du er nå tilkoblet CDMA-nettverk."
+
+#~ msgid "Mobile broadband connection '%s' active: (%d%%%s%s)"
+#~ msgstr "Mobil bredbåndsforbindelse «%s» er aktiv: (%d%%%s%s)"
+
+#~ msgid "GSM"
+#~ msgstr "GSM"
+
+#~ msgid "New Mobile Broadband (GSM) connection..."
+#~ msgstr "Ny tilkobling med mobilt bredbånd (GSM)..."
+
+#~ msgid "PIN code required"
+#~ msgstr "PIN-kode kreves"
+
+#~ msgid "PUK code required"
+#~ msgstr "PUK-kode kreves"
+
+#~ msgid "PIN code is needed for the mobile broadband device"
+#~ msgstr "PIN-kode kreves for enhet for mobilt bredbånd"
+
+#~ msgid "PUK code is needed for the mobile broadband device"
+#~ msgstr "PUK-kode kreves for enhet for mobilt bredbånd"
+
+#, fuzzy
+#~ msgid "SIM PIN unlock required"
+#~ msgstr "PIN-kode kreves"
+
+#, fuzzy
+#~ msgid "SIM PIN Unlock Required"
+#~ msgstr "PIN-kode kreves"
+
+#~ msgid "PIN code:"
+#~ msgstr "PIN-kode:"
+
+#, fuzzy
+#~ msgid "SIM PUK unlock required"
+#~ msgstr "PUK-kode kreves"
+
+#, fuzzy
+#~ msgid "SIM PUK Unlock Required"
+#~ msgstr "PUK-kode kreves"
+
+#~ msgid "PUK code:"
+#~ msgstr "PUK-kode:"
+
+#~ msgid "New PIN code:"
+#~ msgstr "Ny PIN-kode:"
+
+#~ msgid "Auto Ethernet"
+#~ msgstr "Automatisk Ethernet"
+
+#~ msgid "Wired Networks (%s)"
+#~ msgstr "Kablete nettverk (%s)"
+
+#~ msgid "Wired Network (%s)"
+#~ msgstr "Kablet nettverk (%s)"
+
+#~ msgid "Wired Networks"
+#~ msgstr "Kablede nettverk"
+
+#~ msgid "Wired Network"
+#~ msgstr "Kablet nettverk"
+
+#~ msgid "disconnected"
+#~ msgstr "frakoblet"
+
+#~ msgid "You are now connected to the wired network."
+#~ msgstr "Du er nå koblet til kablet nettverk."
+
+#~ msgid "Preparing wired network connection '%s'..."
+#~ msgstr "Forbereder kablet nettverkstilkobling til «%s»..."
+
+#~ msgid "Configuring wired network connection '%s'..."
+#~ msgstr "Konfigurerer kablet nettverkstilkobling til «%s»..."
+
+#~ msgid "User authentication required for wired network connection '%s'..."
+#~ msgstr "Brukeraautentisering kreves av kablet nettverksforbindelse «%s»..."
+
+#~ msgid "Requesting a wired network address for '%s'..."
+#~ msgstr "Ber om en nettverksadresse på kablet nettverk for «%s»..."
+
+#~ msgid "Wired network connection '%s' active"
+#~ msgstr "Kablet nettverkforbindelse «%s» er aktiv"
+
+#~ msgid "DSL authentication"
+#~ msgstr "DSL-autentisering"
+
+#~ msgid "_Connect to Hidden Wireless Network..."
+#~ msgstr "_Koble til skjult trådløst nettverk..."
+
+#~ msgid "Create _New Wireless Network..."
+#~ msgstr "Lag _nytt trådløst nettverk..."
+
+#~ msgid "Wireless Networks (%s)"
+#~ msgstr "Trådløse nettverk (%s)"
+
+#~ msgid "Wireless Network (%s)"
+#~ msgstr "Trådløst nettverk (%s)"
+
+#~ msgid "Wireless Network"
+#~ msgid_plural "Wireless Networks"
+#~ msgstr[0] "Trådløst nettverk"
+#~ msgstr[1] "Trådløse nettverk"
+
+#~ msgid "wireless is disabled"
+#~ msgstr "trådløs er slått av"
+
+#~ msgid "More networks"
+#~ msgstr "Flere nettverk"
+
+#~ msgid "Wireless Networks Available"
+#~ msgstr "Trådløse nettverk er tilgjengelige"
+
+#~ msgid "Click on this icon to connect to a wireless network"
+#~ msgstr "Klikk på dette ikonet for å koble til et trådløst nettverk"
+
+#~ msgid "Don't show this message again"
+#~ msgstr "Ikke vis denne meldingen igjen"
+
+#~ msgid "You are now connected to the wireless network '%s'."
+#~ msgstr "Du er nå koblet til trådløst nettverk «%s»."
+
+#~ msgid "Preparing wireless network connection '%s'..."
+#~ msgstr "Forbereder trådløs nettverkstilkobling «%s»..."
+
+#~ msgid "Configuring wireless network connection '%s'..."
+#~ msgstr "Konfigurerer trådløs nettverkstilkobling «%s»..."
+
+#~ msgid "User authentication required for wireless network '%s'..."
+#~ msgstr "Brukerautentisering kreves av trådløst nettverk «%s»..."
+
+#~ msgid "Requesting a wireless network address for '%s'..."
+#~ msgstr "Ber om en nettverksadresse på trådløst nettverk for «%s»..."
+
+#~ msgid "Wireless network connection '%s' active: %s (%d%%)"
+#~ msgstr "Trådløs nettverkstilkobling «%s» er aktiv: %s (%d%%)"
+
+#~ msgid "Wireless network connection '%s' active"
+#~ msgstr "Trådløs nettverkstilkobling «%s» er aktiv"
+
+#~ msgid "Error displaying connection information:"
+#~ msgstr "Feil under visning av tilkoblingsinformasjon:"
+
+#~ msgid "Dynamic WEP"
+#~ msgstr "Dynamisk WEP"
+
+#~ msgid "WPA/WPA2"
+#~ msgstr "WPA/WPA2"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukjent"
+
+#~ msgid "%u Mb/s"
+#~ msgstr "%u Mb/s"
+
+#~ msgid "Ethernet (%s)"
+#~ msgstr "Ethernet (%s)"
+
+#~ msgid "802.11 WiFi (%s)"
+#~ msgstr "802.11 WiFi (%s)"
+
+#~ msgid "GSM (%s)"
+#~ msgstr "GSM (%s)"
+
+#~ msgid "CDMA (%s)"
+#~ msgstr "CDMA (%s)"
+
+#~ msgid "Interface:"
+#~ msgstr "Grensesnitt:"
+
+#~ msgid "Hardware Address:"
+#~ msgstr "Maskinvareadresse:"
+
+#~ msgid "Driver:"
+#~ msgstr "Driver:"
+
+#~ msgid "Speed:"
+#~ msgstr "Hastighet:"
+
+#~ msgid "Security:"
+#~ msgstr "Sikkerhet:"
+
+#~ msgid "Broadcast Address:"
+#~ msgstr "Kringkastingsadresse:"
+
+#~ msgid "Default Route:"
+#~ msgstr "Forvalgt rute:"
+
+#~ msgid "Primary DNS:"
+#~ msgstr "Primær DNS:"
+
+#~ msgid "Secondary DNS:"
+#~ msgstr "Sekundær DNS:"
+
+#~ msgid "No valid active connections found!"
+#~ msgstr "Ingen gyldige aktive tilkoblinger funnet!"
+
+#~ msgid ""
+#~ "Copyright © 2004-2008 Red Hat, Inc.\n"
+#~ "Copyright © 2005-2008 Novell, Inc."
+#~ msgstr ""
+#~ "Opphavsrett © 2004-2008 Red Hat, Inc.\n"
+#~ "Opphavsrett © 2005-2008 Novell, Inc."
+
+#~ msgid ""
+#~ "Notification area applet for managing your network devices and "
+#~ "connections."
+#~ msgstr ""
+#~ "Panelprogram for håndtering av dine nettverksenheter og -tilkoblinger."
+
+#~ msgid "NetworkManager Website"
+#~ msgstr "NetworkManager nettsted"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Kjartan Maraas <kmaraas AT gnome DOT org>\n"
+#~ "Espen Stefansen <libbe AT stefansen DOT net>, 2007"
+
+#~ msgid "Missing resources"
+#~ msgstr "Mangler ressurser"
+
+#~ msgid "Mobile broadband network password"
+#~ msgstr "Passord for tilkoblign med mobilt bredbånd"
+
+#~ msgid "A password is required to connect to '%s'."
+#~ msgstr "Et passord kreves for å koble til «%s»."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed because the network connection was "
+#~ "interrupted."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet fordi nettverksforbindelsen ble avbrutt."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed because the VPN service stopped "
+#~ "unexpectedly."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet fordi VPN-tjenesten stoppet uventet."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed because the VPN service returned invalid "
+#~ "configuration."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet fordi VPN-tjenesten returnerte ugyldig "
+#~ "konfigurasjon."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed because the connection attempt timed out."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet pga tidsavbrudd for tilkoblingsforsøket."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed because the VPN service did not start in "
+#~ "time."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet fordi VPN-tjenesten ikke startet i tide."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed because the VPN service failed to start."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet fordi VPN-tjenesten ikke klarte å starte opp."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed because there were no valid VPN secrets."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet fordi det ikke finnes gyldige VPN-passord."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed because of invalid VPN secrets."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet pga ugyldig hemmelighet for VPN."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' disconnected because the network connection was "
+#~ "interrupted."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» ble koblet fra fordi nettverkstilkoblingen ble avbrutt."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' disconnected because the VPN service stopped."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» koblet fra fordi VPN-tjenesten stoppet."
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' disconnected."
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» koblet fra."
+
+#~ msgid "VPN Login Message"
+#~ msgstr "Påloggingsmelding for VPN"
+
+#~ msgid "VPN Connection Failed"
+#~ msgstr "VPN-tilkobling feilet"
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed because the VPN service failed to start.\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» feilet fordi VPN-tjenesten ikke klarte å starte.\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "\n"
+#~ "The VPN connection '%s' failed to start.\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\n"
+#~ "VPN-tilkobling «%s» klarte ikke å starte.\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "device not ready"
+#~ msgstr "enheten er ikke klar"
+
+#~ msgid "device not managed"
+#~ msgstr "enheten er ikke håndtert"
+
+#~ msgid "No network devices available"
+#~ msgstr "Ingen nettverksenheter tilgjengelig"
+
+#~ msgid "_VPN Connections"
+#~ msgstr "_VPN-tilkoblinger"
+
+#~ msgid "_Configure VPN..."
+#~ msgstr "_Sett opp VPN ..."
+
+#~ msgid "_Disconnect VPN"
+#~ msgstr "Ko_ble fra VPN"
+
+#~ msgid "NetworkManager is not running..."
+#~ msgstr "NetworkManager kjører ikke ..."
+
+#~ msgid "Enable _Wireless"
+#~ msgstr "Slå på _trådløs"
+
+#~ msgid "Enable _Mobile Broadband"
+#~ msgstr "Slå på _mobilt bredbånd"
+
+#~ msgid "Enable N_otifications"
+#~ msgstr "Slå på _varsling"
+
+#~ msgid "Connection _Information"
+#~ msgstr "Tilkoblings_informasjon"
+
+#~ msgid "Edit Connections..."
+#~ msgstr "Rediger tilkoblinger ..."
+
+#~ msgid "_Help"
+#~ msgstr "_Hjelp"
+
+#~ msgid "_About"
+#~ msgstr "_Om"
+
+#~ msgid "The network connection has been disconnected."
+#~ msgstr "Nettverksforbindelsen har blitt frakoblet."
+
+#~ msgid "Preparing network connection '%s'..."
+#~ msgstr "Forbereder nettverkstilkobling «%s»..."
+
+#~ msgid "User authentication required for network connection '%s'..."
+#~ msgstr "Brukerautentisering kreves for nettverkstilkobling «%s»..."
+
+#~ msgid "Network connection '%s' active"
+#~ msgstr "Nettverkstilkobling «%s» er aktiv"
+
+#~ msgid "Starting VPN connection '%s'..."
+#~ msgstr "Starter VPN-tilkobling «%s»..."
+
+#~ msgid "User authentication required for VPN connection '%s'..."
+#~ msgstr "Brukerautentisering kreves for VPN-tilkobling «%s»..."
+
+#~ msgid "Requesting a VPN address for '%s'..."
+#~ msgstr "Ber om en nettverksadresse på VPN for «%s»..."
+
+#~ msgid "VPN connection '%s' active"
+#~ msgstr "VPN-tilkobling «%s» er aktiv"
+
+#~ msgid ""
+#~ "The NetworkManager Applet could not find some required resources (the "
+#~ "glade file was not found)."
+#~ msgstr ""
+#~ "NetworkManager fant ikke nødvendige ressurser (glade-filen ble ikke "
+#~ "funnet)."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid ""
+#~ "1 (Default)\n"
+#~ "2\n"
+#~ "3\n"
+#~ "4"
+#~ msgstr ""
+#~ "1 (forvalg)\n"
+#~ "2\n"
+#~ "3\n"
+#~ "4"
+
+#~ msgid ""
+#~ "<span size=\"larger\" weight=\"bold\">Active Network Connections</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">Aktive nettverksforbindelser</span>"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "Spør om dette passordet _hver gang"
+
+#~ msgid ""
+#~ "Automatic\n"
+#~ "Version 0\n"
+#~ "Version 1"
+#~ msgstr ""
+#~ "Automatisk\n"
+#~ "Versjon 0\n"
+#~ "Versjon 1"
+
+#~ msgid "Connection Information"
+#~ msgstr "Tilkoblingsinformasjon"
+
+#~ msgid "No"
+#~ msgstr "Nei"
+
+#~ msgid ""
+#~ "Open System\n"
+#~ "Shared Key"
+#~ msgstr ""
+#~ "Åpent system\n"
+#~ "Delt nøkkel"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "_Password:"
+#~ msgstr "_Passord:"
+
+#~ msgid "label"
+#~ msgstr "etikett"
+
+#~ msgid "automatic"
+#~ msgstr "automatisk"
+
+#~ msgid "Failed to update connection secrets due to an unknown error."
+#~ msgstr ""
+#~ "Klarte ikke å oppdatere hemmelighet for tilkobling på grunn av en ukjent "
+#~ "feil."
+
+#~ msgid "_Service:"
+#~ msgstr "Tjene_ste:"
+
+#~ msgid "<b>Addresses</b>"
+#~ msgstr "<b>Adresser</b>"
+
+#~ msgid ""
+#~ "Automatic\n"
+#~ "Automatic with manual DNS settings\n"
+#~ "Manual\n"
+#~ "Link-Local\n"
+#~ "Shared to other computers"
+#~ msgstr ""
+#~ "Automatisk\n"
+#~ "Automatisk med manuelle DNS-innstillinger\n"
+#~ "Manuell\n"
+#~ "Lokal link\n"
+#~ "Delt med andre datamaskiner"
+
+#~ msgid "D_HCP client ID:"
+#~ msgstr "Klient-ID for D_HCP:"
+
+#~ msgid ""
+#~ "Domains used when resolving host names. Use commas to separate multiple "
+#~ "domains."
+#~ msgstr ""
+#~ "Domener som brukes ved oppslag av vertsnavn. Bruk komma for å skille "
+#~ "flere domener."
+
+#~ msgid ""
+#~ "IP addresses identify your computer on the network.  Click the \"Add\" "
+#~ "button to add an IP address."
+#~ msgstr ""
+#~ "IP-adresser identifiserer din datamaskin på nettverket. Klikk på «Legg "
+#~ "til»-knappen for å legge til en IP-adresse."
+
+#~ msgid ""
+#~ "IP addresses of domain name servers used to resolve host names. Use "
+#~ "commas to separate multiple domain name server addresses."
+#~ msgstr ""
+#~ "IP-adresse for navnetjenere som brukes for å slå opp vertsnavn. Bruk "
+#~ "komma for å skille flere navnetjenere."
+
+#~ msgid ""
+#~ "If enabled, this connection will never be used as the default network "
+#~ "connection."
+#~ msgstr ""
+#~ "Hvis dette slås på vil tilkoblingen aldri bli brukt som forvalgt "
+#~ "nettverkstilkobling."
+
+#~ msgid "Ig_nore automatically obtained routes"
+#~ msgstr "Overse automatisk i_nnhentede ruter"
+
+#~ msgid "Use this c_onnection only for resources on its network"
+#~ msgstr "Bruk denne tilk_oblingen kun for ressurser på sitt nettverk"
+
+#~ msgid "_DNS servers:"
+#~ msgstr "_DNS-tjenere"
+
+#~ msgid "_Method:"
+#~ msgstr "_Metode:"
+
+#~ msgid "_Routes…"
+#~ msgstr "_Ruter..."
+
+#~ msgid "_Search domains:"
+#~ msgstr "_Søkedomener:"
+
+#~ msgid "_Routes&#x2026;"
+#~ msgstr "_Ruter&#x2026;"
+
+#~ msgid "<b>Basic</b>"
+#~ msgstr "<b>Grunnleggende</b>"
+
+#~ msgid ""
+#~ "Any\n"
+#~ "3G (UMTS/HSPA)\n"
+#~ "2G (GPRS/EDGE)\n"
+#~ "Prefer 3G (UMTS/HSPA)\n"
+#~ "Prefer 2G (GPRS/EDGE)"
+#~ msgstr ""
+#~ "Alle\n"
+#~ "3G (UMTS/HSPA)\n"
+#~ "2G (GPRS/EDGE)\n"
+#~ "Foretrekk 3G (UMTS/HSPA)\n"
+#~ "Foretrekk 2G (GPRS/EDGE)"
+
+#~ msgid "Change..."
+#~ msgstr "Bytt..."
+
+#~ msgid "Nu_mber:"
+#~ msgstr "Nu_mmer:"
+
+#~ msgid "PI_N:"
+#~ msgstr "PI_N:"
+
+#~ msgid "Sho_w passwords"
+#~ msgstr "_Vis passord"
+
+#~ msgid "_APN:"
+#~ msgstr "_APN:"
+
+#~ msgid "_Band:"
+#~ msgstr "_Bånd:"
+
+#~ msgid "<b>Allowed Authentication Methods</b>"
+#~ msgstr "<b>Tillatte autentiseringsmetoder</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Autentisering</b>"
+
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>Komprimering</b>"
+
+#~ msgid "<b>Echo</b>"
+#~ msgstr "<b>Ekko</b>"
+
+#~ msgid "Allow _BSD data compression"
+#~ msgstr "Tillat _BSD-datakomprimering"
+
+#~ msgid "Allow _Deflate data compression"
+#~ msgstr "Tillat _Deflate-datakomprimering"
+
+#~ msgid "Allowed methods:"
+#~ msgstr "Tillatte metoder:"
+
+#~ msgid "C_HAP"
+#~ msgstr "C_HAP"
+
+#~ msgid "Challenge Handshake Authentication Protocol"
+#~ msgstr "Challenge Handshake Authentication Protocol"
+
+#~ msgid "Configure _Methods…"
+#~ msgstr "Konfigurer _metoder..."
+
+#~ msgid "Extensible Authentication Protocol"
+#~ msgstr "Extensible Authentication Protocol"
+
+#~ msgid "MSCHAP v_2"
+#~ msgstr "MSCHAP v_2"
+
+#~ msgid "Microsoft Challenge Handshake Authentication Protocol"
+#~ msgstr "Microsoft Challenge Handshake Authentication Protocol"
+
+#~ msgid "Microsoft Challenge Handshake Authentication Protocol version 2"
+#~ msgstr "Microsoft Challenge Handshake Authentication Protocol versjon 2"
+
+#~ msgid "Password Authentication Protocol"
+#~ msgstr "Password Authentication Protocol"
+
+#~ msgid "Send PPP _echo packets"
+#~ msgstr "Send _ekko-pakker for PPP"
+
+#~ msgid "Use TCP _header compression"
+#~ msgstr "Bruk komprimering av TCP-_hoder"
+
+#~ msgid "Use _stateful MPPE"
+#~ msgstr "Bruk _stateful MPPE"
+
+#~ msgid "_EAP"
+#~ msgstr "_EAP"
+
+#~ msgid "_MSCHAP"
+#~ msgstr "_MSCHAP"
+
+#~ msgid "_PAP"
+#~ msgstr "_PAP"
+
+#~ msgid "_Require 128-bit encryption"
+#~ msgstr "K_rev 128-bit kryptering"
+
+#~ msgid "_Use point-to-point encryption (MPPE)"
+#~ msgstr "Br_uk punkt-til-punkt kryptering (MPPE)"
+
+#~ msgid "Aut_onegotiate"
+#~ msgstr "F_orhandle automatisk"
+
+#~ msgid ""
+#~ "Automatic\n"
+#~ "10 Mb/s\n"
+#~ "100 Mb/s\n"
+#~ "1 Gb/s\n"
+#~ "10 Gb/s"
+#~ msgstr ""
+#~ "Automatisk\n"
+#~ "10 Mb/s\n"
+#~ "100 Mb/s\n"
+#~ "1 Gb/s\n"
+#~ "10 Gb/s"
+
+#~ msgid ""
+#~ "Automatic\n"
+#~ "Twisted Pair (TP)\n"
+#~ "Attachment Unit Interface (AUI)\n"
+#~ "BNC\n"
+#~ "Media Independent Interface (MII)"
+#~ msgstr ""
+#~ "Automatisk\n"
+#~ "Tvisted Pair (TP)\n"
+#~ "Attachment Unit Interface (AUI)\n"
+#~ "BNC\n"
+#~ "Media Independent Interface (MII)"
+
+#~ msgid "Full duple_x"
+#~ msgstr "Full duple_ks"
+
+#~ msgid "MT_U:"
+#~ msgstr "MT_U:"
+
+#~ msgid "_Port:"
+#~ msgstr "_Port:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Hastighet:"
+
+#~ msgid "bytes"
+#~ msgstr "bytes"
+
+#~ msgid ""
+#~ "Automatic\n"
+#~ "A (5 GHz)\n"
+#~ "B/G (2.4 GHz)"
+#~ msgstr ""
+#~ "Automatisk\n"
+#~ "A (5 GHz)\n"
+#~ "B/G (2.4 GHz)"
+
+#~ msgid "Ban_d:"
+#~ msgstr "Bån_d:"
+
+#~ msgid ""
+#~ "Infrastructure\n"
+#~ "Ad-hoc"
+#~ msgstr ""
+#~ "Infrastruktur\n"
+#~ "Ad-hoc"
+
+#~ msgid "M_ode:"
+#~ msgstr "M_odus:"
+
+#~ msgid "Mb/s"
+#~ msgstr "Mb/s"
+
+#~ msgid "Transmission po_wer:"
+#~ msgstr "Overføringsst_yrke:"
+
+#~ msgid "_BSSID:"
+#~ msgstr "_BSSID:"
+
+#~ msgid "_SSID:"
+#~ msgstr "_SSID:"
+
+#~ msgid "mW"
+#~ msgstr "mW"
+
+#~ msgid "_Security:"
+#~ msgstr "_Sikkerhet:"
+
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Choose a VPN Connection Type</"
+#~ "span>\n"
+#~ "\n"
+#~ "Select the type of VPN you wish to use for the new connection.  If the "
+#~ "type of VPN connection you wish to create does not appear in the list, "
+#~ "you may not have the correct VPN plugin installed."
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Velg en type VPN-tilkobling</span>\n"
+#~ "\n"
+#~ "Velg type VPN du ønsker å bruke for den nye tilkoblingen. Hvis du ikke "
+#~ "finner riktig type VPN-tilkobling i listen er det mulig at du ikke har "
+#~ "korrekt VPN-tillegg installert."
+
+#~ msgid "Create…"
+#~ msgstr "Lag:"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "Netmask"
+#~ msgstr "Nettmaske"
+
+#~ msgid "Gateway"
+#~ msgstr "Gateway"
+
+#~ msgid "Metric"
+#~ msgstr "Metrisk"
+
+#~ msgid "Prefix"
+#~ msgstr "Prefiks"
+
+#~ msgid "Could not load DSL user interface."
+#~ msgstr "Kunne ikke laste brukergrensesnitt for DSL."
+
+#~ msgid "DSL"
+#~ msgstr "DSL"
+
+#~ msgid "Automatic (VPN)"
+#~ msgstr "Automatisk (VPN)"
+
+#~ msgid "Automatic (VPN) addresses only"
+#~ msgstr "Kun automatiske (VPN) adresser"
+
+#~ msgid "Automatic (PPP)"
+#~ msgstr "Automatisk (PPP)"
+
+#~ msgid "Automatic (PPP) addresses only"
+#~ msgstr "Kun automatiske (PPP) adresser"
+
+#~ msgid "Automatic (PPPoE)"
+#~ msgstr "Automatisk (PPPoE)"
+
+#~ msgid "Automatic (PPPoE) addresses only"
+#~ msgstr "Kunn automatiske (PPPoE) adresser"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Automatisk (DHCP)"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Kun automatiske (DHCP) adresser"
+
+#~ msgid "Shared to other computers"
+#~ msgstr "Delt med andre datamaskiner"
+
+#~ msgid "Editing IPv4 routes for %s"
+#~ msgstr "Rediger IPv4-ruter for %s"
+
+#~ msgid "Could not load IPv4 user interface."
+#~ msgstr "Kunne ikke laste brukergrensesnitt for IPv4"
+
+#~ msgid "IPv4 Settings"
+#~ msgstr "IPv4-innstillinger"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisk"
+
+#~ msgid "Automatic, addresses only"
+#~ msgstr "Automatisk, kun adresser"
+
+#~ msgid "Editing IPv6 routes for %s"
+#~ msgstr "Rediger IPv6-ruter for %s"
+
+#~ msgid "Could not load IPv6 user interface."
+#~ msgstr "Kunne ikke laste brukergrensesnitt for IPv6."
+
+#~ msgid "IPv6 Settings"
+#~ msgstr "IPv6-innstillinger"
+
+#~ msgid "Could not load mobile broadband user interface."
+#~ msgstr "Kunne ikke laste brukergrensesnitt for mobilt bredbånd."
+
+#~ msgid "Unsupported mobile broadband connection type."
+#~ msgstr "Ikke støttet type mobil bredbåndsforbindelse."
+
+#~ msgid "Select Mobile Broadband Provider Type"
+#~ msgstr "Velg type tilbyder for mobilt bredbånd"
+
+#~ msgid ""
+#~ "Select the technology your mobile broadband provider uses.  If you are "
+#~ "unsure, ask your provider."
+#~ msgstr ""
+#~ "Velg tekonlogien din bredbåndstilbyder for mobil bruker. Spør tilbyderen "
+#~ "hvis du er usikker."
+
+#~ msgid ""
+#~ "My provider uses _GSM-based technology (i.e. GPRS, EDGE, UMTS, HSDPA)"
+#~ msgstr ""
+#~ "Min tilbyder bruker _GSM-basert teknologi (f.eks GPRS, EDGE, UMTS, HSDPA)"
+
+#~ msgid "My provider uses _CDMA-based technology (i.e. 1xRTT, EVDO)"
+#~ msgstr "Min tilbyder bruker _CDMA-basert teknologi (f.eks 1xRTT, EVDO)"
+
+#~ msgid "EAP"
+#~ msgstr "EAP"
+
+#~ msgid "none"
+#~ msgstr "ingen"
+
+#~ msgid "Editing PPP authentication methods for %s"
+#~ msgstr "Rediger PPP-autentiseringsmetoder for %s"
+
+#~ msgid "Could not load PPP user interface."
+#~ msgstr "Kunne ikke laste brukergrensesnitt for PPP."
+
+#~ msgid "PPP Settings"
+#~ msgstr "PPP-innstillinger"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Could not find VPN plugin service for '%s'."
+#~ msgstr "Kunne ikke finne tjenneste for VPN-tillegg «%s»."
+
+#~ msgid "VPN connection %d"
+#~ msgstr "VPN-tilkobling %d"
+
+#~ msgid "Could not load wired user interface."
+#~ msgstr "Kunne ikke laste brukergrensesnitt for kablet nettverk."
+
+#~ msgid "Wired connection %d"
+#~ msgstr "Kablet nettverkforbindelse %d"
+
+#~ msgid "802.1x Security"
+#~ msgstr "802.1x sikkerhet"
+
+#~ msgid "Use 802.1X security for this connection"
+#~ msgstr "Bruk 802.1X-sikkerhet for denne tilkoblingen"
+
+#~ msgid "default"
+#~ msgstr "forvalg"
+
+#~ msgid "%u (%u MHz)"
+#~ msgstr "%u (%u MHz)"
+
+#~ msgid "Could not load WiFi user interface."
+#~ msgstr "Kunne ikke laste brukergrensesnitt for trådløst nettverk."
+
+#~ msgid "Wireless"
+#~ msgstr "Trådløs"
+
+#~ msgid "Wireless connection %d"
+#~ msgstr "Trådløs nettverksforbindelse %d"
+
+#~ msgid "Could not load WiFi security user interface; missing WiFi setting."
+#~ msgstr ""
+#~ "Kunne ikke laste brukergrensesnitt for trådløs sikkerhet; mangler WiFi-"
+#~ "innstilling."
+
+#~ msgid "Could not load WiFi security user interface."
+#~ msgstr "Kunne ikke laste brukergrensesnitt for trådløs sikkerhet."
+
+#~ msgid "Wireless Security"
+#~ msgstr "Trådløs sikkerhet"
+
+#~ msgid "Editing %s"
+#~ msgstr "Redigerer %s"
+
+#~ msgid "Editing un-named connection"
+#~ msgstr "Redigerer tilkobling uten navn"
+
+#~ msgid ""
+#~ "The connection editor could not find some required resources (the "
+#~ "NetworkManager applet glade file was not found)."
+#~ msgstr ""
+#~ "Redigering av tilkobling fant ikke alle nødvendige ressurser (glade-fil "
+#~ "for panelprogrammet ble ikke funnet)."
+
+#~ msgid ""
+#~ "The connection editor could not find some required resources (the glade "
+#~ "file was not found)."
+#~ msgstr ""
+#~ "Redigering av tilkobling fant ikke alle nødvendige ressurser (glade-fil "
+#~ "ble ikke funnet)."
+
+#~ msgid "Error creating connection editor dialog."
+#~ msgstr "Feil under oppretting av dialog for redigering av tilkobling."
+
+#~ msgid "Apply"
+#~ msgstr "Bruk"
+
+#~ msgid "Save this connection for all users of this machine."
+#~ msgstr "Lagre denne tilkoblingen for alle brukere på denne maskinen."
+
+#~ msgid "Apply..."
+#~ msgstr "Bruk..."
+
+#~ msgid "Authenticate to save this connection for all users of this machine."
+#~ msgstr ""
+#~ "Autentiser for å lagre denne tilkoblingen for alle brukere på denne "
+#~ "maskinen."
+
+#~ msgid "Available to all users"
+#~ msgstr "Tilgjengelig for alle brukere"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "_Automatisk tilkobling"
+
+#~ msgid "Connection _name:"
+#~ msgstr "Tilkoblings_navn:"
+
+#~ msgid "E_xport"
+#~ msgstr "E_ksporter"
+
+#~ msgid "_Import"
+#~ msgstr "_Importer"
+
+#~ msgid "never"
+#~ msgstr "aldri"
+
+#~ msgid "now"
+#~ msgstr "nå"
+
+#~ msgid "%d minute ago"
+#~ msgid_plural "%d minutes ago"
+#~ msgstr[0] "%d minutt siden"
+#~ msgstr[1] "%d minutter siden"
+
+#~ msgid "%d hour ago"
+#~ msgid_plural "%d hours ago"
+#~ msgstr[0] "%d time siden"
+#~ msgstr[1] "%d timer siden"
+
+#~ msgid "%d day ago"
+#~ msgid_plural "%d days ago"
+#~ msgstr[0] "%d dag siden"
+#~ msgstr[1] "%d dager siden"
+
+#~ msgid "%d month ago"
+#~ msgid_plural "%d months ago"
+#~ msgstr[0] "%d måned siden"
+#~ msgstr[1] "%d måneder siden"
+
+#~ msgid "%d year ago"
+#~ msgid_plural "%d years ago"
+#~ msgstr[0] "%d år siden"
+#~ msgstr[1] "%d år siden"
+
+#~ msgid "Connection add failed"
+#~ msgstr "Klarte ikke å legge til tilkobling"
+
+#~ msgid "Error editing connection: property '%s' / '%s' invalid: %d"
+#~ msgstr "Feil ved redigering av tilkobling: egenskap «%s» / «%s» ugyldig: %d"
+
+#~ msgid "An unknown error ocurred."
+#~ msgstr "En ukjent feil oppsto."
+
+#~ msgid "Error initializing editor"
+#~ msgstr "Feil under initiering av redigering"
+
+#~ msgid "Could not edit new connection"
+#~ msgstr "Kunne ikke redigere ny tilkobling"
+
+#~ msgid "Connection delete failed"
+#~ msgstr "Sletting av tilkobling feilet"
+
+#~ msgid "Are you sure you wish to delete the connection %s?"
+#~ msgstr "Sikker på at du vil slette denne tilkoblingen %s?"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Kan ikke importere VPN-tilkobling"
+
+#~ msgid "Could not edit imported connection"
+#~ msgstr "Kunne ikke redigere importert tilkobling"
+
+#~ msgid "Name"
+#~ msgstr "Navn"
+
+#~ msgid "Last Used"
+#~ msgstr "Sist brukt"
+
+#~ msgid "Edit"
+#~ msgstr "Rediger"
+
+#~ msgid "Edit the selected connection"
+#~ msgstr "Rediger valgt tilkobling"
+
+#~ msgid "Edit..."
+#~ msgstr "Rediger..."
+
+#~ msgid "Authenticate to edit the selected connection"
+#~ msgstr "Autentiser for å redigere valgt tilkobling."
+
+#~ msgid "Delete"
+#~ msgstr "Slett"
+
+#~ msgid "Delete the selected connection"
+#~ msgstr "Slett valgt tilkobling"
+
+#~ msgid "Delete..."
+#~ msgstr "Slett..."
+
+#~ msgid "Authenticate to delete the selected connection"
+#~ msgstr "Autentiser for å slette valgt tilkobling"
+
+#~ msgid "Select file to import"
+#~ msgstr "Velg fil som skal importeres"
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "En fil med navn «%s» eksisterer allerede."
+
+#~ msgid "_Replace"
+#~ msgstr "E_rstatt"
+
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Vil du erstatte %s med VPN-tilkoblingen du lagrer?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Kan ikke eksportere VPN-tilkobling"
+
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "VPN-tilkobling «%s» kunne ikke eksporteres til %s.\n"
+#~ "\n"
+#~ "Feil: %s."
+
+#~ msgid "Export VPN connection..."
+#~ msgstr "Eksporter VPN-tilkobling..."
+
+#~ msgid "%s Network"
+#~ msgstr "%s nettverk:"
+
+#~ msgid "Error: %s"
+#~ msgstr "Feil: %s"
+
+#, fuzzy
+#~ msgid "failed to connect to the phone."
+#~ msgstr "Du er nå tilkoblet GSM-nettverk."
+
+#, fuzzy
+#~ msgid "could not connect to the system bus."
+#~ msgstr "Du er nå koblet til trådløst nettverk «%s»."
+
+#, fuzzy
+#~ msgid "could not find the Bluetooth device."
+#~ msgstr "Kunne ikke finne tjenneste for VPN-tillegg «%s»."
+
+#~ msgid "Usage:"
+#~ msgstr "Bruk:"
+
+#~ msgid "GPRS"
+#~ msgstr "GPRS"
+
+#~ msgid "EDGE"
+#~ msgstr "EDGE"
+
+#~ msgid "UMTS"
+#~ msgstr "UMTS"
+
+#~ msgid "HSDPA"
+#~ msgstr "HSDPA"
+
+#~ msgid "HSUPA"
+#~ msgstr "HSUPA"
+
+#~ msgid "HSPA"
+#~ msgstr "HSPA"
+
+#~ msgid "not registered"
+#~ msgstr "ikke registrert"
+
+#~ msgid "searching"
+#~ msgstr "søker"
+
+#~ msgid "registration denied"
+#~ msgstr "registrering nektet"
+
+#, fuzzy
+#~ msgid "Roaming network (%s)"
+#~ msgstr "Kablet nettverk (%s)"
+
+#~ msgid ""
+#~ "Your mobile broadband connection is configured with the following "
+#~ "settings:"
+#~ msgstr ""
+#~ "Din mobile bredbåndstilkobling er konfigurert med følgende innstillinger:"
+
+#~ msgid "Your Device:"
+#~ msgstr "Din enhet:"
+
+#~ msgid "Your Provider:"
+#~ msgstr "Din tilbyder:"
+
+#~ msgid "Your Plan:"
+#~ msgstr "Din plan:"
+
+#~ msgid "Confirm Mobile Broadband Settings"
+#~ msgstr "Bekreft innstillinger for mobilt bredbånd"
+
+#~ msgid "Unlisted"
+#~ msgstr "Ikke listet"
+
+#~ msgid "_Select your plan:"
+#~ msgstr "_Velg din plan:"
+
+#~ msgid "Selected plan _APN (Access Point Name):"
+#~ msgstr "_APN (Navn på aksesspunkt) for valgt plan:"
+
+#~ msgid "Choose your Billing Plan"
+#~ msgstr "Velg din betalingsplan"
+
+#~ msgid "My plan is not listed..."
+#~ msgstr "Min plan er ikke på listen..."
+
+#~ msgid "Select your provider from a _list:"
+#~ msgstr "Velg din tilbyder fra en _liste:"
+
+#~ msgid "Provider"
+#~ msgstr "Tilbyder"
+
+#~ msgid "I can't find my provider and I wish to enter it _manually:"
+#~ msgstr "Jeg kan ikke finne min tilbyder og ønsker å oppgi denne _manuelt:"
+
+#~ msgid "Provider:"
+#~ msgstr "Tilbyder:"
+
+#~ msgid "My provider uses GSM technology (GPRS, EDGE, UMTS, HSPA)"
+#~ msgstr "Min tilbyder bruker GSM-teknologi (GPRS, EDGE, UMTS, HSDPA)"
+
+#~ msgid "My provider uses CDMA technology (1xRTT, EVDO)"
+#~ msgstr "Min tilbyder bruker CDMA-teknologi (1xRTT, EVDO)"
+
+#~ msgid "Choose your Provider"
+#~ msgstr "Velg din tilbyder"
+
+#~ msgid "Country List:"
+#~ msgstr "Liste med land:"
+
+#~ msgid "Country"
+#~ msgstr "Land"
+
+#~ msgid "My country is not listed"
+#~ msgstr "Landet mitt er ikke på listen"
+
+#~ msgid "Choose your Provider's Country"
+#~ msgstr "Velg din tilbyders land"
+
+#~ msgid "Installed CDMA device"
+#~ msgstr "Installert CDMA-enhet"
+
+#~ msgid ""
+#~ "This assistant helps you easily set up a mobile broadband connection to a "
+#~ "cellular (3G) network."
+#~ msgstr ""
+#~ "Denne assistenten hjelper deg å sette opp en mobil bredbåndstilkobling "
+#~ "til et mobilnettverk (3G)."
+
+#~ msgid "You will need the following information:"
+#~ msgstr "Du trenger følgende informasjon:"
+
+#~ msgid "Your broadband provider's name"
+#~ msgstr "Navnet på din bredbåndstilbyder"
+
+#~ msgid "Your broadband billing plan name"
+#~ msgstr "Navn på betalingsplan for bredbånd"
+
+#~ msgid "(in some cases) Your broadband billing plan APN (Access Point Name)"
+#~ msgstr ""
+#~ "(i enkelte tilfeller) APN (navn på aksesspunkt) for din betalingsplan for "
+#~ "bredbånd"
+
+#~ msgid "Create a connection for _this mobile broadband device:"
+#~ msgstr "Lag en tilkobling for _denne mobile bredbåndsenheten:"
+
+#~ msgid "Any device"
+#~ msgstr "Enhver enhet"
+
+#~ msgid "Set up a Mobile Broadband Connection"
+#~ msgstr "Sett opp en mobil bredbåndstilkobling"
+
+#~ msgid "New Mobile Broadband Connection"
+#~ msgstr "Ny mobil bredbåndstilkobling"
+
+#~ msgid "Cannot start VPN connection '%s'"
+#~ msgstr "Kan ikke starte VPN-tilkobling «%s»"
+
+#~ msgid ""
+#~ "Could not find the authentication dialog for VPN connection type '%s'. "
+#~ "Contact your system administrator."
+#~ msgstr ""
+#~ "Fant ikke autentiseringsdialogen for VPN tilkoblingstypen «%s». Kontakt "
+#~ "din systemadministrator."
+
+#~ msgid ""
+#~ "There was a problem launching the authentication dialog for VPN "
+#~ "connection type '%s'. Contact your system administrator."
+#~ msgstr ""
+#~ "Det oppstod en feil under oppstart av autentiseringsdialogen for VPN "
+#~ "tilkoblingstypen «%s». Kontakt din systemadministrator."
+
+#~ msgid "Wired 802.1X authentication"
+#~ msgstr "Kablet 802.1X-autentisering"
+
+#~ msgid "New..."
+#~ msgstr "Ny..."
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "Ingen Certificate Authority-sertifikat er valgt"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Private nøkler uten kryptering er ikke sikre"

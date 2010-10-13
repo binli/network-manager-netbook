@@ -1,0 +1,683 @@
+# Simplified Chinese translation of network-manager-netbook
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the network-manager-netbook package.
+# YunQiang Su <wzssyqa@gmail.com>, 2010.
+# Jessica Ban <bancage@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-netbook master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=NetworkManager&component=network-manager-netbook\n"
+"POT-Creation-Date: 2010-06-26 13:43+0000\n"
+"PO-Revision-Date: 2010-07-16 12:57+0800\n"
+"Last-Translator: Jessica Ban <bancage@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../network-manager-netbook.desktop.in.h:1
+msgid "Control your network connections"
+msgstr "管理您的网络连接"
+
+#: ../network-manager-netbook.desktop.in.h:2
+msgid "network-manager-netbook"
+msgstr "network-manager-netbook"
+
+#: ../gnome-bluetooth/network-manager-applet.c:292
+msgid "Access the Internet using your mobile phone"
+msgstr "使用移动电话访问互联网"
+
+#: ../libnm-gtk/nm-mobile-providers.c:504
+msgid "Default"
+msgstr "默认"
+
+#: ../libnm-gtk/nm-bt-item.c:35
+msgid "bluetooth"
+msgstr "蓝牙"
+
+#: ../libnm-gtk/nm-connection-item.c:402
+#, c-format
+msgid "Could not delete connection: %s"
+msgstr "无法删除连接：%s"
+
+#: ../libnm-gtk/nm-device-item.c:65
+#, c-format
+msgid "Could not activate device: %s"
+msgstr "无法激活设备：%s"
+
+#: ../libnm-gtk/nm-device-item.c:110
+#, c-format
+msgid "Could not deactivate device: %s"
+msgstr "无法停用设备：%s"
+
+#: ../libnm-gtk/nm-ethernet-item.c:38
+msgid "wired"
+msgstr "有线"
+
+#: ../libnm-gtk/nm-ethernet-item.c:99
+msgid "802.1x"
+msgstr "802.1x"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:50 ../libnm-gtk/nm-gsm-item.c:36
+#: ../libnm-gtk/nm-cdma-item.c:36 ../src/nmn-list.c:117
+#: ../src/nmn-applet.c:498 ../src/nmn-new-connection.c:710
+msgid "3G"
+msgstr "3G"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:70
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:89
+#, c-format
+msgid "PIN unlocking failed: %s"
+msgstr "PIN 解锁失败：%s"
+
+#: ../libnm-gtk/nm-gsm-pin-request-item.c:140
+msgid "Locked GSM device"
+msgstr "被锁定的 GSM 设备"
+
+#: ../libnm-gtk/nm-wifi-item.c:61 ../src/nmn-list.c:107
+#: ../src/nmn-applet.c:476 ../src/nmn-new-connection.c:685
+msgid "WiFi"
+msgstr "WiFi"
+
+#: ../libnm-gtk/wireless-dialog.c:655
+msgid "None"
+msgstr "无"
+
+#: ../libnm-gtk/wireless-dialog.c:672
+msgid "WEP 40/128-bit Key"
+msgstr "WEP 40/128 位密钥"
+
+#: ../libnm-gtk/wireless-dialog.c:681
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128 位通行口令"
+
+#: ../libnm-gtk/wireless-dialog.c:698
+#: ../libnm-gtk/wireless-security/wireless-security.c:345
+msgid "LEAP"
+msgstr "LEAP"
+
+#: ../libnm-gtk/wireless-dialog.c:711
+msgid "Dynamic WEP (802.1x)"
+msgstr "动态 WEP (802.1x)"
+
+#: ../libnm-gtk/wireless-dialog.c:725
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 个人版"
+
+#: ../libnm-gtk/wireless-dialog.c:739
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2 企业版"
+
+#: ../libnm-gtk/wireless-dialog.c:799
+msgid "C_reate"
+msgstr "创建(_R)"
+
+#: ../libnm-gtk/wireless-dialog.c:870
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr "需要口令或加密密钥才能访问无线网络“%s”。"
+
+#: ../libnm-gtk/wireless-dialog.c:872
+msgid "Wireless Network Authentication Required"
+msgstr "需要无线网络鉴定"
+
+#: ../libnm-gtk/wireless-dialog.c:874
+msgid "Authentication required by wireless network"
+msgstr "无线网络需要鉴定"
+
+#: ../libnm-gtk/wireless-dialog.c:879
+msgid "Create New Wireless Network"
+msgstr "创建新的无线网络"
+
+#: ../libnm-gtk/wireless-dialog.c:881
+msgid "New wireless network"
+msgstr "新建无线网络"
+
+#: ../libnm-gtk/wireless-dialog.c:882
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "输入要创建的无线网络名称。"
+
+#: ../libnm-gtk/wireless-dialog.c:884
+msgid "Connect to Hidden Wireless Network"
+msgstr "连接到隐藏的无线网络"
+
+#: ../libnm-gtk/wireless-dialog.c:886
+msgid "Hidden wireless network"
+msgstr "隐藏无线网络"
+
+#: ../libnm-gtk/wireless-dialog.c:887
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr "输入要连接的已隐藏无线网络的名称和安全细节。"
+
+#: ../libnm-gtk/wireless-security.ui.h:1
+msgid "C_onnect"
+msgstr "连接(_O)"
+
+#: ../libnm-gtk/wireless-security.ui.h:2
+msgid "Connection:"
+msgstr "连接："
+
+#: ../libnm-gtk/wireless-security.ui.h:3
+msgid "Other Wireless Network..."
+msgstr "其他无线网络..."
+
+#: ../libnm-gtk/wireless-security.ui.h:4
+msgid "Wireless _adapter:"
+msgstr "无线适配器(_A)："
+
+#: ../libnm-gtk/wireless-security.ui.h:5
+msgid "_Network Name:"
+msgstr "网络名称(_N)："
+
+#: ../libnm-gtk/wireless-security.ui.h:6
+msgid "_Wireless Security:"
+msgstr "无线安全性(_W)："
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:1
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">未选择“证书颁发机构”证书</span>\n"
+"\n"
+"不使用证书颁发机构(CA)的证书可能导致连接到不安全、异常的无线网络。是否要选"
+"择“证书颁发机构”证书？"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:4
+msgid "Choose CA Certificate"
+msgstr "选择 CA 证书"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:5
+msgid "Don't warn me again"
+msgstr "不再警告我"
+
+#: ../libnm-gtk/wireless-security/ca-nag-dialog.ui.h:6
+msgid "Ignore"
+msgstr "忽略"
+
+#: ../libnm-gtk/wireless-security/dynamic-wep.ui.h:1
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-eap.ui.h:1
+msgid "Authentication:"
+msgstr "认证："
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:1
+#: ../libnm-gtk/wireless-security/leap.ui.h:1
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:1
+msgid "Password:"
+msgstr "口令："
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:5
+#: ../libnm-gtk/wireless-security/leap.ui.h:2
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:2
+msgid "Show password"
+msgstr "显示口令"
+
+#: ../libnm-gtk/wireless-security/eap-leap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-simple.ui.h:3
+#: ../libnm-gtk/wireless-security/leap.ui.h:3
+msgid "User Name:"
+msgstr "用户名："
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:1
+msgid "Anonymous Identity:"
+msgstr "匿名身份："
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:2
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:1
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:2
+msgid "CA Certificate:"
+msgstr "CA 证书："
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:3
+#: ../libnm-gtk/wireless-security/eap-ttls.ui.h:3
+msgid "Inner Authentication:"
+msgstr "内部鉴定："
+
+#: ../libnm-gtk/wireless-security/eap-peap.ui.h:4
+msgid "PEAP Version:"
+msgstr "PEAP 版本："
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:2
+msgid "Identity:"
+msgstr "身份："
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:3
+msgid "Private Key Password:"
+msgstr "私用密钥口令："
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:4
+msgid "Private Key:"
+msgstr "私用密钥："
+
+#: ../libnm-gtk/wireless-security/eap-tls.ui.h:6
+msgid "User Certificate:"
+msgstr "用户证书："
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:2
+msgid "Key:"
+msgstr "密钥："
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:3
+msgid "Show key"
+msgstr "显示密钥"
+
+#: ../libnm-gtk/wireless-security/wep-key.ui.h:4
+msgid "WEP Index:"
+msgstr "WEP 索引："
+
+#: ../libnm-gtk/wireless-security/wpa-psk.ui.h:3
+msgid "Type:"
+msgstr "类型："
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:231
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:253
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:241
+msgid "MD5"
+msgstr "MD5"
+
+#: ../libnm-gtk/wireless-security/eap-method-peap.c:291
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:383
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:321
+msgid "Choose a Certificate Authority certificate..."
+msgstr "选择证书颁发机构证书..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:377
+msgid "Choose your personal certificate..."
+msgstr "选择个人证书..."
+
+#: ../libnm-gtk/wireless-security/eap-method-tls.c:390
+msgid "Choose your private key..."
+msgstr "选择私用密钥..."
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:225
+msgid "PAP"
+msgstr "PAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:239
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method-ttls.c:267
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:467
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "DER、PEM 或 PKCS#12 私用密钥(*.der、*.pem、*.p12)"
+
+#: ../libnm-gtk/wireless-security/eap-method.c:470
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER 或 PEM 证书(*.der、*.pem、*.crt、*.cer)"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:333
+msgid "TLS"
+msgstr "TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:357
+msgid "Tunneled TLS"
+msgstr "隧道 TLS"
+
+#: ../libnm-gtk/wireless-security/wireless-security.c:368
+msgid "Protected EAP (PEAP)"
+msgstr "受保护的 EAP (PEAP)"
+
+#: ../src/gtkinfobar.c:250
+msgid "gtk-info-bar-response-data"
+msgstr "gtk信息条反应数据"
+
+#: ../src/gtkinfobar.c:372
+msgid "Message Type"
+msgstr "信息类型"
+
+#: ../src/gtkinfobar.c:373
+msgid "The type of message"
+msgstr "信息的类型"
+
+#: ../src/gtkinfobar.c:427
+msgid "Content area border"
+msgstr "内容区域边界"
+
+#: ../src/gtkinfobar.c:428
+msgid "Width of border around the content area"
+msgstr "内容区域边界的宽度"
+
+#: ../src/gtkinfobar.c:444
+msgid "Content area spacing"
+msgstr "内容区域空间"
+
+#: ../src/gtkinfobar.c:445
+msgid "Spacing between elements of the area"
+msgstr "在区域元素间加空格"
+
+#: ../src/gtkinfobar.c:460
+msgid "Button spacing"
+msgstr "按钮空格校验"
+
+#: ../src/gtkinfobar.c:461
+msgid "Spacing between buttons"
+msgstr "按钮间加空格"
+
+#: ../src/gtkinfobar.c:476
+msgid "Action area border"
+msgstr "操作区域边界"
+
+#: ../src/gtkinfobar.c:477
+msgid "Width of border around the action area"
+msgstr "操作区域边界宽度"
+
+#: ../src/nmn-list.c:70
+msgid " and "
+msgstr " 和 "
+
+#: ../src/nmn-list.c:81
+msgid "Sorry, we can't find any networks."
+msgstr "抱歉，没有找到任何网络。"
+
+#: ../src/nmn-list.c:84
+msgid " You could try disabling Offline mode."
+msgstr " 您可以尝试禁用离线模式。"
+
+#: ../src/nmn-list.c:104
+msgid " You could try turning on "
+msgstr " 您可以尝试打开 "
+
+#: ../src/nmn-list.c:112 ../src/nmn-applet.c:487
+msgid "Wired"
+msgstr "有线"
+
+#: ../src/nmn-applet.c:436
+msgid "Add new connection"
+msgstr "添加新连接"
+
+#: ../src/nmn-applet.c:442
+msgid "Networks"
+msgstr "网络名称"
+
+#: ../src/nmn-applet.c:510
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: ../src/nmn-applet.c:521
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+#: ../src/nmn-applet.c:538
+msgid "Offline mode"
+msgstr "离线模式"
+
+#: ../src/nmn-applet.c:546
+msgid "This will disable all your connections"
+msgstr "这将禁用您的所有连接"
+
+#: ../src/main.c:69
+msgid "Run in standalone mode"
+msgstr "在独立模式中运行"
+
+#: ../src/main.c:70
+msgid "Run in desktop mode"
+msgstr "在桌面模式中运行"
+
+#: ../src/main.c:78
+msgid "NetworkManager Netbook"
+msgstr "NetworkManager 上网本"
+
+#: ../src/main.c:79
+msgid "- NetworkManager Netbook"
+msgstr " - NetworkManager 上网本"
+
+#: ../src/nmn-network-renderer.c:106
+msgid "Connected"
+msgstr "已连接"
+
+#: ../src/nmn-network-renderer.c:107
+msgid "Disconnect"
+msgstr "断开"
+
+#: ../src/nmn-network-renderer.c:110
+msgid "Connecting"
+msgstr "正在连接..."
+
+#: ../src/nmn-network-renderer.c:111
+msgid "Cancel"
+msgstr "取消"
+
+#: ../src/nmn-network-renderer.c:114
+msgid "Disconnected"
+msgstr "已断开"
+
+#: ../src/nmn-network-renderer.c:115 ../src/nmn-network-renderer.c:381
+msgid "Connect"
+msgstr "连接"
+
+#: ../src/nmn-network-renderer.c:122
+msgid "Available"
+msgstr "可用"
+
+#: ../src/nmn-network-renderer.c:157
+#, c-format
+msgid "Could not update connection: %s"
+msgstr "无法更新连接：%s"
+
+#: ../src/nmn-network-renderer.c:299
+msgid "Really remove?"
+msgstr "的确要删除？"
+
+#: ../src/nmn-network-renderer.c:303
+msgid "No, save"
+msgstr "不，保存"
+
+#: ../src/nmn-network-renderer.c:305
+msgid "Yes, delete"
+msgstr "是，删除"
+
+#: ../src/nmn-network-renderer.c:315
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+"您想要删除 '%s' %s 连接？这将忘记口令，并且\n"
+"您将不再可以自动连接到 '%s'。"
+
+#. FIXME: this should be visibile only for NMDeviceItems
+#: ../src/nmn-network-renderer.c:376
+msgid "Advanced"
+msgstr "高级"
+
+#: ../src/nmn-network-renderer.c:397
+msgid "Remove connection"
+msgstr "删除连接"
+
+#: ../src/nmn-panel-client.c:68
+msgid "network"
+msgstr "网络"
+
+#: ../src/nmn-panel-client.c:189
+msgid "Network connected"
+msgstr "网络已连接"
+
+#: ../src/nmn-panel-client.c:193
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr "您已经连接到 %s，一个 %s 网络"
+
+#: ../src/nmn-panel-client.c:196
+#, c-format
+msgid "You're now connected to %s network"
+msgstr "您已连接到 %s 网络。"
+
+#: ../src/nmn-panel-client.c:198
+msgid "You're now connected to network"
+msgstr "您已连接到网络"
+
+#: ../src/nmn-panel-client.c:200
+msgid "Network lost"
+msgstr "网络丢失"
+
+#: ../src/nmn-panel-client.c:204
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr "抱歉，已经丢失了您到 %2$s 的 %1$s 连接。"
+
+#: ../src/nmn-panel-client.c:207
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr "抱歉，已经丢失了您的 %s 连接"
+
+#: ../src/nmn-panel-client.c:209
+msgid "Sorry, we've lost your connection"
+msgstr "抱歉，丢失了您的连接"
+
+#: ../src/nmn-panel-client.c:244
+#, c-format
+msgid "networks - not connected"
+msgstr "网络 - 未连接"
+
+#: ../src/nmn-panel-client.c:247
+#, c-format
+msgid "networks - connecting"
+msgstr "网络 - 正在连接"
+
+#: ../src/nmn-panel-client.c:260
+#, c-format
+msgid "networks - %s - %s"
+msgstr "网络 - %s - %s"
+
+#: ../src/nmn-panel-client.c:262
+#, c-format
+msgid "networks - %s"
+msgstr "网络 - %s"
+
+#: ../src/nmn-panel-client.c:264
+msgid "networks - connected"
+msgstr "网络 - 已连接"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:146
+msgid "Unlock"
+msgstr "解锁"
+
+#: ../src/nmn-gsm-pin-request-renderer.c:151
+msgid "Disable PIN"
+msgstr "禁用 PIN"
+
+#: ../src/nmn-connection-details.c:108
+msgid "(none)"
+msgstr "(无)"
+
+#. Connect by:
+#: ../src/nmn-connection-details.c:484
+msgid "Connect by:"
+msgstr "连接通过："
+
+#: ../src/nmn-connection-details.c:488
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../src/nmn-connection-details.c:489
+msgid "Manual"
+msgstr "手动"
+
+#: ../src/nmn-connection-details.c:490
+msgid "Link Local"
+msgstr "本地链接"
+
+#. Address
+#: ../src/nmn-connection-details.c:497
+msgid "IP Address:"
+msgstr "IP 地址："
+
+#. Netmask
+#: ../src/nmn-connection-details.c:506
+msgid "Subnet mask:"
+msgstr "子网掩码："
+
+#. Gateway
+#: ../src/nmn-connection-details.c:515
+msgid "Router:"
+msgstr "路由器："
+
+#. DNS
+#: ../src/nmn-connection-details.c:524
+msgid "DNS:"
+msgstr "DNS："
+
+#. Hardware address
+#: ../src/nmn-connection-details.c:534
+msgid "Your MAC address:"
+msgstr "您的 MAC 地址："
+
+#: ../src/nmn-new-connection.c:282
+msgid "3G disabled"
+msgstr "3G 已禁用"
+
+#: ../src/nmn-new-connection.c:288
+msgid "3G modem is locked"
+msgstr "3G 调制解调器已锁定"
+
+#: ../src/nmn-new-connection.c:291
+msgid "Internal 3G modem and SIM card detected"
+msgstr "检测到内部 3G 调制解调器和 SIM 卡"
+
+#: ../src/nmn-new-connection.c:293
+msgid "No modems detected"
+msgstr "未检测到调制解调器"
+
+#: ../src/nmn-new-connection.c:660
+msgid "Add a new connection"
+msgstr "添加新连接"
+
+#: ../src/nmn-new-connection.c:680
+msgid "Hidden network"
+msgstr "隐藏网络"
+
+#: ../src/nmn-new-connection.c:706
+msgid "Save connection"
+msgstr "保存连接"
+
+#: ../src/nmn-new-connection.c:715
+msgid "Return to Networking"
+msgstr "返回联网状态"
+
+#~ msgid "On"
+#~ msgstr "开"
+
+#~ msgid "Off"
+#~ msgstr "关"
+
+#~ msgid "<b>3G</b>"
+#~ msgstr "<b>3G</b>"
+
+#~ msgid "<b>Flight mode</b>"
+#~ msgstr "<b>飞行模式</b>"
+
+#~ msgid "<b>WiFi</b>"
+#~ msgstr "<b>WiFi</b>"
+
+#~ msgid "<b>Wired</b>"
+#~ msgstr "<b>有线</b>"
+
+#~ msgid "<big><b>Add a new connection</b></big>"
+#~ msgstr "<big><b>添加新连接</b></big>"
+
+#~ msgid "<big><b>Networks</b></big>"
+#~ msgstr "<big><b>网络</b></big>"

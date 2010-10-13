@@ -1,0 +1,504 @@
+# Networkmanageri tõlge eesti keelde.
+# Estonian translation of Networkmanager.
+#
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007 The GNOME Project
+# This file is distributed under the same license as the Networkmanager package.
+#
+# Priit Laes <amd store20 com>, 2006.
+# Ivar Smolin <okul at linux.ee>, 2006-2007.
+# Mattias Põldaru <mahfiaz gmail com>, 2008-2010.
+# Tambet Ingo <tambet novell com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-netbook 0.2\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=NetworkManager&component=network-manager-netbook\n"
+"POT-Creation-Date: 2010-03-08 11:30+0000\n"
+"PO-Revision-Date: 2010-03-10 07:16+0300\n"
+"Last-Translator: Mattias Põldaru <mahfiaz gmail com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Control your network connections"
+msgstr "Võrguühenduste juhtimine"
+
+msgid "network-manager-netbook"
+msgstr "network-manager-netbook"
+
+msgid "Access the Internet using your mobile phone"
+msgstr "Internetiühendus mobiiltelefoni kaudu"
+
+msgid "Default"
+msgstr "Vaikimisi"
+
+msgid "bluetooth"
+msgstr "bluetooth"
+
+#, c-format
+msgid "Could not delete connection: %s"
+msgstr "Ühendust pole võimalik kustutada: %s"
+
+#, c-format
+msgid "Could not activate device: %s"
+msgstr "Seadet pole võimalik aktiveerida: %s"
+
+#, c-format
+msgid "Could not deactivate device: %s"
+msgstr "Seadet pole võimalik deaktiveerida: %s"
+
+msgid "wired"
+msgstr "juhtmega"
+
+msgid "802.1x"
+msgstr "802.1x"
+
+msgid "3G"
+msgstr "3G"
+
+#, c-format
+msgid "PIN unlocking failed: %s"
+msgstr "PIN-koodi luku eemaldamine nurjus: %s"
+
+msgid "Locked GSM device"
+msgstr "GSM seade on lukus"
+
+msgid "WiFi"
+msgstr "WiFi"
+
+msgid "None"
+msgstr "Puudub"
+
+msgid "WEP 40/128-bit Key"
+msgstr "WEP 40/128-bitine võti"
+
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128-bitine parool"
+
+msgid "LEAP"
+msgstr "LEAP"
+
+msgid "Dynamic WEP (802.1x)"
+msgstr "Dünaamiline WEP (802.1x)"
+
+msgid "WPA & WPA2 Personal"
+msgstr "Dünaamiline WEP"
+
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2 ettevõtte"
+
+msgid "C_reate"
+msgstr "_Loo"
+
+#, c-format
+msgid ""
+"Passwords or encryption keys are required to access the wireless network '%"
+"s'."
+msgstr ""
+"Paroolid või krüpteerimisvõtmed on vajalikud ligipääsuks juhtmeta võrgule '%"
+"s'."
+
+msgid "Wireless Network Authentication Required"
+msgstr "Juhtmeta võrgu salasõna päring"
+
+msgid "Authentication required by wireless network"
+msgstr "Juhtmeta võrgu jaoks on vaja salasõna"
+
+msgid "Create New Wireless Network"
+msgstr "Loo uus juhtmeta võrk"
+
+msgid "New wireless network"
+msgstr "Uus juhtmeta võrk"
+
+msgid "Enter a name for the wireless network you wish to create."
+msgstr "Sisesta loodava juhtmeta võrgu nimi"
+
+msgid "Connect to Hidden Wireless Network"
+msgstr " Varjatud juhtmeta võrku ühendumine"
+
+msgid "Hidden wireless network"
+msgstr "Varjatud juhmeta võrk"
+
+msgid ""
+"Enter the name and security details of the hidden wireless network you wish "
+"to connect to."
+msgstr ""
+"Sisesta varjatud juhtmeta võrgu, millesse tahad ühenduda, nimi ja parool."
+
+msgid "C_onnect"
+msgstr "Ü_henda"
+
+msgid "Connection:"
+msgstr "Ühendus:"
+
+msgid "Other Wireless Network..."
+msgstr "Loo uus juhtmeta võrk..."
+
+msgid "Wireless _adapter:"
+msgstr "Võrgu_kaart:"
+
+msgid "_Network Name:"
+msgstr "_Võrgu nimi:"
+
+msgid "_Wireless Security:"
+msgstr "_Juhtmeta võrgu turvalisus:"
+
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No Certificate Authority certificate "
+"chosen</span>\n"
+"\n"
+"Not using a Certificate Authority (CA) certificate can result in connections "
+"to insecure, rogue wireless networks.  Would you like to choose a "
+"Certificate Authority certificate?"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Ühtki sertifitseerimiskeskuse "
+"sertifikaadifaili pole valitud</span>\n"
+"\n"
+"Sertifitseerimiskeskuse sertifikaadifaili mittekasutamine võib põhjustada "
+"ühendumise ebaturvalistesse, kuritegelikesse võrkudesse. Kas sa valiksid "
+"siiski sertifitseerimiskeskuse sertifikaadifaili?"
+
+msgid "Choose CA Certificate"
+msgstr "Vali privaatsertifikaati fail"
+
+msgid "Don't warn me again"
+msgstr "Enam ei hoiatata"
+
+msgid "Ignore"
+msgstr "Eira"
+
+msgid "Authentication:"
+msgstr "Autentimine:"
+
+msgid "Password:"
+msgstr "Parool:"
+
+msgid "Show password"
+msgstr "Parooli näidatakse"
+
+msgid "User Name:"
+msgstr "Kasutajanimi:"
+
+msgid "Anonymous Identity:"
+msgstr "Anonüümne identiteet:"
+
+msgid "CA Certificate:"
+msgstr "Sertifitseerimiskeskuse sertifikaadifail:"
+
+msgid "Inner Authentication:"
+msgstr "Sise-autentimine:"
+
+msgid "PEAP Version:"
+msgstr "PEAP versioon:"
+
+msgid "Identity:"
+msgstr "Identiteet:"
+
+msgid "Private Key Password:"
+msgstr "Privaatvõtme parool:"
+
+msgid "Private Key:"
+msgstr "Privaatvõtme fail:"
+
+msgid "User Certificate:"
+msgstr "Kasutaja sertifikaadifail:"
+
+msgid "Key:"
+msgstr "Võti:"
+
+msgid "Show key"
+msgstr "Näita võtit"
+
+msgid "WEP Index:"
+msgstr "WEP indeks:"
+
+msgid "Type:"
+msgstr "Liik:"
+
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+msgid "MD5"
+msgstr "MD5"
+
+msgid "Choose a Certificate Authority certificate..."
+msgstr "Vali sertifitseerimiskeskuse sertifikaadifail..."
+
+msgid "Choose your personal certificate..."
+msgstr "Vali privaatsertifikaati fail..."
+
+msgid "Choose your private key..."
+msgstr "Vali privaatvõtme fail..."
+
+msgid "PAP"
+msgstr "PAP"
+
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+msgid "CHAP"
+msgstr "CHAP"
+
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+msgstr "DER, PEM või PKCS#12 privaatvõtmed (*.der, *.pem, *.p12)"
+
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER või PEM sertifikaadid (*.der, *.pem, *.crt, *.cer)"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "Tunneled TLS"
+msgstr "Tunnelis TLS"
+
+msgid "Protected EAP (PEAP)"
+msgstr "Kaitstud EAP (PEAP)"
+
+msgid "gtk-info-bar-response-data"
+msgstr "gtk-info-bar-response-data"
+
+msgid "Message Type"
+msgstr "Teate liik"
+
+msgid "The type of message"
+msgstr "Teate liik"
+
+msgid "Content area border"
+msgstr "Sisuala raam"
+
+msgid "Width of border around the content area"
+msgstr "Sisuala ümbritsev raam"
+
+msgid "Content area spacing"
+msgstr "Sisuala vahe"
+
+msgid "Spacing between elements of the area"
+msgstr "Ala elementide vahel olev ruum"
+
+msgid "Button spacing"
+msgstr "Nuppude vahe"
+
+msgid "Spacing between buttons"
+msgstr "Nuppude vahekaugus"
+
+msgid "Action area border"
+msgstr "Tegevusala raam"
+
+msgid "Width of border around the action area"
+msgstr "Tegevusala ümbritsev raam"
+
+msgid " and "
+msgstr " ja "
+
+msgid "Sorry, we can't find any networks."
+msgstr "Vabandust, ühtegi võrku ei leitud."
+
+msgid " You could try disabling Offline mode."
+msgstr "Võid proovida võrguta režiimi väljalülitamist."
+
+msgid " You could try turning on "
+msgstr "Võid proovida sisselülitada "
+
+msgid "Wired"
+msgstr "Juhtmega"
+
+msgid "Add new connection"
+msgstr "Lisa uus ühendus"
+
+msgid "Networks"
+msgstr "Võrgud"
+
+msgid "WiMAX"
+msgstr "WiMAX"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Offline mode"
+msgstr "Võrguta režiim"
+
+msgid "This will disable all your connections"
+msgstr "See keelab kõik võrguühendused"
+
+msgid "Run in standalone mode"
+msgstr "Eraldiseisvas režiimis käivitamine"
+
+msgid "Run in desktop mode"
+msgstr "Töölauarežiimis käivitamine"
+
+msgid "NetworkManager Netbook"
+msgstr "NetworkManager Netbook"
+
+msgid "- NetworkManager Netbook"
+msgstr "- NetworkManager Netbook"
+
+msgid "Connected"
+msgstr "Ühendatud"
+
+msgid "Disconnect"
+msgstr "Ühenda lahti"
+
+msgid "Connecting"
+msgstr "Ühendumine"
+
+msgid "Cancel"
+msgstr "Loobu"
+
+msgid "Disconnected"
+msgstr "Ühendamata"
+
+msgid "Connect"
+msgstr "Ühenda"
+
+msgid "Available"
+msgstr "Saadaval"
+
+#, c-format
+msgid "Could not update connection: %s"
+msgstr "Ühendust pole võimalik uuendada: %s"
+
+msgid "Really remove?"
+msgstr "Kas tõesti eemaldada?"
+
+# võib-olla peaks olema siin "Ei, jäta alles"
+msgid "No, save"
+msgstr "Ei, salvesta"
+
+msgid "Yes, delete"
+msgstr "Jah, kustuta"
+
+#, c-format
+msgid ""
+"Do you want to remove the '%s' %s network? This\n"
+"will forget the password and you will no longer be\n"
+"automatically connected to '%s'."
+msgstr ""
+"Kas tahad eemaldada '%s' %s võrgu? Sellega\n"
+"kustutatakse parool ja võrguga '%s' enam\n"
+"automaatselt ei ühenduta."
+
+#. FIXME: this should be visibile only for NMDeviceItems
+msgid "Advanced"
+msgstr "Täpsemalt"
+
+msgid "Remove connection"
+msgstr "Kustuta ühendus"
+
+msgid "network"
+msgstr "võrk"
+
+msgid "Network connected"
+msgstr "Võrguühendus loodud"
+
+#, c-format
+msgid "You're now connected to %s, a %s network"
+msgstr "Nüüd oled ühendatud võrku %s, see on %s võrk"
+
+#, c-format
+msgid "You're now connected to %s network"
+msgstr "Nüüd oled ühendatud võrku %s"
+
+msgid "You're now connected to network"
+msgstr "Nüüd oled võrku ühendatud"
+
+msgid "Network lost"
+msgstr "Võrguühendus katkes"
+
+#, c-format
+msgid "Sorry, we've lost your %s connection to %s"
+msgstr "Kahjuks katkes %s ühendus võrguga %s"
+
+#, c-format
+msgid "Sorry, we've lost your %s connection"
+msgstr "Kahjuks katkes %s ühendus"
+
+msgid "Sorry, we've lost your connection"
+msgstr "Kahjuks katkes ühendus"
+
+#, c-format
+msgid "networks - not connected"
+msgstr "võrgud - ühendus puudub"
+
+#, c-format
+msgid "networks - connecting"
+msgstr "võrgud - ühendumine"
+
+#, c-format
+msgid "networks - %s - %s"
+msgstr "võrgud - %s - %s"
+
+#, c-format
+msgid "networks - %s"
+msgstr "võrgud - %s"
+
+msgid "networks - connected"
+msgstr "võrgud - ühendatud"
+
+msgid "Unlock"
+msgstr "Luku eemaldamine"
+
+msgid "Disable PIN"
+msgstr "PIN-koodi väljalülitamine"
+
+msgid "(none)"
+msgstr "(Puudub)"
+
+#. Connect by:
+msgid "Connect by:"
+msgstr "Ühenda:"
+
+msgid "DHCP"
+msgstr "DHCP"
+
+msgid "Manual"
+msgstr "Käsitsi:"
+
+msgid "Link Local"
+msgstr "Link Local"
+
+#. Address
+msgid "IP Address:"
+msgstr "IP-aadress:"
+
+#. Netmask
+msgid "Subnet mask:"
+msgstr "Alamvõrgu mask:"
+
+#. Gateway
+msgid "Router:"
+msgstr "Lüüs (gateway):"
+
+#. DNS
+msgid "DNS:"
+msgstr "DNS:"
+
+#. Hardware address
+msgid "Your MAC address:"
+msgstr "Sinu MAC-aadress:"
+
+msgid "3G disabled"
+msgstr "3G keelatud"
+
+msgid "3G modem is locked"
+msgstr "3G-modem on lukus"
+
+msgid "Internal 3G modem and SIM card detected"
+msgstr "Leiti 3G-modem ja SIM kaart"
+
+msgid "No modems detected"
+msgstr "Ei leitud ühtegi modemit"
+
+msgid "Add a new connection"
+msgstr "Lisa uus ühendus"
+
+msgid "Hidden network"
+msgstr "Varjatud juhtmeta võrk"
+
+msgid "Save connection"
+msgstr "Salvesta ühendus"
+
+msgid "Return to Networking"
+msgstr "Tagasi"

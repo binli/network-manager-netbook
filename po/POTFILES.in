@@ -1,0 +1,39 @@
+network-manager-netbook.desktop.in
+gnome-bluetooth/network-manager-applet.c
+libnm-gtk/nm-mobile-providers.c
+libnm-gtk/nm-bt-item.c
+libnm-gtk/nm-connection-item.c
+libnm-gtk/nm-device-item.c
+libnm-gtk/nm-ethernet-item.c
+libnm-gtk/nm-gsm-pin-request-item.c
+libnm-gtk/nm-wifi-item.c
+libnm-gtk/nm-gsm-item.c
+libnm-gtk/nm-cdma-item.c
+libnm-gtk/wireless-dialog.c
+[type: gettext/glade]libnm-gtk/wireless-security.ui
+[type: gettext/glade]libnm-gtk/wireless-security/ca-nag-dialog.ui
+[type: gettext/glade]libnm-gtk/wireless-security/dynamic-wep.ui
+[type: gettext/glade]libnm-gtk/wireless-security/eap-leap.ui
+[type: gettext/glade]libnm-gtk/wireless-security/eap-peap.ui
+[type: gettext/glade]libnm-gtk/wireless-security/eap-simple.ui
+[type: gettext/glade]libnm-gtk/wireless-security/eap-tls.ui
+[type: gettext/glade]libnm-gtk/wireless-security/eap-ttls.ui
+[type: gettext/glade]libnm-gtk/wireless-security/leap.ui
+[type: gettext/glade]libnm-gtk/wireless-security/wep-key.ui
+[type: gettext/glade]libnm-gtk/wireless-security/wpa-eap.ui
+[type: gettext/glade]libnm-gtk/wireless-security/wpa-psk.ui
+libnm-gtk/wireless-security/eap-method-peap.c
+libnm-gtk/wireless-security/eap-method-tls.c
+libnm-gtk/wireless-security/eap-method-ttls.c
+libnm-gtk/wireless-security/eap-method.c
+libnm-gtk/wireless-security/wireless-security.c
+src/gtkinfobar.c
+src/nmn-list.c
+src/nmn-applet.c
+src/main.c
+src/nmn-network-renderer.c
+src/nmn-panel-client.c
+src/nmn-gsm-pin-request-renderer.c
+src/nmn-item-renderer.c
+src/nmn-connection-details.c
+src/nmn-new-connection.c
