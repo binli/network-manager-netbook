@@ -1,8 +1,15 @@
 [Desktop Entry]
-_Name=network-manager-netbook
-_Comment=Control your network connections
-Icon=nm-device-wireless
-Exec=@libexecdir@/network-manager-netbook
-Terminal=false
+Version=1.0
+Encoding=UTF-8
 Type=Application
+Name=network
+Comment=Network settings
+Exec=/usr/lib/network-manager-netbook
 OnlyShowIn=MOBLIN;
+X-GNOME-Autostart-enable=true
+X-Moblin-Priority=Low
+X-Moblin-Service=com.meego.UX.Shell.Panels.network
+X-Moblin-Panel-Optional=false
+X-Moblin-Panel-Type=applet
+X-Moblin-Panel-Stylesheet=/usr/share/network-manager-netbook/theme/network-manager-netbook.css
+X-Moblin-Panel-Button-Style=offline
