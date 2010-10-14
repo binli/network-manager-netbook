@@ -19,7 +19,7 @@
 
 #include <glib/gi18n.h>
 #include <dbus/dbus-glib-lowlevel.h>
-#include <nbtk/nbtk-gtk.h>
+#include <mx/mx.h>
 #include <nm-device-ethernet.h>
 #include <nm-device-wifi.h>
 #include <nm-serial-device.h>
@@ -169,7 +169,7 @@ nmn_applet_hide (NmnApplet *applet)
 /* enable/disable wifi button */
 
 static void
-enable_wifi_toggled (NbtkGtkLightSwitch *w,
+enable_wifi_toggled (MxGtkLightSwitch *w,
                      gboolean active,
                      gpointer user_data)
 {
@@ -197,7 +197,7 @@ wifi_toggled (NmnModel *model,
     NmnAppletPrivate *priv = GET_PRIVATE (user_data);
 
     g_signal_handlers_block_by_func (priv->model, enable_wifi_toggled, user_data);
-    nbtk_gtk_light_switch_set_active (NBTK_GTK_LIGHT_SWITCH (priv->enable_wifi), active);
+    mx_gtk_light_switch_set_active (MX_GTK_LIGHT_SWITCH (priv->enable_wifi), active);
     g_signal_handlers_unblock_by_func (priv->model, enable_wifi_toggled, user_data);
 
     wifi_toggle_set_sensitive (priv->model, priv->enable_wifi, TRUE);
@@ -218,7 +218,7 @@ enable_wifi_setup (NmnApplet *applet)
 /* enable/disable ethernet button */
 
 static void
-enable_ethernet_toggled (NbtkGtkLightSwitch *w,
+enable_ethernet_toggled (MxGtkLightSwitch *w,
                          gboolean active,
                          gpointer user_data)
 {
@@ -235,7 +235,7 @@ ethernet_toggled (NmnModel *model,
     NmnAppletPrivate *priv = GET_PRIVATE (user_data);
 
     g_signal_handlers_block_by_func (priv->model, enable_ethernet_toggled, user_data);
-    nbtk_gtk_light_switch_set_active (NBTK_GTK_LIGHT_SWITCH (priv->enable_ethernet), active);
+    mx_gtk_light_switch_set_active (MX_GTK_LIGHT_SWITCH (priv->enable_ethernet), active);
     g_signal_handlers_unblock_by_func (priv->model, enable_ethernet_toggled, user_data);
 }
 
@@ -254,7 +254,7 @@ enable_ethernet_setup (NmnApplet *applet)
 /* enable/disable 3G button */
 
 static void
-enable_3g_toggled (NbtkGtkLightSwitch *w,
+enable_3g_toggled (MxGtkLightSwitch *w,
                    gboolean active,
                    gpointer user_data)
 {
@@ -271,7 +271,7 @@ modems_toggled (NmnModel *model,
     NmnAppletPrivate *priv = GET_PRIVATE (user_data);
 
     g_signal_handlers_block_by_func (priv->model, enable_3g_toggled, user_data);
-    nbtk_gtk_light_switch_set_active (NBTK_GTK_LIGHT_SWITCH (priv->enable_3g), active);
+    mx_gtk_light_switch_set_active (MX_GTK_LIGHT_SWITCH (priv->enable_3g), active);
     g_signal_handlers_unblock_by_func (priv->model, enable_3g_toggled, user_data);
 }
 
@@ -290,7 +290,7 @@ enable_3g_setup (NmnApplet *applet)
 /* enable/disable Bluetooth button */
 
 static void
-enable_bt_toggled (NbtkGtkLightSwitch *w,
+enable_bt_toggled (MxGtkLightSwitch *w,
                    gboolean active,
                    gpointer user_data)
 {
@@ -307,7 +307,7 @@ bt_toggled (NmnModel *model,
     NmnAppletPrivate *priv = GET_PRIVATE (user_data);
 
     g_signal_handlers_block_by_func (priv->model, enable_bt_toggled, user_data);
-    nbtk_gtk_light_switch_set_active (NBTK_GTK_LIGHT_SWITCH (priv->enable_bt), active);
+    mx_gtk_light_switch_set_active (MX_GTK_LIGHT_SWITCH (priv->enable_bt), active);
     g_signal_handlers_unblock_by_func (priv->model, enable_bt_toggled, user_data);
 }
 
@@ -326,7 +326,7 @@ enable_bt_setup (NmnApplet *applet)
 /* enable/disable Offline mode button */
 
 static void
-enable_network_toggled (NbtkGtkLightSwitch *w,
+enable_network_toggled (MxGtkLightSwitch *w,
                         gboolean active,
                         gpointer user_data)
 {
@@ -343,7 +343,7 @@ offline_toggled (NmnModel *model,
     NmnAppletPrivate *priv = GET_PRIVATE (user_data);
 
     g_signal_handlers_block_by_func (priv->model, enable_network_toggled, user_data);
-    nbtk_gtk_light_switch_set_active (NBTK_GTK_LIGHT_SWITCH (priv->enable_network), active);
+    mx_gtk_light_switch_set_active (MX_GTK_LIGHT_SWITCH (priv->enable_network), active);
     g_signal_handlers_unblock_by_func (priv->model, enable_network_toggled, user_data);
 
     update_switches_visibility (NMN_APPLET (user_data));
@@ -430,7 +430,7 @@ nmn_applet_init (NmnApplet *applet)
     vbox = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (priv->pane), vbox, TRUE, TRUE, 0);
 
-    frame = nbtk_gtk_frame_new ();
+    frame = mx_gtk_frame_new ();
     gtk_box_pack_start (GTK_BOX (vbox), frame, TRUE, TRUE, 0);
 
     priv->add_new_connection = gtk_button_new_with_label (_("Add new connection"));
@@ -458,7 +458,7 @@ nmn_applet_init (NmnApplet *applet)
     vbox = gtk_vbox_new (FALSE, 6);
     gtk_box_pack_start (GTK_BOX (priv->pane), vbox, FALSE, FALSE, 0);
 
-    frame = nbtk_gtk_frame_new ();
+    frame = mx_gtk_frame_new ();
     gtk_box_pack_start (GTK_BOX (vbox), frame, TRUE, TRUE, 0);
 
     w = gtk_vbox_new (FALSE, 0);
@@ -479,7 +479,7 @@ nmn_applet_init (NmnApplet *applet)
     priv->enable_wifi_label = w;
     gtk_misc_set_alignment (GTK_MISC (w), 0.2, 0.5);
     gtk_table_attach_defaults (GTK_TABLE (table), w, 0, 1, SWITCHES_ROW_WIFI, SWITCHES_ROW_WIFI + 1);
-    priv->enable_wifi = nbtk_gtk_light_switch_new ();
+    priv->enable_wifi = mx_gtk_light_switch_new ();
     gtk_table_attach_defaults (GTK_TABLE (table), priv->enable_wifi, 1, 2,
                                SWITCHES_ROW_WIFI, SWITCHES_ROW_WIFI + 1);
 
@@ -490,7 +490,7 @@ nmn_applet_init (NmnApplet *applet)
     priv->enable_ethernet_label = w;
     gtk_misc_set_alignment (GTK_MISC (w), 0.2, 0.5);
     gtk_table_attach_defaults (GTK_TABLE (table), w, 0, 1, SWITCHES_ROW_ETHERNET, SWITCHES_ROW_ETHERNET + 1);
-    priv->enable_ethernet = nbtk_gtk_light_switch_new ();
+    priv->enable_ethernet = mx_gtk_light_switch_new ();
     gtk_table_attach_defaults (GTK_TABLE (table), priv->enable_ethernet, 1, 2,
                                SWITCHES_ROW_ETHERNET, SWITCHES_ROW_ETHERNET + 1);
 
@@ -501,7 +501,7 @@ nmn_applet_init (NmnApplet *applet)
     priv->enable_3g_label = w;
     gtk_misc_set_alignment (GTK_MISC (w), 0.2, 0.5);
     gtk_table_attach_defaults (GTK_TABLE (table), w, 0, 1, SWITCHES_ROW_3G, SWITCHES_ROW_3G + 1);
-    priv->enable_3g = nbtk_gtk_light_switch_new ();
+    priv->enable_3g = mx_gtk_light_switch_new ();
     gtk_table_attach_defaults (GTK_TABLE (table), priv->enable_3g, 1, 2,
                                SWITCHES_ROW_3G, SWITCHES_ROW_3G + 1);
 
@@ -513,7 +513,7 @@ nmn_applet_init (NmnApplet *applet)
     priv->enable_wimax_label = w;
     gtk_misc_set_alignment (GTK_MISC (w), 0.2, 0.5);
     gtk_table_attach_defaults (GTK_TABLE (table), w, 0, 1, SWITCHES_ROW_WIMAX, SWITCHES_ROW_WIMAX + 1);
-    priv->enable_wimax = nbtk_gtk_light_switch_new ();
+    priv->enable_wimax = mx_gtk_light_switch_new ();
     gtk_table_attach_defaults (GTK_TABLE (table), priv->enable_wimax, 1, 2,
                                SWITCHES_ROW_WIMAX, SWITCHES_ROW_WIMAX + 1);
 
@@ -524,11 +524,11 @@ nmn_applet_init (NmnApplet *applet)
     priv->enable_bt_label = w;
     gtk_misc_set_alignment (GTK_MISC (w), 0.2, 0.5);
     gtk_table_attach_defaults (GTK_TABLE (table), w, 0, 1, SWITCHES_ROW_BT, SWITCHES_ROW_BT + 1);
-    priv->enable_bt = nbtk_gtk_light_switch_new ();
+    priv->enable_bt = mx_gtk_light_switch_new ();
     gtk_table_attach_defaults (GTK_TABLE (table), priv->enable_bt, 1, 2,
                                SWITCHES_ROW_BT, SWITCHES_ROW_BT + 1);
 
-    frame = nbtk_gtk_frame_new ();
+    frame = mx_gtk_frame_new ();
     gtk_box_pack_start (GTK_BOX (vbox), frame, FALSE, FALSE, 0);
 
     table = gtk_table_new (2, 2, TRUE);
@@ -540,7 +540,7 @@ nmn_applet_init (NmnApplet *applet)
     g_free (label);
     gtk_misc_set_alignment (GTK_MISC (w), 0.2, 0.5);
     gtk_table_attach_defaults (GTK_TABLE (table), w, 0, 1, 0, 1);
-    priv->enable_network = nbtk_gtk_light_switch_new ();
+    priv->enable_network = mx_gtk_light_switch_new ();
     gtk_table_attach_defaults (GTK_TABLE (table), priv->enable_network, 1, 2, 0, 1);
 
     w = gtk_label_new (_("This will disable all your connections"));

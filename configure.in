@@ -26,7 +26,7 @@ NM_REQUIRED=0.7.996
 
 PKG_CHECK_MODULES(LIBNM_GTK, gtk+-2.0 gconf-2.0 gnome-keyring-1 libnm-util >= $NM_REQUIRED libnm-glib >= $NM_REQUIRED mobile-broadband-provider-info)
 
-PKG_CHECK_MODULES(NMN, dbus-glib-1 >= 0.75 gtk+-2.0 gconf-2.0 gnome-keyring-1 libnotify libnm-util >= $NM_REQUIRED libnm-glib >= $NM_REQUIRED moblin-panel nbtk-gtk-1.2)
+PKG_CHECK_MODULES(NMN, dbus-glib-1 >= 0.75 gtk+-2.0 gconf-2.0 gnome-keyring-1 libnotify libnm-util >= $NM_REQUIRED libnm-glib >= $NM_REQUIRED moblin-panel mx-1.0)
 
 dnl Check for gnome-bluetooth
 PKG_CHECK_MODULES(GNOME_BLUETOOTH,
