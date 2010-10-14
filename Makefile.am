@@ -8,8 +8,8 @@ autostart_DATA = network-manager-netbook.desktop
 	$(AM_V_GEN) sed -e "s|\@libexecdir\@|$(libexecdir)|" $< > $@
 
 servicedir = $(datadir)/dbus-1/services
-service_in_files = org.moblin.UX.Shell.Panels.network.service.in
-service_DATA = org.moblin.UX.Shell.Panels.network.service
+service_in_files = com.meego.UX.Shell.Panels.network.service.in
+service_DATA = com.meego.UX.Shell.Panels.network.service
 
 %.service: %.service.in
 	$(AM_V_GEN) sed -e "s|\@libexecdir\@|$(libexecdir)|" $< > $@
